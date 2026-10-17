@@ -1,0 +1,15 @@
+CHROMOSOME 9 STUDY DESK
+1. Extract this complete ZIP into a folder.
+2. Open index.html in Chrome, Edge, Firefox or Safari. No installation is needed.
+3. Choose a topic, or click Quick guide.
+4. Use Bookmarks and private notes to export a learning backup.
+
+Recommended local-server option:
+- Install Python 3 if it is not already available.
+- Open a terminal in this folder and run: python3 -m http.server 8000
+  On Windows, you can use: py -m http.server 8000
+- Open http://localhost:8000
+
+Keep using the same browser and address to retain local progress.
+The ZIP includes private research source files. It has NOT been published.
+Read README.md before uploading to GitHub or Vercel.
