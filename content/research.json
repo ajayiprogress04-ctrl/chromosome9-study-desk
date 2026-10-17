@@ -1,5 +1,5 @@
 {
-  "version": "1.3.0",
+  "version": "1.3.1",
   "name": "Chromosome 9 Study Desk",
   "subtitle": "Understand the evidence. Explain the study.",
   "studyTitle": "Chromosome 9 Variant Annotation Profiles Across Public Acute Leukemia Sequencing Datasets",
@@ -16,6 +16,8 @@
       "misconception": "A known leukemia-associated gene makes every record assigned to it pathogenic. Gene relevance and the effect of a particular allele are different questions.",
       "example": "PAX5 in both groups means both recovered annotation sets contain PAX5 assignments. It does not establish that the same allele occurs in both.",
       "terms": [
+        "public-acute-leukemia",
+        "acute-leukemia",
         "chromosome9",
         "pax5",
         "annotation",
@@ -1344,42 +1346,58 @@
       "id": "aml",
       "term": "AML",
       "full": "Acute myeloid leukemia",
-      "plain": "The disease-associated label used for three included sequencing runs.",
+      "plain": "Acute myeloid leukemia (AML) is a fast-growing blood cancer involving abnormal immature myeloid cells.",
       "why": "The label does not make ML-2, HL-60 fragments and bone-marrow assays interchangeable.",
-      "mechanism": "Interpret the label alongside biological material, platform and assay purpose.",
+      "mechanism": "Abnormal immature cells accumulate in blood-forming tissue and can disrupt normal blood-cell production. The disease label describes biology; the sample and assay still determine what a sequencing run can show.",
       "remember": "Disease label plus provenance.",
       "source": "§3.1.1; Table 1",
       "related": [
         "biosample",
-        "library"
+        "library",
+        "acute-leukemia"
       ],
       "topic": "provenance",
       "origin": "",
-      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
+      "support": "Established disease definition; manuscript-specific provenance is explained separately.",
       "aliases": [
         "AML",
         "acute myeloid leukemia"
+      ],
+      "example": "A sequencing run from a leukemia cell line represents that experimental material, not automatically an independent patient.",
+      "backgroundSources": [
+        {
+          "title": "NCI: Acute myeloid leukemia",
+          "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/acute-myeloid-leukemia"
+        }
       ]
     },
     {
       "id": "all",
       "term": "ALL",
       "full": "Acute lymphoblastic leukemia",
-      "plain": "The disease-associated label used for the three REH runs.",
+      "plain": "Acute lymphoblastic leukemia (ALL) is a fast-growing blood cancer involving abnormal immature lymphoid cells called lymphoblasts.",
       "why": "All three runs measure one shared BioSample.",
-      "mechanism": "Different platforms observe the same REH biological source.",
+      "mechanism": "Abnormal immature cells accumulate in blood-forming tissue and can disrupt normal blood-cell production. The disease label describes biology; the sample and assay still determine what a sequencing run can show.",
       "remember": "Three ALL runs, one source.",
       "source": "§3.1.1; Table 1",
       "related": [
         "reh",
-        "biosample"
+        "biosample",
+        "acute-leukemia"
       ],
       "topic": "provenance",
       "origin": "",
-      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
+      "support": "Established disease definition; manuscript-specific provenance is explained separately.",
       "aliases": [
         "ALL",
         "acute lymphoblastic leukemia"
+      ],
+      "example": "A sequencing run from a leukemia cell line represents that experimental material, not automatically an independent patient.",
+      "backgroundSources": [
+        {
+          "title": "NCI: Acute lymphoblastic leukemia",
+          "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/all"
+        }
       ]
     },
     {
@@ -2984,6 +3002,90 @@
           "title": "NCBI Gene: ANKRD18B",
           "url": "https://www.ncbi.nlm.nih.gov/gene/158177"
         }
+      ]
+    },
+    {
+      "id": "public-acute-leukemia",
+      "term": "Public acute leukemia (title wording)",
+      "full": "",
+      "plain": "In the title, this phrase means publicly available datasets relating to acute leukemia. “Public” describes the availability of the data, not a type of leukemia.",
+      "why": "The study reuses public sequencing records associated with AML and ALL; it does not define a disease called public acute leukemia.",
+      "mechanism": "Read the title as “chromosome 9 profiles across publicly available acute leukemia sequencing datasets.” Acute leukemia is the disease category; public availability is a property of the datasets.",
+      "example": "A publicly accessible REH sequencing run can be reused for research. That does not make REH a public form of leukemia.",
+      "origin": "",
+      "remember": "In the title, this phrase means publicly available datasets relating to acute leukemia. “Public” describes the availability of the data, not a type of leukemia.",
+      "source": "Study title; Introduction; §3.1.1",
+      "related": [
+        "acute-leukemia",
+        "public-datasets",
+        "aml",
+        "all"
+      ],
+      "topic": "rationale",
+      "support": "Established disease background is separate from the study-specific use of public datasets.",
+      "aliases": [
+        "public acute leukemia",
+        "public acute leukaemia"
+      ],
+      "backgroundSources": [
+        {
+          "title": "NCI: acute leukemia",
+          "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/acute-leukemia"
+        }
+      ]
+    },
+    {
+      "id": "acute-leukemia",
+      "term": "Acute leukemia",
+      "full": "",
+      "plain": "Acute leukemia is a rapidly progressing cancer of blood-forming tissue, commonly involving accumulation of immature abnormal blood cells.",
+      "why": "AML and ALL are the acute leukemia categories represented by the selected records.",
+      "mechanism": "“Acute” describes the generally rapid course. AML involves myeloid precursor cells; ALL involves lymphoid precursor cells. Disease categories do not make different cell lines, samples or sequencing assays equivalent.",
+      "example": "AML and ALL both belong to acute leukemia, but differ in the lineage of cells involved.",
+      "origin": "",
+      "remember": "Acute leukemia is a rapidly progressing cancer of blood-forming tissue, commonly involving accumulation of immature abnormal blood cells.",
+      "source": "Study title; Introduction; §3.1.1",
+      "related": [
+        "aml",
+        "all",
+        "public-acute-leukemia"
+      ],
+      "topic": "rationale",
+      "support": "Established disease background is separate from the study-specific use of public datasets.",
+      "aliases": [
+        "acute leukemia",
+        "acute leukaemia"
+      ],
+      "backgroundSources": [
+        {
+          "title": "NCI: acute leukemia",
+          "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/acute-leukemia"
+        }
+      ]
+    },
+    {
+      "id": "public-datasets",
+      "term": "Public sequencing datasets",
+      "full": "",
+      "plain": "Public sequencing datasets are sequencing data made available through research repositories, subject to the repository’s access conditions.",
+      "why": "This study obtained existing sequencing runs from public repositories rather than recruiting a new patient cohort.",
+      "mechanism": "Repository records connect sequencing runs to samples and study metadata. Public availability does not guarantee identical assays, independent patients, complete metadata or unrestricted reuse under every circumstance.",
+      "example": "Three public sequencing runs can originate from one BioSample; three runs do not necessarily mean three participants.",
+      "origin": "",
+      "remember": "Public sequencing datasets are sequencing data made available through research repositories, subject to the repository’s access conditions.",
+      "source": "Study title; Introduction; §3.1.1",
+      "related": [
+        "sra",
+        "ena",
+        "run",
+        "biosample"
+      ],
+      "topic": "rationale",
+      "support": "Dataset availability and provenance are explained from the manuscript and its repository records.",
+      "aliases": [
+        "public sequencing datasets",
+        "public datasets",
+        "publicly available datasets"
       ]
     }
   ],

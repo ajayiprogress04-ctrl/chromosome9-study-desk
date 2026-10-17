@@ -19,3 +19,8 @@ Added a 1200 × 630 PNG sharing card with the existing app icon/title; PNG favic
 - Added linked authoritative references, worked examples and meaningful optional name explanations.
 - Preserved manuscript findings, limitations and saved learning state.
 - Updated reusable preferences to version 7.
+
+## 1.3.1
+- Added searchable title-phrase, acute leukemia and public sequencing dataset entries and links.
+- Explained that public describes data availability; expanded AML/ALL disease definitions using NCI sources.
+- Updated portable preferences to version 8.

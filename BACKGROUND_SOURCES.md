@@ -43,3 +43,8 @@ General scientific explanations are distinct from this study’s findings. Sourc
 - HAUS6: https://www.ncbi.nlm.nih.gov/gene/54801
 - PAPPA: https://www.ncbi.nlm.nih.gov/gene/5069
 - ANKRD18B: https://www.ncbi.nlm.nih.gov/gene/158177
+
+- Acute leukemia and title phrase: https://www.cancer.gov/publications/dictionaries/cancer-terms/def/acute-leukemia
+- AML: https://www.cancer.gov/publications/dictionaries/cancer-terms/def/acute-myeloid-leukemia
+- ALL: https://www.cancer.gov/publications/dictionaries/cancer-terms/def/all
+- Public dataset availability: manuscript §3.1.1 and repository provenance, not an NCI disease classification.

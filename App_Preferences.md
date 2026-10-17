@@ -1,6 +1,6 @@
 # My App Design Preferences
 
-Version 7 · Consolidated from the Meiosis and Chromosome 9 app discussions · Updated 18 October 2026
+Version 8 · Consolidated from the Meiosis and Chromosome 9 app discussions · Updated 18 October 2026
 
 ## How to use this brief
 
@@ -173,3 +173,7 @@ Do not limit teaching to what the manuscript explicitly defines. Explain establi
 Clearly separate established background, this study’s reported findings, and interpretation or uncertainty. Link background explanations to their sources. Never invent missing study methods, measurements, validation, clinical implications, or historical naming stories. Use the literature to anchor the research, while helping learners understand the underlying science.
 
 Chromosome 9 update: version 1.3 adds sourced background explanations and gene functions, worked examples, and optional meaningful naming sections. Study limitations remain explicit.
+
+### Glossary coverage of titles and phrases
+
+Include important phrases from the app title as well as individual scientific terms. Explain ambiguous wording in context: “public acute leukemia” refers to publicly available acute leukemia sequencing datasets; “public” does not define a disease subtype. Support searchable aliases and underlined links in explanatory prose, and connect phrase entries to their component concepts.
