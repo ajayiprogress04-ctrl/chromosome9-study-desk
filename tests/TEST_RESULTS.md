@@ -33,3 +33,5 @@ Verified PNG dimensions and signatures, all icon asset sizes, static image/alt m
 Version 1.3.0: all existing automated checks plus sourced-teaching regression checks pass. 41 background entries and links are present; no real browser or deployment verification.
 
 Version 1.3.1: automated suite passes, including exact title-phrase linking and glossary search. Browser visual and deployment checks remain unperformed.
+
+Version 1.4.0: automated suite passes. Simulated DOM confirms all eight figure image files in their corresponding lessons and gallery, both tables visible in lessons/gallery, and methodology schematic in design/processing. No real browser visual inspection or deployment performed.

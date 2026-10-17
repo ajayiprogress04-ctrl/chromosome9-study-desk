@@ -24,3 +24,8 @@ Added a 1200 × 630 PNG sharing card with the existing app icon/title; PNG favic
 - Added searchable title-phrase, acute leukemia and public sequencing dataset entries and links.
 - Explained that public describes data availability; expanded AML/ALL disease definitions using NCI sources.
 - Updated portable preferences to version 8.
+
+## 1.4.0
+- Displayed all seven result figures and both source tables within relevant lessons and as full gallery previews.
+- Added a labelled methodology teaching schematic to design and processing lessons.
+- Added a direct overview link to methodology, figures and tables; preferences updated to version 9.

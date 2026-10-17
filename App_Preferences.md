@@ -1,6 +1,6 @@
 # My App Design Preferences
 
-Version 8 · Consolidated from the Meiosis and Chromosome 9 app discussions · Updated 18 October 2026
+Version 9 · Consolidated from the Meiosis and Chromosome 9 app discussions · Updated 18 October 2026
 
 ## How to use this brief
 
@@ -177,3 +177,7 @@ Chromosome 9 update: version 1.3 adds sourced background explanations and gene f
 ### Glossary coverage of titles and phrases
 
 Include important phrases from the app title as well as individual scientific terms. Explain ambiguous wording in context: “public acute leukemia” refers to publicly available acute leukemia sequencing datasets; “public” does not define a disease subtype. Support searchable aliases and underlined links in explanatory prose, and connect phrase entries to their component concepts.
+
+## Show diagrams and tables where I learn
+
+Display relevant methodology diagrams, result figures and tables directly within their corresponding objective lessons, with clear captions, source references and brief interpretations. Do not rely only on a separate visual-library link or downloads. Keep a visible gallery with actual previews and an obvious overview entry point. Preserve original figures; label newly created teaching schematics. Support readable responsive images and horizontally scrollable tables, and retain enlargement controls.
