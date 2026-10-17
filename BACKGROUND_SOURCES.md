@@ -1,0 +1,45 @@
+# Background teaching sources
+
+General scientific explanations are distinct from this study’s findings. Sources checked 17 October 2026. Gene summaries were retrieved from NCBI Gene E-utilities; precise functions remain qualified when uncertain. Examples are newly written teaching examples.
+
+- Chromosome 9: https://www.genome.gov/genetics-glossary/Chromosome
+- PAX5: https://www.ncbi.nlm.nih.gov/gene/5079
+- Allele: https://www.genome.gov/genetics-glossary/Allele
+- Q30: https://www.illumina.com/science/technology/next-generation-sequencing/plan-experiments/quality-scores.html
+- Somatic variant: https://www.genome.gov/genetics-glossary/Mutation
+- Frameshift: https://www.genome.gov/genetics-glossary/Frameshift-Mutation
+- Codon label: https://www.genome.gov/genetics-glossary/Codon
+- Correlation distance: https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.distance.correlation.html
+- Average linkage: https://docs.scipy.org/doc/scipy/reference/generated/scipy.cluster.hierarchy.linkage.html
+- DNA: https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid-DNA
+- Genome: https://www.genome.gov/genetics-glossary/Genome
+- Sequence variant: https://www.genome.gov/genetics-glossary/Genomic-Variation
+- Mutation: https://www.genome.gov/genetics-glossary/Mutation
+- Gene: https://www.genome.gov/genetics-glossary/Gene
+- RNA: https://www.genome.gov/genetics-glossary/Ribonucleic-Acid-RNA
+- Messenger RNA: https://www.genome.gov/genetics-glossary/Messenger-RNA
+- Protein: https://www.genome.gov/genetics-glossary/Protein
+- Amino acid: https://www.genome.gov/genetics-glossary/Amino-Acids
+- Insertion: https://www.genome.gov/genetics-glossary/Insertion
+- Deletion: https://www.genome.gov/genetics-glossary/Deletion
+- Gene fusion: https://www.cancer.gov/publications/dictionaries/cancer-terms/def/fusion-gene
+- Germline variation: https://www.genome.gov/genetics-glossary/Germ-Line
+- NUP214: https://www.ncbi.nlm.nih.gov/gene/8021
+- NOTCH1: https://www.ncbi.nlm.nih.gov/gene/4851
+- CDKN2A: https://www.ncbi.nlm.nih.gov/gene/1029
+- GOLGA2: https://www.ncbi.nlm.nih.gov/gene/2801
+- WASHC1: https://www.ncbi.nlm.nih.gov/gene/100287171
+- CDC14B: https://www.ncbi.nlm.nih.gov/gene/8555
+- DNM1: https://www.ncbi.nlm.nih.gov/gene/1759
+- KANK1: https://www.ncbi.nlm.nih.gov/gene/23189
+- PHF2: https://www.ncbi.nlm.nih.gov/gene/5253
+- FAM120A: https://www.ncbi.nlm.nih.gov/gene/23196
+- HNRNPK: https://www.ncbi.nlm.nih.gov/gene/3190
+- UNC13B: https://www.ncbi.nlm.nih.gov/gene/10497
+- ADAMTSL1: https://www.ncbi.nlm.nih.gov/gene/92949
+- TEK: https://www.ncbi.nlm.nih.gov/gene/7010
+- ZNF618: https://www.ncbi.nlm.nih.gov/gene/114991
+- DDX31: https://www.ncbi.nlm.nih.gov/gene/64794
+- HAUS6: https://www.ncbi.nlm.nih.gov/gene/54801
+- PAPPA: https://www.ncbi.nlm.nih.gov/gene/5069
+- ANKRD18B: https://www.ncbi.nlm.nih.gov/gene/158177

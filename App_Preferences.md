@@ -1,6 +1,6 @@
 # My App Design Preferences
 
-Version 5 · Confirmed from the Meiosis app development conversation · 17 October 2026
+Version 7 · Consolidated from the Meiosis and Chromosome 9 app discussions · Updated 18 October 2026
 
 ## How to use this brief
 
@@ -123,11 +123,39 @@ Deliver ONE complete project ZIP containing all updates so far, not a patch that
 
 Keep messages concise. Explain the result and the next essential action. Ask focused questions only when genuinely needed.
 
+## 9. Consolidated corrections to carry forward
+
+| My correction or request | Rule for future work |
+|---|---|
+| Colours need to be much deeper in each theme | Make substantial, visible palette improvements in Light, Dark and Colour, including backgrounds, surfaces and actions. Preserve contrast; do not change only one theme or only accent colours. |
+| Every necessary word should be underlined and linked | Provide visible inline glossary links for relevant scientific concepts, terminology, abbreviations and methodological phrases throughout readable educational content. A separate list of useful terms alone is insufficient. |
+| The app should be objective based | Organise the main experience by numbered learning objectives, grouped into expandable classes/modules. Use objective dropdowns on Overview and inside lessons, open the first lesson directly, and identify the current objective and lesson number. Apply objective-based filtering to practice and revision where relevant. |
+| The app icon should appear when sharing its link | Supply a dedicated preview image containing the app icon/title and static sharing metadata tied to the actual production address. Prepare and test the implementation; be honest about untested live previews and platform limitations. |
+| I need help from naming through deployment | Give practical, beginner-friendly steps for naming, extracting/running the app, creating the intended GitHub repository, uploading the correct folder contents, deploying to Vercel and checking the actual production address. Do not assume an unfinished step is complete. |
+| I need the preference file to keep | Provide the latest consolidated preferences as a standalone downloadable Markdown file when requested, not only inside the project ZIP. Preserve earlier requirements unless explicitly superseded. |
+
+## 10. Current Chromosome 9 app decisions
+
+These are specific to **Chromosome 9 Study Desk**, not compulsory counts or structures for every future app:
+
+- Repository/app identifier: `chromosome9-study-desk`; subtitle: “Understand the evidence. Explain the study.” No production domain has been confirmed in this discussion.
+- Six inferred learning objectives govern 15 lessons across two expandable classes: study foundations/methods, then results/interpretation/defence. These are educational objectives derived from the manuscript, not six invented author-stated research objectives.
+- Latest implementation: 102 glossary entries, 56 existing flashcards and 30 questions. New terminology must not silently change existing question/card identifiers or reset saved work.
+- The manuscript is a secondary descriptive sequencing-data analysis, not a review article or a patient cohort. Preserve that distinction in lessons, questions and presentation practice.
+- Keep the manuscript as the scientific authority; use oral slides for rehearsal, the poster for concise communication, and this brief for design. Record disagreements rather than merging them silently.
+- Preserve the deeper Light palette with warm tan surfaces and dark wine/navy/green text, true-black Dark surfaces, and deep-plum/burgundy Colour surfaces. These describe the latest implemented direction; browser visual acceptance is not assumed from automated contrast tests.
+- Preserve the chromosome icon across app branding, browser/touch icons and the sharing card. The latest sharing card is a 1200 × 630 PNG; its production image address is configured during deployment.
+- Keep progress and notes browser-local with backup export/import, and preserve the existing storage key through compatible updates. Do not promise cross-device synchronization.
+- The project contains research documents. Use a private repository by default and explain that a private repository does not itself make the deployed site private. Do not remove access protections merely to force a sharing preview.
+- Deliver the complete cumulative project ZIP. Keep the current preference brief inside it, while also providing this standalone file when requested.
+
 ## Updating this brief
 
 For every complaint, correction or preference I express about my apps, update this brief as part of that task without waiting for me to ask again. Record the reusable rule, amend the relevant section, and resolve the older conflicting rule. Do not treat an app-specific request as a universal rule unless that is clearly intended. Keep general defaults separate from decisions specific to one app. Preserve this document as the reusable source of truth, and include the latest copy with future project handovers.
 
 ### Revision notes
+
+- Version 6, 18 October 2026: consolidated all retained requirements and corrections; added a correction-to-rule summary, beginner deployment guidance, standalone Markdown delivery and clearly separated current Chromosome 9 project decisions.
 
 - Version 5, 18 October 2026: sharing the app link should show its icon/title through dedicated social-preview artwork and static metadata, with real production URLs and deployment verification.
 
@@ -137,3 +165,11 @@ For every complaint, correction or preference I express about my apps, update th
 
 - Version 2, 17 October 2026: added an explicit Copy link beside Quick guide and Share app; made updating this brief after every complaint/correction an ongoing instruction.
 - Naming decision: retain Meiosis Learning Hub; the proposed broader rename was declined.
+
+## Teaching beyond the supplied literature
+
+Do not limit teaching to what the manuscript explicitly defines. Explain established scientific concepts with verified authoritative sources, including clear meaning, mechanism, why it matters, and worked examples. Explain names when their expansion or naming logic is known; omit empty naming sections instead of repeating “not defined in the literature.” Explain relevant gene functions with appropriate uncertainty.
+
+Clearly separate established background, this study’s reported findings, and interpretation or uncertainty. Link background explanations to their sources. Never invent missing study methods, measurements, validation, clinical implications, or historical naming stories. Use the literature to anchor the research, while helping learners understand the underlying science.
+
+Chromosome 9 update: version 1.3 adds sourced background explanations and gene functions, worked examples, and optional meaningful naming sections. Study limitations remain explicit.

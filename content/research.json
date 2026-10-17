@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": "1.3.0",
   "name": "Chromosome 9 Study Desk",
   "subtitle": "Understand the evidence. Explain the study.",
   "studyTitle": "Chromosome 9 Variant Annotation Profiles Across Public Acute Leukemia Sequencing Datasets",
@@ -479,9 +479,9 @@
       "id": "chromosome9",
       "term": "Chromosome 9",
       "full": "",
-      "plain": "The chromosome reference selected for this comparison.",
+      "plain": "Chromosome 9 is one of the numbered human autosomes: DNA packaged with proteins and carrying many genes.",
       "why": "It anchors every gene assignment to the same chromosome context.",
-      "mechanism": "Sequences are aligned to GRCh38.p14 chromosome 9, accession NC_000009.12.",
+      "mechanism": "Chromosomes organize genetic material. This app uses a specified chromosome 9 reference so locations and annotations can be compared within that coordinate system.",
       "remember": "Same reference, different recovered profiles.",
       "source": "§3.1.2",
       "related": [
@@ -489,20 +489,27 @@
         "pax5"
       ],
       "topic": "rationale",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "chromosome 9",
         "chromosome-focused"
+      ],
+      "example": "A chromosome number locates a region of the genome; it does not describe a disease severity.",
+      "backgroundSources": [
+        {
+          "title": "NHGRI: Chromosome",
+          "url": "https://www.genome.gov/genetics-glossary/Chromosome"
+        }
       ]
     },
     {
       "id": "pax5",
       "term": "PAX5",
       "full": "",
-      "plain": "A gene label discussed in the leukemia literature and found in both study groups.",
+      "plain": "A transcription factor important for establishing and maintaining B-cell identity.",
       "why": "Gene relevance does not identify which alteration is present.",
-      "mechanism": "Annotation associates a record with a gene; allele-level analysis is needed to characterize the alteration.",
+      "mechanism": "The expanded gene name is paired box 5. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
       "remember": "Gene name is context, not a verdict.",
       "source": "Introduction; §3.2.2",
       "related": [
@@ -510,10 +517,17 @@
         "allele"
       ],
       "topic": "rationale",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "The official expanded name is paired box 5. This explains the label without inventing its naming history.",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "PAX5"
+      ],
+      "example": "Finding PAX5 in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
+      "backgroundSources": [
+        {
+          "title": "NCBI Gene: PAX5",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/5079"
+        }
       ]
     },
     {
@@ -530,8 +544,8 @@
         "allele"
       ],
       "topic": "annotation",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "annotation record",
         "annotation records",
@@ -545,9 +559,9 @@
       "id": "allele",
       "term": "Allele",
       "full": "",
-      "plain": "A particular version of sequence at a specified locus.",
+      "plain": "An allele is one version of a DNA sequence at a particular genomic location.",
       "why": "Two records with the same gene label need not describe the same allele.",
-      "mechanism": "Reference and alternate sequences must be related to a defined genomic and transcript context.",
+      "mechanism": "Different alleles can arise through sequence changes. Their effects depend on the locus and biological context; an alternative allele is not automatically harmful.",
       "remember": "Which change, at which site?",
       "source": "§3.1.3; Discussion",
       "related": [
@@ -555,12 +569,19 @@
         "annotation"
       ],
       "topic": "annotation",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "allele",
         "alleles",
         "allele-level"
+      ],
+      "example": "A reference A and an alternative G at one position describe two alleles.",
+      "backgroundSources": [
+        {
+          "title": "NHGRI: Allele",
+          "url": "https://www.genome.gov/genetics-glossary/Allele"
+        }
       ]
     },
     {
@@ -577,8 +598,8 @@
         "replicate"
       ],
       "topic": "design",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "sequencing run",
         "sequencing runs",
@@ -600,8 +621,8 @@
         "reh"
       ],
       "topic": "provenance",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "BioSample",
         "BioSamples",
@@ -623,8 +644,8 @@
         "replicate"
       ],
       "topic": "provenance",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "REH"
       ]
@@ -643,8 +664,8 @@
         "biosample"
       ],
       "topic": "design",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "biological replicate",
         "biological replicates",
@@ -667,8 +688,8 @@
         "run"
       ],
       "topic": "provenance",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "sequencing library",
         "sequencing libraries",
@@ -691,8 +712,8 @@
         "coverage"
       ],
       "topic": "processing",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "sequence read",
         "sequence reads",
@@ -705,9 +726,9 @@
       "id": "q30",
       "term": "Q30",
       "full": "Phred quality score of 30",
-      "plain": "The quality-filtering threshold described in the methods.",
+      "plain": "Q30 is a base-call quality score corresponding to a predicted error probability of 0.001, or 1 in 1,000.",
       "why": "It is a processing setting, not a guarantee of chromosome completeness.",
-      "mechanism": "The reported trimming uses Q30 and a minimum read length of 50 base pairs.",
+      "mechanism": "The Phred relationship is Q = −10 log10(P(error)). Thus Q30 predicts 99.9% accuracy for a base call under the scoring model. It does not guarantee that every read, variant, assembly or chromosome is 99.9% correct.",
       "remember": "Quality does not replace coverage.",
       "source": "§3.1.2",
       "related": [
@@ -715,11 +736,18 @@
         "coverage"
       ],
       "topic": "processing",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "Q denotes a quality score; 30 is logarithmic rather than a percentage.",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "Q30",
         "Phred quality score"
+      ],
+      "example": "A high-quality base can still be incorrectly aligned to the wrong genomic location. Quality filtering and alignment evaluation answer different questions.",
+      "backgroundSources": [
+        {
+          "title": "Illumina: sequencing quality scores",
+          "url": "https://www.illumina.com/science/technology/next-generation-sequencing/plan-experiments/quality-scores.html"
+        }
       ]
     },
     {
@@ -736,8 +764,8 @@
         "reference"
       ],
       "topic": "processing",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "contig",
         "contigs"
@@ -757,8 +785,8 @@
         "coverage"
       ],
       "topic": "alignment",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "reference sequence",
         "reference sequences",
@@ -781,8 +809,8 @@
         "reference"
       ],
       "topic": "alignment",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "pairwise identity",
         "identity"
@@ -802,8 +830,8 @@
         "callable"
       ],
       "topic": "alignment",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "reference coverage",
         "chromosome coverage",
@@ -825,8 +853,8 @@
         "allele"
       ],
       "topic": "limitations",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "callable region",
         "callable regions",
@@ -847,8 +875,8 @@
         "strandbias"
       ],
       "topic": "calling",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "variant frequency",
         "variant-frequency setting",
@@ -869,8 +897,8 @@
         "pvalue"
       ],
       "topic": "calling",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "strand bias",
         "strand-bias"
@@ -890,8 +918,8 @@
         "strandbias"
       ],
       "topic": "calling",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "P-value",
         "P-values",
@@ -913,8 +941,8 @@
         "replicate"
       ],
       "topic": "design",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "descriptive analysis",
         "descriptive comparisons",
@@ -925,9 +953,9 @@
       "id": "somatic",
       "term": "Somatic variant",
       "full": "",
-      "plain": "A sequence alteration arising in somatic cells, distinct from inherited variation.",
+      "plain": "A somatic variant is a sequence change acquired in a body-cell lineage rather than inherited through the germline.",
       "why": "These annotation records have not all been established as clinically classified somatic variants.",
-      "mechanism": "The study lacks a matched normal comparison and discusses tumor-only interpretation limits.",
+      "mechanism": "Comparison with a suitable normal sample and technical validation helps distinguish tumor-acquired alterations from inherited variation and artifacts.",
       "remember": "Annotation alone does not prove somatic origin.",
       "source": "§3.1.3; Discussion",
       "related": [
@@ -935,8 +963,8 @@
         "biomarker"
       ],
       "topic": "annotation",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "somatic variant",
         "somatic variants",
@@ -944,6 +972,13 @@
         "somatic mutations",
         "somatic origin",
         "somatic"
+      ],
+      "example": "A tumor-reference difference alone cannot establish that a variant is somatic.",
+      "backgroundSources": [
+        {
+          "url": "https://www.genome.gov/genetics-glossary/Mutation",
+          "title": "NHGRI: mutation"
+        }
       ]
     },
     {
@@ -960,8 +995,8 @@
         "allele"
       ],
       "topic": "positions",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "transcript",
         "transcripts",
@@ -982,8 +1017,8 @@
         "annotation"
       ],
       "topic": "counts",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "median",
         "medians"
@@ -1003,8 +1038,8 @@
         "frameshift"
       ],
       "topic": "coding",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "substitution",
         "substitutions"
@@ -1024,8 +1059,8 @@
         "substitution"
       ],
       "topic": "coding",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "truncation",
         "truncations"
@@ -1035,9 +1070,9 @@
       "id": "frameshift",
       "term": "Frameshift",
       "full": "",
-      "plain": "A coding consequence that changes how downstream codons are read.",
+      "plain": "A frameshift changes how a protein-coding sequence is divided into three-base codons.",
       "why": "It is one of the predicted protein-effect categories in the study.",
-      "mechanism": "Its biological impact requires the specific allele and coding context.",
+      "mechanism": "Within a coding region, an insertion or deletion whose length is not divisible by three shifts downstream grouping and often introduces a premature stop. Transcript context matters.",
       "remember": "Shift the reading frame, then inspect the context.",
       "source": "§3.1.3; §3.2.3",
       "related": [
@@ -1045,20 +1080,27 @@
         "truncation"
       ],
       "topic": "coding",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "frameshift",
         "frameshifts"
+      ],
+      "example": "Deleting one base from a coding sequence can change many following codons; deleting three bases usually preserves the reading frame.",
+      "backgroundSources": [
+        {
+          "title": "NHGRI: Frameshift Mutation",
+          "url": "https://www.genome.gov/genetics-glossary/Frameshift-Mutation"
+        }
       ]
     },
     {
       "id": "codon",
       "term": "Codon label",
       "full": "",
-      "plain": "A position label within a coding sequence, pooled here across coding sequences.",
+      "plain": "A codon is a group of three nucleotides read as one instruction during protein synthesis.",
       "why": "A pooled label is not a unique chromosome coordinate.",
-      "mechanism": "Codon 151 can occur in more than one gene.",
+      "mechanism": "In the standard genetic code, 61 codons specify amino acids and three specify stopping. The reading frame determines which bases belong to each triplet. A numbered codon depends on the chosen coding transcript.",
       "remember": "A number needs a gene and transcript.",
       "source": "§3.2.4; Table 2",
       "related": [
@@ -1066,14 +1108,21 @@
         "transcript"
       ],
       "topic": "positions",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "A codon is a unit of the genetic code.",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "codon",
         "codons",
         "codon label",
         "codon labels",
         "codon-number"
+      ],
+      "example": "RNA GCA specifies alanine; UAG is a stop signal. These are teaching examples, not additional observations from this study.",
+      "backgroundSources": [
+        {
+          "title": "NHGRI: Codon",
+          "url": "https://www.genome.gov/genetics-glossary/Codon"
+        }
       ]
     },
     {
@@ -1090,8 +1139,8 @@
         "allele"
       ],
       "topic": "positions",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "hotspot",
         "hotspots",
@@ -1113,8 +1162,8 @@
         "callable"
       ],
       "topic": "overlap",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "gene set",
         "gene sets",
@@ -1140,8 +1189,8 @@
         "correlation"
       ],
       "topic": "clustering",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "dendrogram",
         "dendrograms",
@@ -1153,9 +1202,9 @@
       "id": "correlation",
       "term": "Correlation distance",
       "full": "",
-      "plain": "The similarity-related distance used for the reported clustering.",
+      "plain": "Correlation distance measures how differently two numerical profiles vary across the same features.",
       "why": "The chosen representation and distance affect what “close” means.",
-      "mechanism": "The methods report correlation distance, not a clinical similarity metric.",
+      "mechanism": "For nonconstant profiles with the usual centered definition, distance is 1 minus Pearson correlation: identical patterns give 0; no linear correlation gives 1; opposite patterns give 2. A constant profile makes this correlation undefined.",
       "remember": "Close in this matrix, under this rule.",
       "source": "§3.1.4",
       "related": [
@@ -1163,19 +1212,26 @@
         "scaling"
       ],
       "topic": "clustering",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "correlation distance"
+      ],
+      "example": "Profiles [1,2,3] and [10,20,30] have correlation distance 0 despite different totals. Similar clustering therefore need not mean equal record counts.",
+      "backgroundSources": [
+        {
+          "title": "SciPy: correlation distance",
+          "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.distance.correlation.html"
+        }
       ]
     },
     {
       "id": "linkage",
       "term": "Average linkage",
       "full": "",
-      "plain": "The merge rule used to build the reported hierarchical clustering.",
+      "plain": "Average linkage defines the distance between two clusters as the mean of all distances between their members.",
       "why": "It helps define the dendrogram topology.",
-      "mechanism": "The study combines correlation distance with average linkage.",
+      "mechanism": "Agglomerative clustering begins with individual objects, joins a closest pair, updates inter-cluster distances, and repeats. Average linkage determines the update rule; correlation distance determines the pairwise comparison.",
       "remember": "Distance plus merge rule makes a tree.",
       "source": "§3.1.4",
       "related": [
@@ -1183,10 +1239,17 @@
         "correlation"
       ],
       "topic": "clustering",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "Linkage names the rule used to join clusters.",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "average linkage"
+      ],
+      "example": "If one cluster has two samples and another has three, average their six cross-cluster sample distances.",
+      "backgroundSources": [
+        {
+          "title": "SciPy: linkage",
+          "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.cluster.hierarchy.linkage.html"
+        }
       ]
     },
     {
@@ -1203,8 +1266,8 @@
         "imputation"
       ],
       "topic": "heatmap",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "heat map",
         "heat maps",
@@ -1226,8 +1289,8 @@
         "imputation"
       ],
       "topic": "heatmap",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "row-wise scaling",
         "scaling"
@@ -1247,8 +1310,8 @@
         "scaling"
       ],
       "topic": "heatmap",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "imputation",
         "missing-value imputation"
@@ -1268,8 +1331,8 @@
         "callable"
       ],
       "topic": "conclusions",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "biomarker",
         "biomarkers",
@@ -1291,8 +1354,8 @@
         "library"
       ],
       "topic": "provenance",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "AML",
         "acute myeloid leukemia"
@@ -1312,8 +1375,8 @@
         "biosample"
       ],
       "topic": "provenance",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "ALL",
         "acute lymphoblastic leukemia"
@@ -1333,8 +1396,8 @@
         "run"
       ],
       "topic": "processing",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "SRA",
         "Sequence Read Archive",
@@ -1355,8 +1418,8 @@
         "run"
       ],
       "topic": "processing",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "ENA",
         "European Nucleotide Archive"
@@ -1376,8 +1439,8 @@
         "variantfrequency"
       ],
       "topic": "processing",
-      "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "Geneious",
         "Geneious Mapper"
@@ -1397,8 +1460,8 @@
         "library"
       ],
       "topic": "provenance",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "sequencing",
         "long-read",
@@ -1419,8 +1482,8 @@
         "biosample"
       ],
       "topic": "design",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "dataset",
         "datasets"
@@ -1430,9 +1493,9 @@
       "id": "dna",
       "term": "DNA",
       "full": "",
-      "plain": "The sequence material analyzed in the included leukemia-associated inputs.",
+      "plain": "DNA is the molecule that stores genetic information in the sequence of its A, C, G and T bases.",
       "why": "Sequence differences need reference and biological context before interpretation.",
-      "mechanism": "The study compares DNA sequencing annotations, not a direct measurement of every downstream protein effect.",
+      "mechanism": "Its two strands pair A with T and C with G. A base sequence can specify a functional RNA or a protein through gene expression. Sequencing measures that sequence; it does not directly measure protein function.",
       "remember": "Sequence differences need reference and biological context before interpretation.",
       "source": "§3.1.1–§3.1.3",
       "related": [
@@ -1440,19 +1503,26 @@
         "allele"
       ],
       "topic": "rationale",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "DNA expands to deoxyribonucleic acid; deoxyribose is the sugar in its backbone.",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "DNA"
+      ],
+      "example": "Changing one DNA letter may have no protein effect, change an amino acid, or affect regulation, depending on its location.",
+      "backgroundSources": [
+        {
+          "title": "NHGRI: DNA",
+          "url": "https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid-DNA"
+        }
       ]
     },
     {
       "id": "genome",
       "term": "Genome",
       "full": "",
-      "plain": "The genetic sequence context from which chromosome 9 is selected.",
+      "plain": "A genome is the complete set of genetic material of an organism.",
       "why": "A chromosome-focused comparison does not establish equivalent observation of the rest of the genome.",
-      "mechanism": "The analysis aligns inputs to one chromosome reference.",
+      "mechanism": "A chromosome is one component of the genome. Examining chromosome 9 alone cannot characterize every genomic alteration.",
       "remember": "A chromosome-focused comparison does not establish equivalent observation of the rest of the genome.",
       "source": "Introduction; §3.1.2",
       "related": [
@@ -1460,20 +1530,27 @@
         "reference"
       ],
       "topic": "rationale",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "genome",
         "genomic"
+      ],
+      "example": "A result absent from the chromosome 9 analysis may exist on another chromosome.",
+      "backgroundSources": [
+        {
+          "title": "NHGRI: Genome",
+          "url": "https://www.genome.gov/genetics-glossary/Genome"
+        }
       ]
     },
     {
       "id": "variant",
       "term": "Sequence variant",
       "full": "",
-      "plain": "A sequence difference described relative to a reference.",
+      "plain": "A sequence variant is a DNA sequence difference relative to a specified reference.",
       "why": "A difference is not automatically somatic, pathogenic or clinically useful.",
-      "mechanism": "Identify the reference and alternate allele, coordinate, gene and transcript before interpreting a particular alteration.",
+      "mechanism": "Substitutions, insertions and deletions are examples. Detection depends on the assay, quality and analysis; a detected difference may be inherited, acquired or technical.",
       "remember": "A difference is not automatically somatic, pathogenic or clinically useful.",
       "source": "§3.1.3; Discussion",
       "related": [
@@ -1482,22 +1559,29 @@
         "annotation"
       ],
       "topic": "annotation",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "variant",
         "variants",
         "sequence difference",
         "sequence differences"
+      ],
+      "example": "A reference difference is not sufficient evidence of a leukemia driver.",
+      "backgroundSources": [
+        {
+          "url": "https://www.genome.gov/genetics-glossary/Genomic-Variation",
+          "title": "NHGRI: genomic variation"
+        }
       ]
     },
     {
       "id": "mutation",
       "term": "Mutation",
       "full": "",
-      "plain": "A sequence alteration; some original figure labels use this term broadly.",
+      "plain": "A mutation is a change in a DNA sequence; the term is also used for the resulting sequence alteration.",
       "why": "The revised manuscript describes annotation records, not a fully validated set of independent somatic mutations.",
-      "mechanism": "Read the embedded legacy figure wording alongside the manuscript definition of the counted entries.",
+      "mechanism": "Changes may occur in germ cells or body cells. The word itself does not establish harm, disease causation or timing.",
       "remember": "The revised manuscript describes annotation records, not a fully validated set of independent somatic mutations.",
       "source": "§3.1.3; Figures 1–7",
       "related": [
@@ -1505,21 +1589,28 @@
         "annotation"
       ],
       "topic": "annotation",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "mutation",
         "mutations",
         "mutation burden"
+      ],
+      "example": "A mutation can be biologically neutral.",
+      "backgroundSources": [
+        {
+          "title": "NHGRI: Mutation",
+          "url": "https://www.genome.gov/genetics-glossary/Mutation"
+        }
       ]
     },
     {
       "id": "gene",
       "term": "Gene",
       "full": "",
-      "plain": "An annotated genomic feature to which a record may be assigned.",
+      "plain": "A gene is a DNA region containing information used to produce a functional RNA, including an RNA that can be translated into protein.",
       "why": "A gene assignment does not establish a particular pathogenic allele or fusion.",
-      "mechanism": "Reference annotations connect an aligned difference to a gene context.",
+      "mechanism": "Protein-coding genes are transcribed into RNA; processed messenger RNA is translated. Other genes produce functional RNAs without producing a protein. A gene name identifies a region, not a diagnosis.",
       "remember": "A gene assignment does not establish a particular pathogenic allele or fusion.",
       "source": "§3.1.3; §3.2.2",
       "related": [
@@ -1528,8 +1619,8 @@
         "transcript"
       ],
       "topic": "annotation",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "gene",
         "genes",
@@ -1538,15 +1629,22 @@
         "gene label",
         "gene labels",
         "gene features"
+      ],
+      "example": "Two variants assigned to the same gene may occur in different exons and have different consequences.",
+      "backgroundSources": [
+        {
+          "title": "NHGRI: Gene",
+          "url": "https://www.genome.gov/genetics-glossary/Gene"
+        }
       ]
     },
     {
       "id": "rna",
       "term": "RNA",
       "full": "",
-      "plain": "A molecular sequence context represented by RNA feature annotations in the reference.",
+      "plain": "RNA is a nucleic acid used in gene expression and many cellular functions.",
       "why": "Reference RNA features do not establish measured expression in these inputs.",
-      "mechanism": "The reference layer includes messenger RNA and noncoding RNA features.",
+      "mechanism": "RNA uses ribose and generally U instead of the T found in DNA. Messenger, ribosomal and transfer RNA have different roles.",
       "remember": "Reference RNA features do not establish measured expression in these inputs.",
       "source": "§3.2.1",
       "related": [
@@ -1554,19 +1652,26 @@
         "annotation"
       ],
       "topic": "annotation",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "RNA"
+      ],
+      "example": "Messenger RNA carries coding instructions; transfer RNA helps match codons to amino acids.",
+      "backgroundSources": [
+        {
+          "title": "NHGRI: Ribonucleic Acid RNA",
+          "url": "https://www.genome.gov/genetics-glossary/Ribonucleic-Acid-RNA"
+        }
       ]
     },
     {
       "id": "mrna",
       "term": "Messenger RNA",
       "full": "",
-      "plain": "An RNA feature category in the reference annotation layer.",
+      "plain": "Messenger RNA is an RNA molecule carrying a protein-coding message to the translation machinery.",
       "why": "The reported 5,505 features are not expression measurements.",
-      "mechanism": "Reference-derived RNA features provide annotation context, not evidence of transcript abundance.",
+      "mechanism": "A gene is transcribed and its RNA can be processed by splicing. Different transcripts may have different coding sequences.",
       "remember": "The reported 5,505 features are not expression measurements.",
       "source": "§3.2.1",
       "related": [
@@ -1574,11 +1679,18 @@
         "transcript"
       ],
       "topic": "annotation",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "mRNA",
         "messenger RNA"
+      ],
+      "example": "One genomic variant can have different predicted consequences in two transcripts.",
+      "backgroundSources": [
+        {
+          "title": "NHGRI: Messenger RNA",
+          "url": "https://www.genome.gov/genetics-glossary/Messenger-RNA"
+        }
       ]
     },
     {
@@ -1595,8 +1707,8 @@
         "annotation"
       ],
       "topic": "annotation",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "noncoding RNA",
         "noncoding RNA features"
@@ -1616,8 +1728,8 @@
         "transcript"
       ],
       "topic": "positions",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "coding sequence",
         "coding sequences",
@@ -1632,9 +1744,9 @@
       "id": "protein",
       "term": "Protein",
       "full": "",
-      "plain": "The molecular product context for predicted amino-acid effects.",
+      "plain": "A protein is a molecule made from one or more chains of amino acids that fold into functional structures.",
       "why": "A predicted protein annotation is not an experimentally demonstrated functional change.",
-      "mechanism": "The study summarizes substitution, truncation and frameshift categories.",
+      "mechanism": "The amino-acid sequence helps determine folding, interactions and activity. A predicted change alone does not show how much function changes.",
       "remember": "A predicted protein annotation is not an experimentally demonstrated functional change.",
       "source": "§3.2.3",
       "related": [
@@ -1643,23 +1755,30 @@
         "frameshift"
       ],
       "topic": "coding",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "protein",
         "proteins",
         "protein effect",
         "protein effects",
         "protein-effect"
+      ],
+      "example": "A substitution may affect an active site or occur in a region with little measurable effect.",
+      "backgroundSources": [
+        {
+          "title": "NHGRI: Protein",
+          "url": "https://www.genome.gov/genetics-glossary/Protein"
+        }
       ]
     },
     {
       "id": "aminoacid",
       "term": "Amino acid",
       "full": "",
-      "plain": "A residue category used in the protein-change summaries.",
+      "plain": "An amino acid is a building block of proteins.",
       "why": "A pooled residue change does not specify a unique affected protein.",
-      "mechanism": "Proline-to-leucine and glycine-to-arginine lead the ALL and AML lists respectively.",
+      "mechanism": "During translation, codons specify the amino acids added to a chain. Their chemical properties influence protein structure and interactions.",
       "remember": "A pooled residue change does not specify a unique affected protein.",
       "source": "§3.2.4",
       "related": [
@@ -1667,14 +1786,21 @@
         "substitution"
       ],
       "topic": "coding",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "amino acid",
         "amino acids",
         "amino-acid",
         "amino-acid change",
         "amino-acid changes"
+      ],
+      "example": "Glycine and arginine differ in size and charge, but the impact of replacing one with the other depends on the position.",
+      "backgroundSources": [
+        {
+          "title": "NHGRI: Amino Acids",
+          "url": "https://www.genome.gov/genetics-glossary/Amino-Acids"
+        }
       ]
     },
     {
@@ -1691,8 +1817,8 @@
         "variant"
       ],
       "topic": "coding",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "transition",
         "transitions"
@@ -1712,8 +1838,8 @@
         "variant"
       ],
       "topic": "coding",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "transversion",
         "transversions"
@@ -1723,9 +1849,9 @@
       "id": "insertion",
       "term": "Insertion",
       "full": "",
-      "plain": "Addition of sequence relative to the chosen reference.",
+      "plain": "An insertion adds one or more DNA bases relative to a reference sequence.",
       "why": "The consequence depends on where the change occurs and its coding context.",
-      "mechanism": "The manuscript reports insertion labels as a smaller part of the polymorphism-class summary.",
+      "mechanism": "Its consequence depends on length, location and transcript. A coding insertion divisible by three can preserve the frame; others may shift it.",
       "remember": "The consequence depends on where the change occurs and its coding context.",
       "source": "§3.2.3",
       "related": [
@@ -1733,20 +1859,27 @@
         "frameshift"
       ],
       "topic": "coding",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "insertion",
         "insertions"
+      ],
+      "example": "Adding three coding bases can add an amino acid without shifting the downstream frame.",
+      "backgroundSources": [
+        {
+          "title": "NHGRI: Insertion",
+          "url": "https://www.genome.gov/genetics-glossary/Insertion"
+        }
       ]
     },
     {
       "id": "deletion",
       "term": "Deletion",
       "full": "",
-      "plain": "Loss of sequence relative to the chosen reference.",
+      "plain": "A deletion removes DNA sequence relative to a reference.",
       "why": "A reference difference does not establish its clinical significance.",
-      "mechanism": "The manuscript says deletion categories were not prominent in the summarized classes.",
+      "mechanism": "A deletion may involve a single base or a larger region. Coding consequences depend on the reading frame, and larger deletions can affect whole genes.",
       "remember": "A reference difference does not establish its clinical significance.",
       "source": "§3.2.3",
       "related": [
@@ -1754,11 +1887,18 @@
         "variant"
       ],
       "topic": "coding",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "deletion",
         "deletions"
+      ],
+      "example": "Removing one coding base can cause a frameshift; losing a whole gene is a different scale of event.",
+      "backgroundSources": [
+        {
+          "title": "NHGRI: Deletion",
+          "url": "https://www.genome.gov/genetics-glossary/Deletion"
+        }
       ]
     },
     {
@@ -1775,8 +1915,8 @@
         "annotation"
       ],
       "topic": "coding",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "tandem repeat",
         "tandem repeats",
@@ -1798,8 +1938,8 @@
         "substitution"
       ],
       "topic": "coding",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "polymorphism",
         "polymorphism class",
@@ -1821,8 +1961,8 @@
         "biomarker"
       ],
       "topic": "annotation",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "pathogenicity",
         "pathogenic",
@@ -1833,9 +1973,9 @@
       "id": "fusion",
       "term": "Gene fusion",
       "full": "",
-      "plain": "A rearrangement joining sequence from different gene contexts.",
+      "plain": "A gene fusion joins sequence from previously separate genes into a new genetic arrangement or transcript.",
       "why": "A NUP214 gene assignment alone does not establish a fusion.",
-      "mechanism": "The manuscript explicitly distinguishes gene assignments from identified or validated fusions.",
+      "mechanism": "Chromosome rearrangement can create a fusion, but detecting a gene-associated variant record does not prove that a fusion exists. Fusion evidence requires appropriate breakpoints or junctions.",
       "remember": "A NUP214 gene assignment alone does not establish a fusion.",
       "source": "§3.2.2; Discussion",
       "related": [
@@ -1843,21 +1983,28 @@
         "allele"
       ],
       "topic": "annotation",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "fusion",
         "fusions",
         "gene fusion"
+      ],
+      "example": "A record assigned to NUP214 alone does not demonstrate DEK–NUP214.",
+      "backgroundSources": [
+        {
+          "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/fusion-gene",
+          "title": "NCI: fusion gene"
+        }
       ]
     },
     {
       "id": "germline",
       "term": "Germline variation",
       "full": "",
-      "plain": "Inherited sequence variation, distinct from alterations established as somatic.",
+      "plain": "Germline variation is variation in the reproductive-cell lineage that can be passed to offspring.",
       "why": "Tumor-only analysis must distinguish inherited differences and artifacts.",
-      "mechanism": "The study lacks a matched normal comparison and does not establish somatic origin for every record.",
+      "mechanism": "An inherited variant is generally present in many tissues, unlike a change confined to a particular somatic clone.",
       "remember": "Tumor-only analysis must distinguish inherited differences and artifacts.",
       "source": "Background; Discussion",
       "related": [
@@ -1865,11 +2012,18 @@
         "matchednormal"
       ],
       "topic": "limitations",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "germline",
         "germline variation"
+      ],
+      "example": "A matched normal sample may help identify an inherited allele also seen in tumor DNA.",
+      "backgroundSources": [
+        {
+          "title": "NHGRI: Germ Line",
+          "url": "https://www.genome.gov/genetics-glossary/Germ-Line"
+        }
       ]
     },
     {
@@ -1886,8 +2040,8 @@
         "germline"
       ],
       "topic": "limitations",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "matched normal",
         "matched normal comparison"
@@ -1907,8 +2061,8 @@
         "allele"
       ],
       "topic": "limitations",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "validation",
         "functional validation",
@@ -1930,8 +2084,8 @@
         "transcript"
       ],
       "topic": "positions",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "normalization",
         "allele normalization",
@@ -1953,8 +2107,8 @@
         "heatmap"
       ],
       "topic": "heatmap",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "matrix",
         "feature matrix",
@@ -1978,8 +2132,8 @@
         "linkage"
       ],
       "topic": "clustering",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "hierarchical clustering",
         "clustering"
@@ -1999,8 +2153,8 @@
         "matrix"
       ],
       "topic": "heatmap",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "unit-variance scaling",
         "unit-variance"
@@ -2020,8 +2174,8 @@
         "descriptive"
       ],
       "topic": "calling",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "statistical significance",
         "statistically significant",
@@ -2043,8 +2197,8 @@
         "run"
       ],
       "topic": "design",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "prevalence",
         "patient-level mutation prevalence"
@@ -2063,8 +2217,8 @@
         "median"
       ],
       "topic": "counts",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "arithmetic mean",
         "mean ungapped sequence length",
@@ -2085,8 +2239,8 @@
         "contig"
       ],
       "topic": "processing",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "base pair",
         "base pairs",
@@ -2107,8 +2261,8 @@
         "read"
       ],
       "topic": "processing",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "adapter",
         "adapters"
@@ -2128,8 +2282,8 @@
         "alignmentterm"
       ],
       "topic": "processing",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "assembly",
         "assemblies",
@@ -2151,8 +2305,8 @@
         "reference"
       ],
       "topic": "alignment",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "alignment",
         "alignments",
@@ -2173,8 +2327,8 @@
         "q30"
       ],
       "topic": "processing",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "FastQC"
       ]
@@ -2193,8 +2347,8 @@
         "adapters"
       ],
       "topic": "processing",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "Trimmomatic"
       ]
@@ -2213,8 +2367,8 @@
         "assembly"
       ],
       "topic": "processing",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "SPAdes"
       ]
@@ -2233,8 +2387,8 @@
         "coverage"
       ],
       "topic": "processing",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "QUAST"
       ]
@@ -2252,8 +2406,8 @@
         "read"
       ],
       "topic": "processing",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "GC",
         "GC content",
@@ -2274,8 +2428,8 @@
         "library"
       ],
       "topic": "provenance",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "ML-2"
       ]
@@ -2294,8 +2448,8 @@
         "library"
       ],
       "topic": "provenance",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "",
+      "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "HL-60"
       ]
@@ -2304,9 +2458,9 @@
       "id": "gene-nup214",
       "term": "NUP214",
       "full": "",
-      "plain": "A gene label discussed or listed in the supplied manuscript.",
+      "plain": "A nuclear-pore protein involved in transport between the nucleus and cytoplasm.",
       "why": "A label identifies gene context, not a validated pathogenic alteration.",
-      "mechanism": "See the manuscript gene summaries or background for where this label occurs. No additional gene function is inferred here.",
+      "mechanism": "The expanded gene name is nucleoporin 214. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
       "remember": "A label identifies gene context, not a validated pathogenic alteration.",
       "source": "Introduction; §3.2.2; Table 2",
       "related": [
@@ -2315,19 +2469,26 @@
         "allele"
       ],
       "topic": "annotation",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "The official expanded name is nucleoporin 214. This explains the label without inventing its naming history.",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "NUP214"
+      ],
+      "example": "Finding NUP214 in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
+      "backgroundSources": [
+        {
+          "title": "NCBI Gene: NUP214",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/8021"
+        }
       ]
     },
     {
       "id": "gene-notch1",
       "term": "NOTCH1",
       "full": "",
-      "plain": "A gene label discussed or listed in the supplied manuscript.",
+      "plain": "A cell-surface receptor that carries signals between neighbouring cells and helps regulate development and cell fate.",
       "why": "A label identifies gene context, not a validated pathogenic alteration.",
-      "mechanism": "See the manuscript gene summaries or background for where this label occurs. No additional gene function is inferred here.",
+      "mechanism": "The expanded gene name is notch receptor 1. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
       "remember": "A label identifies gene context, not a validated pathogenic alteration.",
       "source": "Introduction; §3.2.2; Table 2",
       "related": [
@@ -2336,19 +2497,26 @@
         "allele"
       ],
       "topic": "annotation",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "The official expanded name is notch receptor 1. This explains the label without inventing its naming history.",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "NOTCH1"
+      ],
+      "example": "Finding NOTCH1 in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
+      "backgroundSources": [
+        {
+          "title": "NCBI Gene: NOTCH1",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4851"
+        }
       ]
     },
     {
       "id": "gene-cdkn2a",
       "term": "CDKN2A",
       "full": "",
-      "plain": "A gene label discussed or listed in the supplied manuscript.",
+      "plain": "A gene producing distinct proteins involved in restraining cell-cycle progression through CDK4/6 and p53-related regulation.",
       "why": "A label identifies gene context, not a validated pathogenic alteration.",
-      "mechanism": "See the manuscript gene summaries or background for where this label occurs. No additional gene function is inferred here.",
+      "mechanism": "The expanded gene name is cyclin dependent kinase inhibitor 2A. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
       "remember": "A label identifies gene context, not a validated pathogenic alteration.",
       "source": "Introduction; §3.2.2; Table 2",
       "related": [
@@ -2357,19 +2525,26 @@
         "allele"
       ],
       "topic": "annotation",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "The official expanded name is cyclin dependent kinase inhibitor 2A. This explains the label without inventing its naming history.",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "CDKN2A"
+      ],
+      "example": "Finding CDKN2A in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
+      "backgroundSources": [
+        {
+          "title": "NCBI Gene: CDKN2A",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/1029"
+        }
       ]
     },
     {
       "id": "gene-golga2",
       "term": "GOLGA2",
       "full": "",
-      "plain": "A gene label discussed or listed in the supplied manuscript.",
+      "plain": "A Golgi-associated protein implicated in organizing Golgi stacks and vesicle transport.",
       "why": "A label identifies gene context, not a validated pathogenic alteration.",
-      "mechanism": "See the manuscript gene summaries or background for where this label occurs. No additional gene function is inferred here.",
+      "mechanism": "The expanded gene name is golgin A2. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
       "remember": "A label identifies gene context, not a validated pathogenic alteration.",
       "source": "Introduction; §3.2.2; Table 2",
       "related": [
@@ -2378,19 +2553,26 @@
         "allele"
       ],
       "topic": "annotation",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "The official expanded name is golgin A2. This explains the label without inventing its naming history.",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "GOLGA2"
+      ],
+      "example": "Finding GOLGA2 in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
+      "backgroundSources": [
+        {
+          "title": "NCBI Gene: GOLGA2",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/2801"
+        }
       ]
     },
     {
       "id": "gene-washc1",
       "term": "WASHC1",
       "full": "",
-      "plain": "A gene label discussed or listed in the supplied manuscript.",
+      "plain": "A component of the WASH complex involved in actin organization and endosomal transport.",
       "why": "A label identifies gene context, not a validated pathogenic alteration.",
-      "mechanism": "See the manuscript gene summaries or background for where this label occurs. No additional gene function is inferred here.",
+      "mechanism": "The expanded gene name is WASH complex subunit 1. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
       "remember": "A label identifies gene context, not a validated pathogenic alteration.",
       "source": "Introduction; §3.2.2; Table 2",
       "related": [
@@ -2399,19 +2581,26 @@
         "allele"
       ],
       "topic": "annotation",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "The official expanded name is WASH complex subunit 1. This explains the label without inventing its naming history.",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "WASHC1"
+      ],
+      "example": "Finding WASHC1 in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
+      "backgroundSources": [
+        {
+          "title": "NCBI Gene: WASHC1",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/100287171"
+        }
       ]
     },
     {
       "id": "gene-cdc14b",
       "term": "CDC14B",
       "full": "",
-      "plain": "A gene label discussed or listed in the supplied manuscript.",
+      "plain": "A phosphatase that removes phosphate groups from proteins and is implicated in cell-cycle regulation.",
       "why": "A label identifies gene context, not a validated pathogenic alteration.",
-      "mechanism": "See the manuscript gene summaries or background for where this label occurs. No additional gene function is inferred here.",
+      "mechanism": "The expanded gene name is cell division cycle 14B. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
       "remember": "A label identifies gene context, not a validated pathogenic alteration.",
       "source": "Introduction; §3.2.2; Table 2",
       "related": [
@@ -2420,19 +2609,26 @@
         "allele"
       ],
       "topic": "annotation",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "The official expanded name is cell division cycle 14B. This explains the label without inventing its naming history.",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "CDC14B"
+      ],
+      "example": "Finding CDC14B in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
+      "backgroundSources": [
+        {
+          "title": "NCBI Gene: CDC14B",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/8555"
+        }
       ]
     },
     {
       "id": "gene-dnm1",
       "term": "DNM1",
       "full": "",
-      "plain": "A gene label discussed or listed in the supplied manuscript.",
+      "plain": "A GTP-using protein that helps reshape and separate membranes during endocytosis and vesicle trafficking.",
       "why": "A label identifies gene context, not a validated pathogenic alteration.",
-      "mechanism": "See the manuscript gene summaries or background for where this label occurs. No additional gene function is inferred here.",
+      "mechanism": "The expanded gene name is dynamin 1. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
       "remember": "A label identifies gene context, not a validated pathogenic alteration.",
       "source": "Introduction; §3.2.2; Table 2",
       "related": [
@@ -2441,19 +2637,26 @@
         "allele"
       ],
       "topic": "annotation",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "The official expanded name is dynamin 1. This explains the label without inventing its naming history.",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "DNM1"
+      ],
+      "example": "Finding DNM1 in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
+      "backgroundSources": [
+        {
+          "title": "NCBI Gene: DNM1",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/1759"
+        }
       ]
     },
     {
       "id": "gene-kank1",
       "term": "KANK1",
       "full": "",
-      "plain": "A gene label discussed or listed in the supplied manuscript.",
+      "plain": "A protein involved in organizing the actin cytoskeleton.",
       "why": "A label identifies gene context, not a validated pathogenic alteration.",
-      "mechanism": "See the manuscript gene summaries or background for where this label occurs. No additional gene function is inferred here.",
+      "mechanism": "The expanded gene name is KN motif and ankyrin repeat domains 1. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
       "remember": "A label identifies gene context, not a validated pathogenic alteration.",
       "source": "Introduction; §3.2.2; Table 2",
       "related": [
@@ -2462,19 +2665,26 @@
         "allele"
       ],
       "topic": "annotation",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "The official expanded name is KN motif and ankyrin repeat domains 1. This explains the label without inventing its naming history.",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "KANK1"
+      ],
+      "example": "Finding KANK1 in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
+      "backgroundSources": [
+        {
+          "title": "NCBI Gene: KANK1",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/23189"
+        }
       ]
     },
     {
       "id": "gene-phf2",
       "term": "PHF2",
       "full": "",
-      "plain": "A gene label discussed or listed in the supplied manuscript.",
+      "plain": "A protein with a PHD finger domain associated with chromatin-related regulation of gene expression.",
       "why": "A label identifies gene context, not a validated pathogenic alteration.",
-      "mechanism": "See the manuscript gene summaries or background for where this label occurs. No additional gene function is inferred here.",
+      "mechanism": "The expanded gene name is PHD finger protein 2. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
       "remember": "A label identifies gene context, not a validated pathogenic alteration.",
       "source": "Introduction; §3.2.2; Table 2",
       "related": [
@@ -2483,19 +2693,26 @@
         "allele"
       ],
       "topic": "annotation",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "The official expanded name is PHD finger protein 2. This explains the label without inventing its naming history.",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "PHF2"
+      ],
+      "example": "Finding PHF2 in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
+      "backgroundSources": [
+        {
+          "title": "NCBI Gene: PHF2",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/5253"
+        }
       ]
     },
     {
       "id": "gene-fam120a",
       "term": "FAM120A",
       "full": "",
-      "plain": "A gene label discussed or listed in the supplied manuscript.",
+      "plain": "An RNA-binding protein found in the cytosol; the consulted summary supports this broad role rather than a specific leukemia mechanism.",
       "why": "A label identifies gene context, not a validated pathogenic alteration.",
-      "mechanism": "See the manuscript gene summaries or background for where this label occurs. No additional gene function is inferred here.",
+      "mechanism": "The expanded gene name is family with sequence similarity 120 member A. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
       "remember": "A label identifies gene context, not a validated pathogenic alteration.",
       "source": "Introduction; §3.2.2; Table 2",
       "related": [
@@ -2504,19 +2721,26 @@
         "allele"
       ],
       "topic": "annotation",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "The official expanded name is family with sequence similarity 120 member A. This explains the label without inventing its naming history.",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "FAM120A"
+      ],
+      "example": "Finding FAM120A in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
+      "backgroundSources": [
+        {
+          "title": "NCBI Gene: FAM120A",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/23196"
+        }
       ]
     },
     {
       "id": "gene-hnrnpk",
       "term": "HNRNPK",
       "full": "",
-      "plain": "A gene label discussed or listed in the supplied manuscript.",
+      "plain": "An RNA-binding protein involved in handling RNA, including pre-mRNA processing and other aspects of RNA metabolism.",
       "why": "A label identifies gene context, not a validated pathogenic alteration.",
-      "mechanism": "See the manuscript gene summaries or background for where this label occurs. No additional gene function is inferred here.",
+      "mechanism": "The expanded gene name is heterogeneous nuclear ribonucleoprotein K. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
       "remember": "A label identifies gene context, not a validated pathogenic alteration.",
       "source": "Introduction; §3.2.2; Table 2",
       "related": [
@@ -2525,19 +2749,26 @@
         "allele"
       ],
       "topic": "annotation",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "The official expanded name is heterogeneous nuclear ribonucleoprotein K. This explains the label without inventing its naming history.",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "HNRNPK"
+      ],
+      "example": "Finding HNRNPK in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
+      "backgroundSources": [
+        {
+          "title": "NCBI Gene: HNRNPK",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/3190"
+        }
       ]
     },
     {
       "id": "gene-unc13b",
       "term": "UNC13B",
       "full": "",
-      "plain": "A gene label discussed or listed in the supplied manuscript.",
+      "plain": "A protein implicated in preparing vesicles for release; the consulted summary also discusses effects in kidney-cell models.",
       "why": "A label identifies gene context, not a validated pathogenic alteration.",
-      "mechanism": "See the manuscript gene summaries or background for where this label occurs. No additional gene function is inferred here.",
+      "mechanism": "The expanded gene name is unc-13 homolog B. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
       "remember": "A label identifies gene context, not a validated pathogenic alteration.",
       "source": "Introduction; §3.2.2; Table 2",
       "related": [
@@ -2546,19 +2777,26 @@
         "allele"
       ],
       "topic": "annotation",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "The official expanded name is unc-13 homolog B. This explains the label without inventing its naming history.",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "UNC13B"
+      ],
+      "example": "Finding UNC13B in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
+      "backgroundSources": [
+        {
+          "title": "NCBI Gene: UNC13B",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/10497"
+        }
       ]
     },
     {
       "id": "gene-adamtsl1",
       "term": "ADAMTSL1",
       "full": "",
-      "plain": "A gene label discussed or listed in the supplied manuscript.",
+      "plain": "A secreted protein proposed to function in the extracellular matrix. Its name does not mean it has the catalytic metalloproteinase domains of typical ADAMTS enzymes.",
       "why": "A label identifies gene context, not a validated pathogenic alteration.",
-      "mechanism": "See the manuscript gene summaries or background for where this label occurs. No additional gene function is inferred here.",
+      "mechanism": "The expanded gene name is ADAMTS like 1. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
       "remember": "A label identifies gene context, not a validated pathogenic alteration.",
       "source": "Introduction; §3.2.2; Table 2",
       "related": [
@@ -2567,19 +2805,26 @@
         "allele"
       ],
       "topic": "annotation",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "The official expanded name is ADAMTS like 1. This explains the label without inventing its naming history.",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "ADAMTSL1"
+      ],
+      "example": "Finding ADAMTSL1 in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
+      "backgroundSources": [
+        {
+          "title": "NCBI Gene: ADAMTSL1",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/92949"
+        }
       ]
     },
     {
       "id": "gene-tek",
       "term": "TEK",
       "full": "",
-      "plain": "A gene label discussed or listed in the supplied manuscript.",
+      "plain": "A receptor tyrosine kinase that responds to angiopoietin signalling and participates in blood-vessel development.",
       "why": "A label identifies gene context, not a validated pathogenic alteration.",
-      "mechanism": "See the manuscript gene summaries or background for where this label occurs. No additional gene function is inferred here.",
+      "mechanism": "The expanded gene name is TEK receptor tyrosine kinase. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
       "remember": "A label identifies gene context, not a validated pathogenic alteration.",
       "source": "Introduction; §3.2.2; Table 2",
       "related": [
@@ -2588,19 +2833,26 @@
         "allele"
       ],
       "topic": "annotation",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "The official expanded name is TEK receptor tyrosine kinase. This explains the label without inventing its naming history.",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "TEK"
+      ],
+      "example": "Finding TEK in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
+      "backgroundSources": [
+        {
+          "title": "NCBI Gene: TEK",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/7010"
+        }
       ]
     },
     {
       "id": "gene-znf618",
       "term": "ZNF618",
       "full": "",
-      "plain": "A gene label discussed or listed in the supplied manuscript.",
+      "plain": "A zinc-finger protein with annotated chromatin-binding and transcription-regulatory associations; some functional assignments remain predicted.",
       "why": "A label identifies gene context, not a validated pathogenic alteration.",
-      "mechanism": "See the manuscript gene summaries or background for where this label occurs. No additional gene function is inferred here.",
+      "mechanism": "The expanded gene name is zinc finger protein 618. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
       "remember": "A label identifies gene context, not a validated pathogenic alteration.",
       "source": "Introduction; §3.2.2; Table 2",
       "related": [
@@ -2609,19 +2861,26 @@
         "allele"
       ],
       "topic": "annotation",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "The official expanded name is zinc finger protein 618. This explains the label without inventing its naming history.",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "ZNF618"
+      ],
+      "example": "Finding ZNF618 in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
+      "backgroundSources": [
+        {
+          "title": "NCBI Gene: ZNF618",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/114991"
+        }
       ]
     },
     {
       "id": "gene-ddx31",
       "term": "DDX31",
       "full": "",
-      "plain": "A gene label discussed or listed in the supplied manuscript.",
+      "plain": "A member of the DEAD-box RNA-helicase family. The consulted RefSeq summary does not establish this member’s precise function.",
       "why": "A label identifies gene context, not a validated pathogenic alteration.",
-      "mechanism": "See the manuscript gene summaries or background for where this label occurs. No additional gene function is inferred here.",
+      "mechanism": "The expanded gene name is DEAD-box helicase 31. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
       "remember": "A label identifies gene context, not a validated pathogenic alteration.",
       "source": "Introduction; §3.2.2; Table 2",
       "related": [
@@ -2630,19 +2889,26 @@
         "allele"
       ],
       "topic": "annotation",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "The official expanded name is DEAD-box helicase 31. This explains the label without inventing its naming history.",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "DDX31"
+      ],
+      "example": "Finding DDX31 in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
+      "backgroundSources": [
+        {
+          "title": "NCBI Gene: DDX31",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/64794"
+        }
       ]
     },
     {
       "id": "gene-haus6",
       "term": "HAUS6",
       "full": "",
-      "plain": "A gene label discussed or listed in the supplied manuscript.",
+      "plain": "A subunit of the augmin complex involved in spindle microtubules and chromosome segregation during cell division.",
       "why": "A label identifies gene context, not a validated pathogenic alteration.",
-      "mechanism": "See the manuscript gene summaries or background for where this label occurs. No additional gene function is inferred here.",
+      "mechanism": "The expanded gene name is HAUS augmin like complex subunit 6. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
       "remember": "A label identifies gene context, not a validated pathogenic alteration.",
       "source": "Introduction; §3.2.2; Table 2",
       "related": [
@@ -2651,19 +2917,26 @@
         "allele"
       ],
       "topic": "annotation",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "The official expanded name is HAUS augmin like complex subunit 6. This explains the label without inventing its naming history.",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "HAUS6"
+      ],
+      "example": "Finding HAUS6 in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
+      "backgroundSources": [
+        {
+          "title": "NCBI Gene: HAUS6",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/54801"
+        }
       ]
     },
     {
       "id": "gene-pappa",
       "term": "PAPPA",
       "full": "",
-      "plain": "A gene label discussed or listed in the supplied manuscript.",
+      "plain": "A secreted enzyme that cleaves insulin-like growth factor binding proteins and can alter availability of growth-factor signals.",
       "why": "A label identifies gene context, not a validated pathogenic alteration.",
-      "mechanism": "See the manuscript gene summaries or background for where this label occurs. No additional gene function is inferred here.",
+      "mechanism": "The expanded gene name is pappalysin 1. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
       "remember": "A label identifies gene context, not a validated pathogenic alteration.",
       "source": "Introduction; §3.2.2; Table 2",
       "related": [
@@ -2672,19 +2945,26 @@
         "allele"
       ],
       "topic": "annotation",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "The official expanded name is pappalysin 1. This explains the label without inventing its naming history.",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "PAPPA"
+      ],
+      "example": "Finding PAPPA in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
+      "backgroundSources": [
+        {
+          "title": "NCBI Gene: PAPPA",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/5069"
+        }
       ]
     },
     {
       "id": "gene-ankrd18b",
       "term": "ANKRD18B",
       "full": "",
-      "plain": "A gene label discussed or listed in the supplied manuscript.",
+      "plain": "A gene encoding an ankyrin-repeat-domain protein. The consulted Gene record does not provide a well-established specific biological function.",
       "why": "A label identifies gene context, not a validated pathogenic alteration.",
-      "mechanism": "See the manuscript gene summaries or background for where this label occurs. No additional gene function is inferred here.",
+      "mechanism": "The expanded gene name is ankyrin repeat domain 18B. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
       "remember": "A label identifies gene context, not a validated pathogenic alteration.",
       "source": "Introduction; §3.2.2; Table 2",
       "related": [
@@ -2693,10 +2973,17 @@
         "allele"
       ],
       "topic": "annotation",
-      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
-      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "origin": "The official expanded name is ankyrin repeat domain 18B. This explains the label without inventing its naming history.",
+      "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
         "ANKRD18B"
+      ],
+      "example": "Finding ANKRD18B in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
+      "backgroundSources": [
+        {
+          "title": "NCBI Gene: ANKRD18B",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/158177"
+        }
       ]
     }
   ],

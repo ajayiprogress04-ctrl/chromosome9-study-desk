@@ -29,3 +29,5 @@ Verified longest-phrase and inflected glossary links, acronym disambiguation (AL
 ## Version 1.2 sharing checks
 
 Verified PNG dimensions and signatures, all icon asset sizes, static image/alt metadata, generated absolute image/canonical URLs, clean production config, invalid protocol/credential rejection, repeated-domain updates without duplicate tags and unchanged body content. The sharing card was inspected as a local rendered image. No live social-platform preview or deployment was tested.
+
+Version 1.3.0: all existing automated checks plus sourced-teaching regression checks pass. 41 background entries and links are present; no real browser or deployment verification.
