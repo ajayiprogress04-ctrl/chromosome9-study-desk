@@ -17,11 +17,11 @@ No experimental mechanisms, allele coordinates, effect sizes or clinical perform
 
 | Module | Working behavior | Acceptance |
 |---|---|---|
-| Dashboard | Topic dropdown; guide/share/copy; activity behind disclosure | No compulsory progress bar or cluttered KPI grid |
-| Navigator/detail mode | One lesson; summary/WHY; expandable science/evidence | Topic selection opens directly; Previous/Next start at top |
+| Dashboard | Grouped objective dropdown; guide/share/copy; activity behind disclosure | No compulsory progress bar or cluttered KPI grid |
+| Navigator/detail mode | One lesson; summary/WHY; expandable science/evidence | Objective selection opens its first lesson directly; Previous/Next start at top |
 | Concept explorer | Linked hierarchy and labelled schematic | All relations have support descriptions; no causal implication |
 | Guided path | Four inferred modules, 15 lessons | Sources and prerequisites follow actual study logic |
-| Glossary | 41 searchable names, focused dialog | Previous term and precise return preserve context |
+| Glossary | 102 searchable names, focused dialog | Previous term and precise return preserve context |
 | Recall | 56 cards; reveal; four ratings; due filter | Ratings create real due timestamps and persist |
 | Questions | 15 MCQ + 15 short answer; type/topic/difficulty/missed filters | Answers saved; rationale available; short answers explicitly self-assessed |
 | Comparisons | Five focused source-linked tables | Distinctions preserve measurement units |

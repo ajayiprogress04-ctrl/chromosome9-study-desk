@@ -52,3 +52,12 @@ Manuscript paragraphs, both substantive tables and extracted oral/poster text ar
 | 7 heat map | image8.png | §3.2.6 |
 
 All figures are unchanged manuscript assets. Explanatory tables and the concept map are newly authored learning tools. Speaker guides/questions are inferred teaching material, not recovered original speaker notes.
+
+## Learning-objective organisation (inferred, not six author-stated research objectives)
+
+- Objective 1: Explain the study purpose, design and biological sources. Lessons: rationale, design, provenance. Source: Introduction; §3.1.1; Table 1.
+- Objective 2: Explain processing, coverage, calling and annotation. Lessons: processing, alignment, calling, annotation. Source: §3.1.2–§3.1.4; §3.2.1.
+- Objective 3: Interpret annotation counts and gene assignments. Lessons: counts. Source: §3.2.2; Figures 1–2.
+- Objective 4: Compare coding effects and pooled position labels. Lessons: coding, positions. Source: §3.2.3–§3.2.4; Figures 3–4; Table 2.
+- Objective 5: Interpret overlap, clustering and heat-map evidence. Lessons: overlap, clustering, heatmap. Source: §3.2.5–§3.2.6; Figures 5–7.
+- Objective 6: Appraise limitations and defend the study conclusions. Lessons: limitations, conclusions. Source: Discussion; Conclusion.

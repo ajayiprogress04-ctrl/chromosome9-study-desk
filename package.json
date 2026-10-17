@@ -1,1 +1,14 @@
-{"name":"chromosome9-study-desk","version":"1.0.0","private":true,"description":"Personal source-linked chromosome 9 research learning app","scripts":{"build":"node scripts/build-content.cjs","test":"node tests/core.test.cjs && node tests/app-smoke.test.cjs && python3 scripts/verify_project.py","start":"python3 -m http.server 8000"},"engines":{"node":">=18"}}
+{
+  "name": "chromosome9-study-desk",
+  "version": "1.2.0",
+  "private": true,
+  "description": "Personal source-linked chromosome 9 research learning app",
+  "scripts": {
+    "build": "node scripts/build-content.cjs && node scripts/configure-sharing.cjs",
+    "test": "node tests/core.test.cjs && node tests/app-smoke.test.cjs && node tests/sharing.test.cjs && python3 scripts/verify_project.py",
+    "start": "python3 -m http.server 8000"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

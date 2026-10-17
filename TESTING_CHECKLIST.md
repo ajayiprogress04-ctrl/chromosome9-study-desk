@@ -36,3 +36,15 @@ See tests/verification-report.json and tests/TEST_RESULTS.md for actual results.
 - [ ] Do not call pooled coding labels hotspots or annotations validated biomarkers.
 - [ ] Check heat-map source processing before adding numeric interpretation.
 - [ ] Review any newly added external background against authoritative primary sources.
+
+## Version 1.1 manual checks
+
+- [ ] Confirm the darker Light, true-black Dark and deep-plum Colour palettes on the actual display.
+- [ ] Choose each objective in Overview and inside a lesson; confirm direct entry and the current objective/lesson indicator.
+- [ ] Click underlined terms inside explanations, original manuscript prose, tables and glossary definitions; verify accurate definitions and precise return.
+- [ ] Confirm image glossary keys and unchanged figure pixels.
+- [ ] Confirm uppercase ALL links correctly and ordinary “all” remains ordinary text.
+
+## Version 1.2 sharing update
+
+Added a 1200 × 630 PNG sharing card with the existing app icon/title; PNG favicon, apple-touch and home-screen icons; static Open Graph/Twitter Card metadata; and a deployment-time real-production-URL configuration script. The Vercel build command now runs content generation and metadata configuration. Existing learning features and storage ids are unchanged. Verify the actual deployed URL and platform previews after deployment; cached or protected pages may not display a card.

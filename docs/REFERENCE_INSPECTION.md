@@ -11,3 +11,5 @@ Actual files inspected: index.html, styles.css, colored-mode.css, about.js/about
 Progress Ajayi’s published portrait and approved profile wording were reused as requested. Original reference-specific dedication was not repurposed. Source font binaries are local; their Google Fonts upstream OFL licence copies are included. Local chromosome icon is new, not copied institutional branding. Scientific assets are extracted unchanged from the user-supplied manuscript; oral/poster previews come from the generated, inspected companion files.
 
 This is code/content inspection, not a browser visual audit or a claim that every live interaction was exercised. It does not establish any external product-name/domain uniqueness.
+
+Sharing implementation references inspected 18 October 2026: https://ogp.me/ and https://vercel.com/docs/environment-variables/system-environment-variables. Production metadata uses VERCEL_PROJECT_PRODUCTION_URL when provided, not an invented or preview deployment address.

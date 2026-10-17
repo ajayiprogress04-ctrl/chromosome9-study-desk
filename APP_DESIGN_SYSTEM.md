@@ -1,6 +1,6 @@
 # Design system
 
-Authority: App_Preferences.md (version 3, 17 October 2026), plus actual inspected reference source. The reference repository’s latest inspected commit was `81ebc624a2ae96248645c6cf7299b6ef90124b63`, “Upgrade 5”, timestamp 2026-10-16T15:07:19Z. The published and repository about.js files matched byte-for-byte during inspection.
+Authority: App_Preferences.md (version 5, 18 October 2026), plus actual inspected reference source. The reference repository’s latest inspected commit was `81ebc624a2ae96248645c6cf7299b6ef90124b63`, “Upgrade 5”, timestamp 2026-10-16T15:07:19Z. The published and repository about.js files matched byte-for-byte during inspection.
 
 ## Continuity
 
@@ -14,13 +14,13 @@ Authority: App_Preferences.md (version 3, 17 October 2026), plus actual inspecte
 
 | Role | Light | Dark | Colour |
 |---|---|---|---|
-| Background | #f6f3ee | #030405 | #200d20 |
-| Surface | #fffdf9 | #0c0f13 | #35152d |
-| Main text | #172535 | #faf8f5 | #fff7ec |
-| Secondary text | #4a5663 | #c2ccd6 | #edcfdc |
-| Accent text | #800c31 | #ff9eb8 | #ffc0d3 |
-| Action fill | #800c31 | #94113b | #841035 |
-| Focus | #8e3c00 | #ffdb7d | #ffe094 |
+| Background | #d6c1ad | #000000 | #0c0012 |
+| Surface | #efddca | #030207 | #20001c |
+| Main text | #100d16 | #fff8f2 | #fff5e8 |
+| Secondary text | #352033 | #e0ccd9 | #f2d2e1 |
+| Accent text | #590019 | #ffadca | #ffbad3 |
+| Action fill | #520018 | #690025 | #650020 |
+| Focus | #5a1400 | #ffda85 | #ffe18f |
 
 Source files: styles.css, index.html, app.js. Themes update all app controls through variables. Scientific source images keep their original colours on a neutral viewer background.
 
@@ -39,3 +39,11 @@ No separate app logo was supplied. A small original chromosome icon was created 
 ## Verification boundary
 
 Computed contrast is a static check, not a complete accessibility certification. Keyboard semantics and responsive breakpoint presence are checked statically/simulated. Actual layout, mobile drawer focus behavior, browser fullscreen/native sharing and cross-platform social preview need real-browser checks. CSS does not guarantee identical rendering across devices.
+
+## Version 1.1 changes
+
+Light now uses deeper warm tan surfaces with dark wine/navy/green text. Dark uses true black and near-black plum surfaces. Colour uses near-black plum and oxblood. Required contrast is checked for each theme. Glossary words use solid underlines throughout rendered prose, definitions, figures, tables and manuscript text. Native controls, headings and answer-choice buttons remain intact; image labels use the linked key below the original figure. Six numbered learning objectives govern the landing dropdown, class navigation and lesson indicators.
+
+## Version 1.2 sharing update
+
+Added a 1200 × 630 PNG sharing card with the existing app icon/title; PNG favicon, apple-touch and home-screen icons; static Open Graph/Twitter Card metadata; and a deployment-time real-production-URL configuration script. The Vercel build command now runs content generation and metadata configuration. Existing learning features and storage ids are unchanged. Verify the actual deployed URL and platform previews after deployment; cached or protected pages may not display a card.

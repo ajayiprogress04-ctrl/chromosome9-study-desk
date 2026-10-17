@@ -11,7 +11,8 @@
     "questions",
     "figures",
     "slides",
-    "relationships"
+    "relationships",
+    "objectives"
   ],
   "properties": {
     "version": {
@@ -155,6 +156,21 @@
         "items": {
           "type": "string"
         }
+      }
+    },
+    "objectives": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "number",
+          "group",
+          "title",
+          "lessons",
+          "source",
+          "support"
+        ]
       }
     }
   }

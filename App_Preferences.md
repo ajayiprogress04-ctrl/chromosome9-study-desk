@@ -1,6 +1,6 @@
 # My App Design Preferences
 
-Version 3 · Confirmed from the Meiosis app development conversation · 17 October 2026
+Version 5 · Confirmed from the Meiosis app development conversation · 17 October 2026
 
 ## How to use this brief
 
@@ -25,7 +25,7 @@ Prefer recognisable continuity over a generic template. Avoid oversized headings
 
 ## 2. Colours and readability
 
-I prefer much deeper, richer colours with strong contrast in ALL three themes: Light, Dark and Colour. Improving only the Colour theme is insufficient.
+I prefer much deeper, richer colours with strong contrast in ALL three themes: Light, Dark and Colour. Improving only the Colour theme is insufficient. Use visibly richer backgrounds, surfaces and action colours in each theme; a small accent-only change does not satisfy a request for deeper colours. Keep text bright on dark surfaces and very dark on light surfaces.
 
 - Light: very dark, clear text against readable lighter surfaces, with deep burgundy, navy, bronze and green accents.
 - Dark: near-black backgrounds with bright, readable text and visible control boundaries.
@@ -55,7 +55,7 @@ These are established simplification choices for Meiosis. For another app, do no
 
 - Use the familiar ☰ three-line button to collapse and expand the desktop left panel; remember the choice. On phones, use it to open the navigation drawer.
 - Categorise objectives under expandable class/module headings, rather than one long flat list. Meiosis uses Class 1 and Class 2.
-- Use a compact objective dropdown on the landing page and inside lessons. Group options by class and identify the current objective.
+- Use a compact objective dropdown on the landing page and inside lessons. Group options by class and identify the current objective. The primary design must be objective based: numbered learning objectives govern navigation and lesson sequences. A topic list alone is insufficient. Label objectives inferred from source material as learning objectives rather than inventing author-stated research objectives.
 - Choosing an objective opens its first relevant lesson immediately.
 - Show multiple lessons one after another, one lesson at a time, with Previous/Next and an indicator such as Lesson 1 of 2.
 - Clicking Next or Previous opens the destination at the TOP, even if previously visited.
@@ -82,7 +82,7 @@ Make additional details available separately:
 - A brief example only when useful and accurate.
 - Related terms and relevant source/lesson links.
 
-Make important terms, abbreviations and appropriate diagram labels clickable. Keep search convenient. Do not display every full definition while browsing term names. Explain uncertain or unavailable information honestly; do not manufacture definitions, etymologies or image interpretations.
+Underline and link every relevant scientific term, abbreviation and methodological phrase throughout readable learning content, not only a separate Useful terms list. Cover inflections and full forms with context-appropriate glossary entries. Use visible underlining, preserve readable text and avoid nested links, form fields, navigation controls and misleading common-word matches. Keep quiz answer options intact. Original raster labels must remain unchanged; provide a linked explanatory key below the image instead of pretending text inside an image is interactive. Make important terms, abbreviations and appropriate diagram labels clickable. Keep search convenient. Do not display every full definition while browsing term names. Explain uncertain or unavailable information honestly; do not manufacture definitions, etymologies or image interpretations.
 
 Provide both previous-term navigation and an explicit return to the originating lesson/diagram. Back must restore the previous position, not reopen a different page at the top. Preserve the underlying reading content where possible.
 
@@ -105,7 +105,7 @@ A PowerPoint image preview is not proof of a Word renderer. Implement and test t
 - Provide a clearly labelled User Guide and About the Developer, without dumping lengthy text on screen.
 - Use my actual approved developer biography, qualifications and portrait from the current reference or supplied profile. Do not replace it with a generic “creates useful tools” description or infer identity from unrelated account history.
 - The reference currently identifies Progress Ajayi. Recheck the current published profile before copying changing qualifications or status.
-- Use the supplied app logo in appropriate branding and social-sharing metadata.
+- Use the supplied app logo in appropriate branding and social-sharing metadata. Link sharing must include a dedicated raster PNG/JPEG preview containing the app icon/title, plus crawler-readable Open Graph metadata and appropriate card tags. Generate absolute image and canonical addresses at build/server time from the real production URL; do not rely on runtime JavaScript or a favicon alone. Keep PNG favicon/touch-icon variants. Test after deployment where possible, and account for access protection, cropping and cached previews without claiming universal display.
 - Share a clean, professional public production address, rather than a long preview/deployment address. Never invent domain availability or claim a domain was configured when it was not.
 - Sharing previews are controlled partly by each platform; do not guarantee universal logo display without testing.
 
@@ -128,6 +128,10 @@ Keep messages concise. Explain the result and the next essential action. Ask foc
 For every complaint, correction or preference I express about my apps, update this brief as part of that task without waiting for me to ask again. Record the reusable rule, amend the relevant section, and resolve the older conflicting rule. Do not treat an app-specific request as a universal rule unless that is clearly intended. Keep general defaults separate from decisions specific to one app. Preserve this document as the reusable source of truth, and include the latest copy with future project handovers.
 
 ### Revision notes
+
+- Version 5, 18 October 2026: sharing the app link should show its icon/title through dedicated social-preview artwork and static metadata, with real production URLs and deployment verification.
+
+- Version 4, 17 October 2026: confirmed substantially deeper palettes in all three themes, inline underlined glossary links throughout learning text, and numbered objective-based navigation with lessons grouped beneath objectives.
 
 - Version 3, 17 October 2026: added an End review action after practice questions, returning to the overview without clearing answers.
 

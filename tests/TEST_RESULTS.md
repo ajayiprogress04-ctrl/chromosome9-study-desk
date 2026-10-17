@@ -5,9 +5,9 @@ Executed 17 October 2026 in the supplied container.
 | Check | Actual result |
 |---|---|
 | JavaScript syntax | app.js and core.js parse successfully |
-| Core logic | 10 test groups passed |
-| Simulated DOM workflows | 13 test groups passed |
-| Static/source/asset checks | 263 passed, zero findings |
+| Core logic | 15 test groups passed |
+| Simulated DOM workflows | 16 test groups passed |
+| Static/source/asset checks | 327 passed, zero findings |
 | Three-theme computed contrast | Normal text/action pairs ≥ 4.5:1; focus/control boundaries ≥ 3:1 |
 | Original scientific images | All eight image files match DOCX package bytes |
 | Local font and preview assets | WOFF signatures, portrait and all oral/poster PNGs verified |
@@ -21,3 +21,11 @@ Simulated interface groups cover main routes, every lesson/figure/table, explici
 Source checks confirm original assets and structured-content consistency. They do not prove the biological validity of the original analysis or audit external papers. No original matrix or executable bioinformatics pipeline was supplied.
 
 The managed environment did not expose the supported browser-control capability; no alternate browser automation or preview server was used. Browser checklist items remain in TESTING_CHECKLIST.md.
+
+## Version 1.1 regression coverage
+
+Verified longest-phrase and inflected glossary links, acronym disambiguation (ALL versus ordinary “all”), idempotence/no nested controls, preservation of attributes/form fields, definition self-link exclusion, complete objective lesson assignment, objective-first landing and sidebar navigation, direct objective-to-first-lesson routing and whole-objective practice/card filters. All six objectives cover exactly the existing 15 lessons. State ids and storage key remain unchanged. The new theme contrast results are in verification-report.json. Real-browser visual/native checks remain outstanding.
+
+## Version 1.2 sharing checks
+
+Verified PNG dimensions and signatures, all icon asset sizes, static image/alt metadata, generated absolute image/canonical URLs, clean production config, invalid protocol/credential rejection, repeated-domain updates without duplicate tags and unchanged body content. The sharing card was inspected as a local rendered image. No live social-platform preview or deployment was tested.

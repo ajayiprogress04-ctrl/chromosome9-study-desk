@@ -31,3 +31,7 @@ Support classes distinguish faithful paraphrases, explanatory interpretations, i
 core.js validates imported state and scientific links. Maximum backup upload size is 3 MB. Notes and responses are length-limited by import validation and escaped on output. No submitted text is evaluated as HTML or code. Unknown state versions are rejected. Unreadable on-device state is preserved for raw recovery export; an intentional valid import replaces it.
 
 Schema checks validate structure/references, not scientific truth. Scientific content still requires comparison against supplied documents. A draft JSON Schema is also supplied in content/schema.json for tooling; the executable checks are in core.js and scripts/verify_project.py.
+
+## Objective and linking additions in 1.1
+
+objectives[] contains id, number, group/class, title, lessons[], source and support. Every topic belongs to exactly one objective. Glossary terms have aliases[] for whole-word, longest-phrase inline linking. Existing ids and localStorage version remain unchanged.

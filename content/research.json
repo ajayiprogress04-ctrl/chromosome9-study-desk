@@ -33,7 +33,8 @@
       ],
       "poster": "Introduction and Objective; Results and Discussion",
       "steps": [],
-      "support": "Faithful paraphrase; plain-language explanations are educational interpretations."
+      "support": "Faithful paraphrase; plain-language explanations are educational interpretations.",
+      "objective": "o1"
     },
     {
       "id": "design",
@@ -62,7 +63,8 @@
       ],
       "poster": "Materials and Methods",
       "steps": [],
-      "support": "Faithful paraphrase; plain-language explanations are educational interpretations."
+      "support": "Faithful paraphrase; plain-language explanations are educational interpretations.",
+      "objective": "o1"
     },
     {
       "id": "provenance",
@@ -97,7 +99,8 @@
         "Check whether runs share a BioSample.",
         "Interpret differences within that context."
       ],
-      "support": "Faithful paraphrase; plain-language explanations are educational interpretations."
+      "support": "Faithful paraphrase; plain-language explanations are educational interpretations.",
+      "objective": "o1"
     },
     {
       "id": "processing",
@@ -132,7 +135,8 @@
         "Align reads and assembly-derived sequences to chromosome 9.",
         "Transfer reference annotations and examine coverage."
       ],
-      "support": "Faithful paraphrase; plain-language explanations are educational interpretations."
+      "support": "Faithful paraphrase; plain-language explanations are educational interpretations.",
+      "objective": "o2"
     },
     {
       "id": "alignment",
@@ -165,7 +169,8 @@
         "Separately ask how much reference was observed.",
         "Restrict absence claims to adequately observed regions."
       ],
-      "support": "Faithful paraphrase; plain-language explanations are educational interpretations."
+      "support": "Faithful paraphrase; plain-language explanations are educational interpretations.",
+      "objective": "o2"
     },
     {
       "id": "calling",
@@ -195,7 +200,8 @@
       ],
       "poster": "Materials and Methods",
       "steps": [],
-      "support": "Faithful paraphrase; plain-language explanations are educational interpretations."
+      "support": "Faithful paraphrase; plain-language explanations are educational interpretations.",
+      "objective": "o2"
     },
     {
       "id": "annotation",
@@ -225,7 +231,8 @@
       ],
       "poster": "Results and Discussion",
       "steps": [],
-      "support": "Faithful paraphrase; plain-language explanations are educational interpretations."
+      "support": "Faithful paraphrase; plain-language explanations are educational interpretations.",
+      "objective": "o2"
     },
     {
       "id": "counts",
@@ -254,7 +261,8 @@
       ],
       "poster": "Results and Discussion",
       "steps": [],
-      "support": "Faithful paraphrase; plain-language explanations are educational interpretations."
+      "support": "Faithful paraphrase; plain-language explanations are educational interpretations.",
+      "objective": "o3"
     },
     {
       "id": "coding",
@@ -283,7 +291,8 @@
       ],
       "poster": "Results and Discussion",
       "steps": [],
-      "support": "Faithful paraphrase; plain-language explanations are educational interpretations."
+      "support": "Faithful paraphrase; plain-language explanations are educational interpretations.",
+      "objective": "o4"
     },
     {
       "id": "positions",
@@ -312,7 +321,8 @@
       ],
       "poster": "Not individually displayed",
       "steps": [],
-      "support": "Faithful paraphrase; plain-language explanations are educational interpretations."
+      "support": "Faithful paraphrase; plain-language explanations are educational interpretations.",
+      "objective": "o4"
     },
     {
       "id": "overlap",
@@ -341,7 +351,8 @@
       ],
       "poster": "Results and Discussion",
       "steps": [],
-      "support": "Faithful paraphrase; plain-language explanations are educational interpretations."
+      "support": "Faithful paraphrase; plain-language explanations are educational interpretations.",
+      "objective": "o5"
     },
     {
       "id": "clustering",
@@ -370,7 +381,8 @@
       ],
       "poster": "Results and Discussion",
       "steps": [],
-      "support": "Faithful paraphrase; plain-language explanations are educational interpretations."
+      "support": "Faithful paraphrase; plain-language explanations are educational interpretations.",
+      "objective": "o5"
     },
     {
       "id": "heatmap",
@@ -399,7 +411,8 @@
       ],
       "poster": "Clustering summarized; heat map not displayed",
       "steps": [],
-      "support": "Faithful paraphrase; plain-language explanations are educational interpretations."
+      "support": "Faithful paraphrase; plain-language explanations are educational interpretations.",
+      "objective": "o5"
     },
     {
       "id": "limitations",
@@ -428,7 +441,8 @@
       ],
       "poster": "Conclusion; Materials and Methods",
       "steps": [],
-      "support": "Faithful paraphrase; plain-language explanations are educational interpretations."
+      "support": "Faithful paraphrase; plain-language explanations are educational interpretations.",
+      "objective": "o6"
     },
     {
       "id": "conclusions",
@@ -456,7 +470,8 @@
       ],
       "poster": "Conclusion",
       "steps": [],
-      "support": "Faithful paraphrase; plain-language explanations are educational interpretations."
+      "support": "Faithful paraphrase; plain-language explanations are educational interpretations.",
+      "objective": "o6"
     }
   ],
   "terms": [
@@ -475,7 +490,11 @@
       ],
       "topic": "rationale",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "chromosome 9",
+        "chromosome-focused"
+      ]
     },
     {
       "id": "pax5",
@@ -492,7 +511,10 @@
       ],
       "topic": "rationale",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "PAX5"
+      ]
     },
     {
       "id": "annotation",
@@ -509,7 +531,15 @@
       ],
       "topic": "annotation",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "annotation record",
+        "annotation records",
+        "variant annotation record",
+        "variant annotation records",
+        "annotations",
+        "annotation"
+      ]
     },
     {
       "id": "allele",
@@ -526,7 +556,12 @@
       ],
       "topic": "annotation",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "allele",
+        "alleles",
+        "allele-level"
+      ]
     },
     {
       "id": "run",
@@ -543,7 +578,13 @@
       ],
       "topic": "design",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "sequencing run",
+        "sequencing runs",
+        "run-level",
+        "runs"
+      ]
     },
     {
       "id": "biosample",
@@ -560,7 +601,13 @@
       ],
       "topic": "provenance",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "BioSample",
+        "BioSamples",
+        "biological source",
+        "biological sources"
+      ]
     },
     {
       "id": "reh",
@@ -577,7 +624,10 @@
       ],
       "topic": "provenance",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "REH"
+      ]
     },
     {
       "id": "replicate",
@@ -594,7 +644,14 @@
       ],
       "topic": "design",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "biological replicate",
+        "biological replicates",
+        "biological replication",
+        "independent samples",
+        "replication"
+      ]
     },
     {
       "id": "library",
@@ -611,7 +668,14 @@
       ],
       "topic": "provenance",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "sequencing library",
+        "sequencing libraries",
+        "library design",
+        "library designs",
+        "libraries"
+      ]
     },
     {
       "id": "read",
@@ -628,7 +692,14 @@
       ],
       "topic": "processing",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "sequence read",
+        "sequence reads",
+        "read quality",
+        "read length",
+        "reads"
+      ]
     },
     {
       "id": "q30",
@@ -645,7 +716,11 @@
       ],
       "topic": "processing",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "Q30",
+        "Phred quality score"
+      ]
     },
     {
       "id": "contig",
@@ -662,7 +737,11 @@
       ],
       "topic": "processing",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "contig",
+        "contigs"
+      ]
     },
     {
       "id": "reference",
@@ -679,7 +758,14 @@
       ],
       "topic": "alignment",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "reference sequence",
+        "reference sequences",
+        "reference genome",
+        "GRCh38.p14",
+        "NC_000009.12"
+      ]
     },
     {
       "id": "identity",
@@ -696,7 +782,11 @@
       ],
       "topic": "alignment",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "pairwise identity",
+        "identity"
+      ]
     },
     {
       "id": "coverage",
@@ -713,7 +803,13 @@
       ],
       "topic": "alignment",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "reference coverage",
+        "chromosome coverage",
+        "coverage",
+        "sparse coverage"
+      ]
     },
     {
       "id": "callable",
@@ -730,7 +826,12 @@
       ],
       "topic": "limitations",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "callable region",
+        "callable regions",
+        "callable coverage"
+      ]
     },
     {
       "id": "variantfrequency",
@@ -747,7 +848,12 @@
       ],
       "topic": "calling",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "variant frequency",
+        "variant-frequency setting",
+        "variant-frequency"
+      ]
     },
     {
       "id": "strandbias",
@@ -764,7 +870,11 @@
       ],
       "topic": "calling",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "strand bias",
+        "strand-bias"
+      ]
     },
     {
       "id": "pvalue",
@@ -781,7 +891,13 @@
       ],
       "topic": "calling",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "P-value",
+        "P-values",
+        "p-value",
+        "p-values"
+      ]
     },
     {
       "id": "descriptive",
@@ -798,7 +914,12 @@
       ],
       "topic": "design",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "descriptive analysis",
+        "descriptive comparisons",
+        "descriptive"
+      ]
     },
     {
       "id": "somatic",
@@ -815,7 +936,15 @@
       ],
       "topic": "annotation",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "somatic variant",
+        "somatic variants",
+        "somatic mutation",
+        "somatic mutations",
+        "somatic origin",
+        "somatic"
+      ]
     },
     {
       "id": "transcript",
@@ -832,7 +961,12 @@
       ],
       "topic": "positions",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "transcript",
+        "transcripts",
+        "transcript-level"
+      ]
     },
     {
       "id": "median",
@@ -849,7 +983,11 @@
       ],
       "topic": "counts",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "median",
+        "medians"
+      ]
     },
     {
       "id": "substitution",
@@ -866,7 +1004,11 @@
       ],
       "topic": "coding",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "substitution",
+        "substitutions"
+      ]
     },
     {
       "id": "truncation",
@@ -883,7 +1025,11 @@
       ],
       "topic": "coding",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "truncation",
+        "truncations"
+      ]
     },
     {
       "id": "frameshift",
@@ -900,7 +1046,11 @@
       ],
       "topic": "coding",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "frameshift",
+        "frameshifts"
+      ]
     },
     {
       "id": "codon",
@@ -917,7 +1067,14 @@
       ],
       "topic": "positions",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "codon",
+        "codons",
+        "codon label",
+        "codon labels",
+        "codon-number"
+      ]
     },
     {
       "id": "hotspot",
@@ -934,7 +1091,13 @@
       ],
       "topic": "positions",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "hotspot",
+        "hotspots",
+        "mutational hotspots",
+        "mutation hotspots"
+      ]
     },
     {
       "id": "set",
@@ -951,7 +1114,17 @@
       ],
       "topic": "overlap",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "gene set",
+        "gene sets",
+        "gene-label overlap",
+        "annotation set",
+        "annotation sets",
+        "annotation-set overlap",
+        "set overlap",
+        "group-restricted"
+      ]
     },
     {
       "id": "dendrogram",
@@ -968,7 +1141,13 @@
       ],
       "topic": "clustering",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "dendrogram",
+        "dendrograms",
+        "branch height",
+        "branch heights"
+      ]
     },
     {
       "id": "correlation",
@@ -985,7 +1164,10 @@
       ],
       "topic": "clustering",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "correlation distance"
+      ]
     },
     {
       "id": "linkage",
@@ -1002,7 +1184,10 @@
       ],
       "topic": "clustering",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "average linkage"
+      ]
     },
     {
       "id": "heatmap",
@@ -1019,7 +1204,13 @@
       ],
       "topic": "heatmap",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "heat map",
+        "heat maps",
+        "heatmap",
+        "heat-map"
+      ]
     },
     {
       "id": "scaling",
@@ -1036,7 +1227,11 @@
       ],
       "topic": "heatmap",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "row-wise scaling",
+        "scaling"
+      ]
     },
     {
       "id": "imputation",
@@ -1053,7 +1248,11 @@
       ],
       "topic": "heatmap",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "imputation",
+        "missing-value imputation"
+      ]
     },
     {
       "id": "biomarker",
@@ -1070,7 +1269,13 @@
       ],
       "topic": "conclusions",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "biomarker",
+        "biomarkers",
+        "clinical biomarker",
+        "clinical biomarkers"
+      ]
     },
     {
       "id": "aml",
@@ -1087,7 +1292,11 @@
       ],
       "topic": "provenance",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "AML",
+        "acute myeloid leukemia"
+      ]
     },
     {
       "id": "all",
@@ -1104,7 +1313,11 @@
       ],
       "topic": "provenance",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "ALL",
+        "acute lymphoblastic leukemia"
+      ]
     },
     {
       "id": "sra",
@@ -1121,7 +1334,12 @@
       ],
       "topic": "processing",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "SRA",
+        "Sequence Read Archive",
+        "SRA Toolkit"
+      ]
     },
     {
       "id": "ena",
@@ -1138,7 +1356,11 @@
       ],
       "topic": "processing",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "ENA",
+        "European Nucleotide Archive"
+      ]
     },
     {
       "id": "geneious",
@@ -1155,7 +1377,1327 @@
       ],
       "topic": "processing",
       "origin": "The manuscript does not provide a historical naming explanation.",
-      "support": "Educational definition in the manuscript context, not a verbatim source quotation."
+      "support": "Educational definition in the manuscript context, not a verbatim source quotation.",
+      "aliases": [
+        "Geneious",
+        "Geneious Mapper"
+      ]
+    },
+    {
+      "id": "sequencing",
+      "term": "Sequencing",
+      "full": "",
+      "plain": "Reading DNA sequence information using a sequencing platform.",
+      "why": "Different sequencing platforms and library designs can recover different observations.",
+      "mechanism": "The six study runs use several long-read and short-read platforms.",
+      "remember": "Different sequencing platforms and library designs can recover different observations.",
+      "source": "§3.1.1; Table 1",
+      "related": [
+        "read",
+        "library"
+      ],
+      "topic": "provenance",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "sequencing",
+        "long-read",
+        "short-read"
+      ]
+    },
+    {
+      "id": "dataset",
+      "term": "Dataset",
+      "full": "",
+      "plain": "A collection of data used in an analysis.",
+      "why": "This collection contains runs with unequal biological and technical provenance.",
+      "mechanism": "A dataset label does not establish independent biological replication.",
+      "remember": "This collection contains runs with unequal biological and technical provenance.",
+      "source": "§3.1.1",
+      "related": [
+        "run",
+        "biosample"
+      ],
+      "topic": "design",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "dataset",
+        "datasets"
+      ]
+    },
+    {
+      "id": "dna",
+      "term": "DNA",
+      "full": "",
+      "plain": "The sequence material analyzed in the included leukemia-associated inputs.",
+      "why": "Sequence differences need reference and biological context before interpretation.",
+      "mechanism": "The study compares DNA sequencing annotations, not a direct measurement of every downstream protein effect.",
+      "remember": "Sequence differences need reference and biological context before interpretation.",
+      "source": "§3.1.1–§3.1.3",
+      "related": [
+        "read",
+        "allele"
+      ],
+      "topic": "rationale",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "DNA"
+      ]
+    },
+    {
+      "id": "genome",
+      "term": "Genome",
+      "full": "",
+      "plain": "The genetic sequence context from which chromosome 9 is selected.",
+      "why": "A chromosome-focused comparison does not establish equivalent observation of the rest of the genome.",
+      "mechanism": "The analysis aligns inputs to one chromosome reference.",
+      "remember": "A chromosome-focused comparison does not establish equivalent observation of the rest of the genome.",
+      "source": "Introduction; §3.1.2",
+      "related": [
+        "chromosome9",
+        "reference"
+      ],
+      "topic": "rationale",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "genome",
+        "genomic"
+      ]
+    },
+    {
+      "id": "variant",
+      "term": "Sequence variant",
+      "full": "",
+      "plain": "A sequence difference described relative to a reference.",
+      "why": "A difference is not automatically somatic, pathogenic or clinically useful.",
+      "mechanism": "Identify the reference and alternate allele, coordinate, gene and transcript before interpreting a particular alteration.",
+      "remember": "A difference is not automatically somatic, pathogenic or clinically useful.",
+      "source": "§3.1.3; Discussion",
+      "related": [
+        "allele",
+        "somatic",
+        "annotation"
+      ],
+      "topic": "annotation",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "variant",
+        "variants",
+        "sequence difference",
+        "sequence differences"
+      ]
+    },
+    {
+      "id": "mutation",
+      "term": "Mutation",
+      "full": "",
+      "plain": "A sequence alteration; some original figure labels use this term broadly.",
+      "why": "The revised manuscript describes annotation records, not a fully validated set of independent somatic mutations.",
+      "mechanism": "Read the embedded legacy figure wording alongside the manuscript definition of the counted entries.",
+      "remember": "The revised manuscript describes annotation records, not a fully validated set of independent somatic mutations.",
+      "source": "§3.1.3; Figures 1–7",
+      "related": [
+        "variant",
+        "annotation"
+      ],
+      "topic": "annotation",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "mutation",
+        "mutations",
+        "mutation burden"
+      ]
+    },
+    {
+      "id": "gene",
+      "term": "Gene",
+      "full": "",
+      "plain": "An annotated genomic feature to which a record may be assigned.",
+      "why": "A gene assignment does not establish a particular pathogenic allele or fusion.",
+      "mechanism": "Reference annotations connect an aligned difference to a gene context.",
+      "remember": "A gene assignment does not establish a particular pathogenic allele or fusion.",
+      "source": "§3.1.3; §3.2.2",
+      "related": [
+        "annotation",
+        "allele",
+        "transcript"
+      ],
+      "topic": "annotation",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "gene",
+        "genes",
+        "gene assignment",
+        "gene assignments",
+        "gene label",
+        "gene labels",
+        "gene features"
+      ]
+    },
+    {
+      "id": "rna",
+      "term": "RNA",
+      "full": "",
+      "plain": "A molecular sequence context represented by RNA feature annotations in the reference.",
+      "why": "Reference RNA features do not establish measured expression in these inputs.",
+      "mechanism": "The reference layer includes messenger RNA and noncoding RNA features.",
+      "remember": "Reference RNA features do not establish measured expression in these inputs.",
+      "source": "§3.2.1",
+      "related": [
+        "transcript",
+        "annotation"
+      ],
+      "topic": "annotation",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "RNA"
+      ]
+    },
+    {
+      "id": "mrna",
+      "term": "Messenger RNA",
+      "full": "",
+      "plain": "An RNA feature category in the reference annotation layer.",
+      "why": "The reported 5,505 features are not expression measurements.",
+      "mechanism": "Reference-derived RNA features provide annotation context, not evidence of transcript abundance.",
+      "remember": "The reported 5,505 features are not expression measurements.",
+      "source": "§3.2.1",
+      "related": [
+        "rna",
+        "transcript"
+      ],
+      "topic": "annotation",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "mRNA",
+        "messenger RNA"
+      ]
+    },
+    {
+      "id": "ncrna",
+      "term": "Noncoding RNA",
+      "full": "",
+      "plain": "A reference RNA feature category not described as protein-coding.",
+      "why": "The 1,636 reference features are context, not altered loci or measured expression.",
+      "mechanism": "Keep reference feature counts separate from study annotation-record counts.",
+      "remember": "The 1,636 reference features are context, not altered loci or measured expression.",
+      "source": "§3.2.1",
+      "related": [
+        "rna",
+        "annotation"
+      ],
+      "topic": "annotation",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "noncoding RNA",
+        "noncoding RNA features"
+      ]
+    },
+    {
+      "id": "cds",
+      "term": "Coding sequence",
+      "full": "",
+      "plain": "The sequence context used to assign codon positions and predicted protein effects.",
+      "why": "A pooled position label needs its own gene and transcript context.",
+      "mechanism": "The reference has 5,514 coding-sequence features; these are not 5,514 validated affected genes.",
+      "remember": "A pooled position label needs its own gene and transcript context.",
+      "source": "§3.1.3; §3.2.1; §3.2.4",
+      "related": [
+        "codon",
+        "transcript"
+      ],
+      "topic": "positions",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "coding sequence",
+        "coding sequences",
+        "coding-sequence",
+        "coding-sequence-position",
+        "coding position",
+        "coding positions",
+        "CDS"
+      ]
+    },
+    {
+      "id": "protein",
+      "term": "Protein",
+      "full": "",
+      "plain": "The molecular product context for predicted amino-acid effects.",
+      "why": "A predicted protein annotation is not an experimentally demonstrated functional change.",
+      "mechanism": "The study summarizes substitution, truncation and frameshift categories.",
+      "remember": "A predicted protein annotation is not an experimentally demonstrated functional change.",
+      "source": "§3.2.3",
+      "related": [
+        "substitution",
+        "truncation",
+        "frameshift"
+      ],
+      "topic": "coding",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "protein",
+        "proteins",
+        "protein effect",
+        "protein effects",
+        "protein-effect"
+      ]
+    },
+    {
+      "id": "aminoacid",
+      "term": "Amino acid",
+      "full": "",
+      "plain": "A residue category used in the protein-change summaries.",
+      "why": "A pooled residue change does not specify a unique affected protein.",
+      "mechanism": "Proline-to-leucine and glycine-to-arginine lead the ALL and AML lists respectively.",
+      "remember": "A pooled residue change does not specify a unique affected protein.",
+      "source": "§3.2.4",
+      "related": [
+        "protein",
+        "substitution"
+      ],
+      "topic": "coding",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "amino acid",
+        "amino acids",
+        "amino-acid",
+        "amino-acid change",
+        "amino-acid changes"
+      ]
+    },
+    {
+      "id": "transition",
+      "term": "Transition",
+      "full": "",
+      "plain": "A nucleotide substitution within the same base class: purine-to-purine or pyrimidine-to-pyrimidine.",
+      "why": "The study reports transition labels descriptively; this alone does not establish a mutational mechanism.",
+      "mechanism": "Keep this nucleotide-level class separate from a predicted protein-effect category.",
+      "remember": "The study reports transition labels descriptively; this alone does not establish a mutational mechanism.",
+      "source": "§3.2.3",
+      "related": [
+        "transversion",
+        "variant"
+      ],
+      "topic": "coding",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "transition",
+        "transitions"
+      ]
+    },
+    {
+      "id": "transversion",
+      "term": "Transversion",
+      "full": "",
+      "plain": "A nucleotide substitution between purine and pyrimidine base classes.",
+      "why": "A label distribution is not a statistically established enrichment.",
+      "mechanism": "Interpret category frequencies only with consistent definitions and allele-level information.",
+      "remember": "A label distribution is not a statistically established enrichment.",
+      "source": "§3.2.3; Discussion",
+      "related": [
+        "transition",
+        "variant"
+      ],
+      "topic": "coding",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "transversion",
+        "transversions"
+      ]
+    },
+    {
+      "id": "insertion",
+      "term": "Insertion",
+      "full": "",
+      "plain": "Addition of sequence relative to the chosen reference.",
+      "why": "The consequence depends on where the change occurs and its coding context.",
+      "mechanism": "The manuscript reports insertion labels as a smaller part of the polymorphism-class summary.",
+      "remember": "The consequence depends on where the change occurs and its coding context.",
+      "source": "§3.2.3",
+      "related": [
+        "deletion",
+        "frameshift"
+      ],
+      "topic": "coding",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "insertion",
+        "insertions"
+      ]
+    },
+    {
+      "id": "deletion",
+      "term": "Deletion",
+      "full": "",
+      "plain": "Loss of sequence relative to the chosen reference.",
+      "why": "A reference difference does not establish its clinical significance.",
+      "mechanism": "The manuscript says deletion categories were not prominent in the summarized classes.",
+      "remember": "A reference difference does not establish its clinical significance.",
+      "source": "§3.2.3",
+      "related": [
+        "insertion",
+        "variant"
+      ],
+      "topic": "coding",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "deletion",
+        "deletions"
+      ]
+    },
+    {
+      "id": "tandemrepeat",
+      "term": "Tandem repeat",
+      "full": "",
+      "plain": "Adjacent repetitions of a sequence pattern.",
+      "why": "A repeat-category annotation is not automatically a disease mechanism.",
+      "mechanism": "Tandem-repeat categories were not prominent in this descriptive summary.",
+      "remember": "A repeat-category annotation is not automatically a disease mechanism.",
+      "source": "§3.2.3",
+      "related": [
+        "variant",
+        "annotation"
+      ],
+      "topic": "coding",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "tandem repeat",
+        "tandem repeats",
+        "tandem-repeat"
+      ]
+    },
+    {
+      "id": "polymorphism",
+      "term": "Polymorphism class",
+      "full": "",
+      "plain": "The sequence-change label used in a descriptive annotation summary.",
+      "why": "Software category names need consistent definitions before mechanistic interpretation.",
+      "mechanism": "The manuscript treats these as annotation labels and separates them from predicted protein consequences.",
+      "remember": "Software category names need consistent definitions before mechanistic interpretation.",
+      "source": "§3.2.3; Discussion",
+      "related": [
+        "transition",
+        "transversion",
+        "substitution"
+      ],
+      "topic": "coding",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "polymorphism",
+        "polymorphism class",
+        "polymorphism classes",
+        "polymorphism-class"
+      ]
+    },
+    {
+      "id": "pathogenic",
+      "term": "Pathogenicity",
+      "full": "",
+      "plain": "Whether a specified alteration has evidence of a disease-causing effect.",
+      "why": "A known gene label or predicted effect does not establish pathogenicity.",
+      "mechanism": "Specific allele context and suitable validation are needed beyond the summaries here.",
+      "remember": "A known gene label or predicted effect does not establish pathogenicity.",
+      "source": "§3.2.2; Discussion",
+      "related": [
+        "allele",
+        "biomarker"
+      ],
+      "topic": "annotation",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "pathogenicity",
+        "pathogenic",
+        "disease-causing"
+      ]
+    },
+    {
+      "id": "fusion",
+      "term": "Gene fusion",
+      "full": "",
+      "plain": "A rearrangement joining sequence from different gene contexts.",
+      "why": "A NUP214 gene assignment alone does not establish a fusion.",
+      "mechanism": "The manuscript explicitly distinguishes gene assignments from identified or validated fusions.",
+      "remember": "A NUP214 gene assignment alone does not establish a fusion.",
+      "source": "§3.2.2; Discussion",
+      "related": [
+        "gene",
+        "allele"
+      ],
+      "topic": "annotation",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "fusion",
+        "fusions",
+        "gene fusion"
+      ]
+    },
+    {
+      "id": "germline",
+      "term": "Germline variation",
+      "full": "",
+      "plain": "Inherited sequence variation, distinct from alterations established as somatic.",
+      "why": "Tumor-only analysis must distinguish inherited differences and artifacts.",
+      "mechanism": "The study lacks a matched normal comparison and does not establish somatic origin for every record.",
+      "remember": "Tumor-only analysis must distinguish inherited differences and artifacts.",
+      "source": "Background; Discussion",
+      "related": [
+        "somatic",
+        "matchednormal"
+      ],
+      "topic": "limitations",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "germline",
+        "germline variation"
+      ]
+    },
+    {
+      "id": "matchednormal",
+      "term": "Matched normal comparison",
+      "full": "",
+      "plain": "A corresponding normal-source comparison used to help distinguish somatic changes from other variation.",
+      "why": "No matched normal comparison is reported here.",
+      "mechanism": "The study discusses this absence as a limit on somatic interpretation.",
+      "remember": "No matched normal comparison is reported here.",
+      "source": "Discussion",
+      "related": [
+        "somatic",
+        "germline"
+      ],
+      "topic": "limitations",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "matched normal",
+        "matched normal comparison"
+      ]
+    },
+    {
+      "id": "validation",
+      "term": "Validation",
+      "full": "",
+      "plain": "Additional evidence checking a claim or candidate alteration.",
+      "why": "Computational annotation is not functional or clinical validation.",
+      "mechanism": "Independent biological, allele-level, functional and clinical evidence answer different follow-up questions.",
+      "remember": "Computational annotation is not functional or clinical validation.",
+      "source": "Discussion; Conclusion",
+      "related": [
+        "biomarker",
+        "allele"
+      ],
+      "topic": "limitations",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "validation",
+        "functional validation",
+        "clinical validation",
+        "validated"
+      ]
+    },
+    {
+      "id": "normalization",
+      "term": "Allele normalization",
+      "full": "",
+      "plain": "Expressing alterations consistently so equivalent representations can be compared.",
+      "why": "Representation differences can otherwise be mistaken for distinct or recurrent alterations.",
+      "mechanism": "The manuscript recommends normalization with gene and transcript context before recurrence claims.",
+      "remember": "Representation differences can otherwise be mistaken for distinct or recurrent alterations.",
+      "source": "Discussion",
+      "related": [
+        "allele",
+        "transcript"
+      ],
+      "topic": "positions",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "normalization",
+        "allele normalization",
+        "normalized"
+      ]
+    },
+    {
+      "id": "matrix",
+      "term": "Feature matrix",
+      "full": "",
+      "plain": "The run-by-gene representation used for clustering and the heat map.",
+      "why": "Its preprocessing influences what similarity means.",
+      "mechanism": "Rows are runs and columns are genes; scaling and imputation precede interpretation.",
+      "remember": "Its preprocessing influences what similarity means.",
+      "source": "§3.1.4; Figure 7",
+      "related": [
+        "scaling",
+        "imputation",
+        "heatmap"
+      ],
+      "topic": "heatmap",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "matrix",
+        "feature matrix",
+        "feature matrices",
+        "run-by-gene",
+        "matrices"
+      ]
+    },
+    {
+      "id": "clustering",
+      "term": "Hierarchical clustering",
+      "full": "",
+      "plain": "Grouping profiles through a sequence of similarity-based merges.",
+      "why": "The tree is not a diagnostic classification or a significance test.",
+      "mechanism": "The reported workflow uses correlation distance and average linkage.",
+      "remember": "The tree is not a diagnostic classification or a significance test.",
+      "source": "§3.1.4; §3.2.6",
+      "related": [
+        "dendrogram",
+        "correlation",
+        "linkage"
+      ],
+      "topic": "clustering",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "hierarchical clustering",
+        "clustering"
+      ]
+    },
+    {
+      "id": "variance",
+      "term": "Unit-variance scaling",
+      "full": "",
+      "plain": "A transformation intended to make the variance of each processed row comparable under the stated scaling convention.",
+      "why": "Transformed values should not be read as raw counts.",
+      "mechanism": "The manuscript reports row-wise unit-variance scaling but not the complete conversion to the displayed 0–1 scale.",
+      "remember": "Transformed values should not be read as raw counts.",
+      "source": "§3.1.4; Figure 7",
+      "related": [
+        "scaling",
+        "matrix"
+      ],
+      "topic": "heatmap",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "unit-variance scaling",
+        "unit-variance"
+      ]
+    },
+    {
+      "id": "statistical",
+      "term": "Statistical significance",
+      "full": "",
+      "plain": "A result of a defined inferential test under its assumptions.",
+      "why": "No between-group statistical significance is estimated in this study.",
+      "mechanism": "Variant-calling P-values are filters, not tests of AML versus ALL differences.",
+      "remember": "No between-group statistical significance is estimated in this study.",
+      "source": "§3.1.3–§3.1.4",
+      "related": [
+        "pvalue",
+        "descriptive"
+      ],
+      "topic": "calling",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "statistical significance",
+        "statistically significant",
+        "significance test",
+        "significance testing"
+      ]
+    },
+    {
+      "id": "prevalence",
+      "term": "Prevalence",
+      "full": "",
+      "plain": "The proportion of a specified population with a defined feature.",
+      "why": "This run-level study does not estimate patient mutation prevalence.",
+      "mechanism": "Repeated measurements of REH cannot be treated as independent patients to construct a prevalence estimate.",
+      "remember": "This run-level study does not estimate patient mutation prevalence.",
+      "source": "§3.1.4",
+      "related": [
+        "replicate",
+        "run"
+      ],
+      "topic": "design",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "prevalence",
+        "patient-level mutation prevalence"
+      ]
+    },
+    {
+      "id": "mean",
+      "term": "Mean",
+      "full": "",
+      "plain": "An arithmetic average of specified observations.",
+      "why": "It is different from the median and needs its measurement unit.",
+      "mechanism": "The manuscript reports mean ungapped sequence length separately from group medians of annotation-record counts.",
+      "remember": "It is different from the median and needs its measurement unit.",
+      "source": "§3.2.1–§3.2.2",
+      "related": [
+        "median"
+      ],
+      "topic": "counts",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "arithmetic mean",
+        "mean ungapped sequence length",
+        "mean sequence length"
+      ]
+    },
+    {
+      "id": "bp",
+      "term": "Base pair",
+      "full": "",
+      "plain": "A sequence-length unit used in the reported processing and alignment summaries.",
+      "why": "Read length, contig length and coverage are different measurements.",
+      "mechanism": "The methods give a minimum read length of 50 base pairs and retained contigs of at least 500 base pairs.",
+      "remember": "Read length, contig length and coverage are different measurements.",
+      "source": "§3.1.2",
+      "related": [
+        "read",
+        "contig"
+      ],
+      "topic": "processing",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "base pair",
+        "base pairs",
+        "bp"
+      ]
+    },
+    {
+      "id": "adapters",
+      "term": "Sequencing adapter",
+      "full": "",
+      "plain": "Library-preparation sequence that is removed during trimming.",
+      "why": "Residual preparation sequences can interfere with downstream analysis.",
+      "mechanism": "The manuscript reports adapter and low-quality sequence trimming with Trimmomatic.",
+      "remember": "Residual preparation sequences can interfere with downstream analysis.",
+      "source": "§3.1.2",
+      "related": [
+        "library",
+        "read"
+      ],
+      "topic": "processing",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "adapter",
+        "adapters"
+      ]
+    },
+    {
+      "id": "assembly",
+      "term": "Sequence assembly",
+      "full": "",
+      "plain": "Combining sequence observations into assembled sequences such as contigs.",
+      "why": "Assembly-derived input is not the same as complete chromosome representation.",
+      "mechanism": "SPAdes assembly and QUAST assessment are reported before Geneious alignment.",
+      "remember": "Assembly-derived input is not the same as complete chromosome representation.",
+      "source": "§3.1.2",
+      "related": [
+        "contig",
+        "alignmentterm"
+      ],
+      "topic": "processing",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "assembly",
+        "assemblies",
+        "sequence assembly"
+      ]
+    },
+    {
+      "id": "alignmentterm",
+      "term": "Sequence alignment",
+      "full": "",
+      "plain": "Placing sequence observations against a specified reference for comparison.",
+      "why": "Agreement within aligned sequences must be separated from the extent of reference represented.",
+      "mechanism": "The study aligns reads and assembly-derived sequences to NC_000009.12.",
+      "remember": "Agreement within aligned sequences must be separated from the extent of reference represented.",
+      "source": "§3.1.2",
+      "related": [
+        "identity",
+        "coverage",
+        "reference"
+      ],
+      "topic": "alignment",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "alignment",
+        "alignments",
+        "aligned"
+      ]
+    },
+    {
+      "id": "fastqc",
+      "term": "FastQC",
+      "full": "",
+      "plain": "The software used to assess sequence quality in the reported workflow.",
+      "why": "Quality checks inform processing but do not establish chromosome completeness.",
+      "mechanism": "FastQC in Galaxy assessed quality, GC content, composition and duplication.",
+      "remember": "Quality checks inform processing but do not establish chromosome completeness.",
+      "source": "§3.1.2",
+      "related": [
+        "read",
+        "q30"
+      ],
+      "topic": "processing",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "FastQC"
+      ]
+    },
+    {
+      "id": "trimmomatic",
+      "term": "Trimmomatic",
+      "full": "",
+      "plain": "The trimming software named in the methods.",
+      "why": "Naming a tool is not a complete platform-specific reproducible protocol.",
+      "mechanism": "The manuscript reports adapter/quality trimming, Q30 and a 50 bp minimum read length.",
+      "remember": "Naming a tool is not a complete platform-specific reproducible protocol.",
+      "source": "§3.1.2",
+      "related": [
+        "q30",
+        "adapters"
+      ],
+      "topic": "processing",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "Trimmomatic"
+      ]
+    },
+    {
+      "id": "spades",
+      "term": "SPAdes",
+      "full": "",
+      "plain": "The assembly software named in the study.",
+      "why": "Its reported use does not itself establish optimal processing for every included platform.",
+      "mechanism": "Contigs of at least 500 base pairs were retained.",
+      "remember": "Its reported use does not itself establish optimal processing for every included platform.",
+      "source": "§3.1.2",
+      "related": [
+        "contig",
+        "assembly"
+      ],
+      "topic": "processing",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "SPAdes"
+      ]
+    },
+    {
+      "id": "quast",
+      "term": "QUAST",
+      "full": "",
+      "plain": "The software used for assembly-statistics assessment.",
+      "why": "Assembly statistics complement, rather than replace, reference coverage checks.",
+      "mechanism": "The manuscript places QUAST after SPAdes assembly.",
+      "remember": "Assembly statistics complement, rather than replace, reference coverage checks.",
+      "source": "§3.1.2",
+      "related": [
+        "assembly",
+        "coverage"
+      ],
+      "topic": "processing",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "QUAST"
+      ]
+    },
+    {
+      "id": "gc",
+      "term": "GC content",
+      "full": "",
+      "plain": "The guanine–cytosine composition of a sequence input.",
+      "why": "It is a sequence quality/composition summary rather than a leukemia-specific conclusion.",
+      "mechanism": "FastQC assessed GC content alongside sequence quality and duplication.",
+      "remember": "It is a sequence quality/composition summary rather than a leukemia-specific conclusion.",
+      "source": "§3.1.2",
+      "related": [
+        "read"
+      ],
+      "topic": "processing",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "GC",
+        "GC content",
+        "guanine–cytosine"
+      ]
+    },
+    {
+      "id": "ml2",
+      "term": "ML-2",
+      "full": "",
+      "plain": "A named AML-associated biological input in this collection.",
+      "why": "The identity and assay purpose matter beyond the AML label.",
+      "mechanism": "ML-2 comes from a control/decitabine study; HL-60 is represented by an apoptotic DNA-fragment library.",
+      "remember": "The identity and assay purpose matter beyond the AML label.",
+      "source": "§3.1.1; Table 1",
+      "related": [
+        "biosample",
+        "library"
+      ],
+      "topic": "provenance",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "ML-2"
+      ]
+    },
+    {
+      "id": "hl60",
+      "term": "HL-60",
+      "full": "",
+      "plain": "A named AML-associated biological input in this collection.",
+      "why": "The identity and assay purpose matter beyond the AML label.",
+      "mechanism": "ML-2 comes from a control/decitabine study; HL-60 is represented by an apoptotic DNA-fragment library.",
+      "remember": "The identity and assay purpose matter beyond the AML label.",
+      "source": "§3.1.1; Table 1",
+      "related": [
+        "biosample",
+        "library"
+      ],
+      "topic": "provenance",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "HL-60"
+      ]
+    },
+    {
+      "id": "gene-nup214",
+      "term": "NUP214",
+      "full": "",
+      "plain": "A gene label discussed or listed in the supplied manuscript.",
+      "why": "A label identifies gene context, not a validated pathogenic alteration.",
+      "mechanism": "See the manuscript gene summaries or background for where this label occurs. No additional gene function is inferred here.",
+      "remember": "A label identifies gene context, not a validated pathogenic alteration.",
+      "source": "Introduction; §3.2.2; Table 2",
+      "related": [
+        "gene",
+        "annotation",
+        "allele"
+      ],
+      "topic": "annotation",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "NUP214"
+      ]
+    },
+    {
+      "id": "gene-notch1",
+      "term": "NOTCH1",
+      "full": "",
+      "plain": "A gene label discussed or listed in the supplied manuscript.",
+      "why": "A label identifies gene context, not a validated pathogenic alteration.",
+      "mechanism": "See the manuscript gene summaries or background for where this label occurs. No additional gene function is inferred here.",
+      "remember": "A label identifies gene context, not a validated pathogenic alteration.",
+      "source": "Introduction; §3.2.2; Table 2",
+      "related": [
+        "gene",
+        "annotation",
+        "allele"
+      ],
+      "topic": "annotation",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "NOTCH1"
+      ]
+    },
+    {
+      "id": "gene-cdkn2a",
+      "term": "CDKN2A",
+      "full": "",
+      "plain": "A gene label discussed or listed in the supplied manuscript.",
+      "why": "A label identifies gene context, not a validated pathogenic alteration.",
+      "mechanism": "See the manuscript gene summaries or background for where this label occurs. No additional gene function is inferred here.",
+      "remember": "A label identifies gene context, not a validated pathogenic alteration.",
+      "source": "Introduction; §3.2.2; Table 2",
+      "related": [
+        "gene",
+        "annotation",
+        "allele"
+      ],
+      "topic": "annotation",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "CDKN2A"
+      ]
+    },
+    {
+      "id": "gene-golga2",
+      "term": "GOLGA2",
+      "full": "",
+      "plain": "A gene label discussed or listed in the supplied manuscript.",
+      "why": "A label identifies gene context, not a validated pathogenic alteration.",
+      "mechanism": "See the manuscript gene summaries or background for where this label occurs. No additional gene function is inferred here.",
+      "remember": "A label identifies gene context, not a validated pathogenic alteration.",
+      "source": "Introduction; §3.2.2; Table 2",
+      "related": [
+        "gene",
+        "annotation",
+        "allele"
+      ],
+      "topic": "annotation",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "GOLGA2"
+      ]
+    },
+    {
+      "id": "gene-washc1",
+      "term": "WASHC1",
+      "full": "",
+      "plain": "A gene label discussed or listed in the supplied manuscript.",
+      "why": "A label identifies gene context, not a validated pathogenic alteration.",
+      "mechanism": "See the manuscript gene summaries or background for where this label occurs. No additional gene function is inferred here.",
+      "remember": "A label identifies gene context, not a validated pathogenic alteration.",
+      "source": "Introduction; §3.2.2; Table 2",
+      "related": [
+        "gene",
+        "annotation",
+        "allele"
+      ],
+      "topic": "annotation",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "WASHC1"
+      ]
+    },
+    {
+      "id": "gene-cdc14b",
+      "term": "CDC14B",
+      "full": "",
+      "plain": "A gene label discussed or listed in the supplied manuscript.",
+      "why": "A label identifies gene context, not a validated pathogenic alteration.",
+      "mechanism": "See the manuscript gene summaries or background for where this label occurs. No additional gene function is inferred here.",
+      "remember": "A label identifies gene context, not a validated pathogenic alteration.",
+      "source": "Introduction; §3.2.2; Table 2",
+      "related": [
+        "gene",
+        "annotation",
+        "allele"
+      ],
+      "topic": "annotation",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "CDC14B"
+      ]
+    },
+    {
+      "id": "gene-dnm1",
+      "term": "DNM1",
+      "full": "",
+      "plain": "A gene label discussed or listed in the supplied manuscript.",
+      "why": "A label identifies gene context, not a validated pathogenic alteration.",
+      "mechanism": "See the manuscript gene summaries or background for where this label occurs. No additional gene function is inferred here.",
+      "remember": "A label identifies gene context, not a validated pathogenic alteration.",
+      "source": "Introduction; §3.2.2; Table 2",
+      "related": [
+        "gene",
+        "annotation",
+        "allele"
+      ],
+      "topic": "annotation",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "DNM1"
+      ]
+    },
+    {
+      "id": "gene-kank1",
+      "term": "KANK1",
+      "full": "",
+      "plain": "A gene label discussed or listed in the supplied manuscript.",
+      "why": "A label identifies gene context, not a validated pathogenic alteration.",
+      "mechanism": "See the manuscript gene summaries or background for where this label occurs. No additional gene function is inferred here.",
+      "remember": "A label identifies gene context, not a validated pathogenic alteration.",
+      "source": "Introduction; §3.2.2; Table 2",
+      "related": [
+        "gene",
+        "annotation",
+        "allele"
+      ],
+      "topic": "annotation",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "KANK1"
+      ]
+    },
+    {
+      "id": "gene-phf2",
+      "term": "PHF2",
+      "full": "",
+      "plain": "A gene label discussed or listed in the supplied manuscript.",
+      "why": "A label identifies gene context, not a validated pathogenic alteration.",
+      "mechanism": "See the manuscript gene summaries or background for where this label occurs. No additional gene function is inferred here.",
+      "remember": "A label identifies gene context, not a validated pathogenic alteration.",
+      "source": "Introduction; §3.2.2; Table 2",
+      "related": [
+        "gene",
+        "annotation",
+        "allele"
+      ],
+      "topic": "annotation",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "PHF2"
+      ]
+    },
+    {
+      "id": "gene-fam120a",
+      "term": "FAM120A",
+      "full": "",
+      "plain": "A gene label discussed or listed in the supplied manuscript.",
+      "why": "A label identifies gene context, not a validated pathogenic alteration.",
+      "mechanism": "See the manuscript gene summaries or background for where this label occurs. No additional gene function is inferred here.",
+      "remember": "A label identifies gene context, not a validated pathogenic alteration.",
+      "source": "Introduction; §3.2.2; Table 2",
+      "related": [
+        "gene",
+        "annotation",
+        "allele"
+      ],
+      "topic": "annotation",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "FAM120A"
+      ]
+    },
+    {
+      "id": "gene-hnrnpk",
+      "term": "HNRNPK",
+      "full": "",
+      "plain": "A gene label discussed or listed in the supplied manuscript.",
+      "why": "A label identifies gene context, not a validated pathogenic alteration.",
+      "mechanism": "See the manuscript gene summaries or background for where this label occurs. No additional gene function is inferred here.",
+      "remember": "A label identifies gene context, not a validated pathogenic alteration.",
+      "source": "Introduction; §3.2.2; Table 2",
+      "related": [
+        "gene",
+        "annotation",
+        "allele"
+      ],
+      "topic": "annotation",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "HNRNPK"
+      ]
+    },
+    {
+      "id": "gene-unc13b",
+      "term": "UNC13B",
+      "full": "",
+      "plain": "A gene label discussed or listed in the supplied manuscript.",
+      "why": "A label identifies gene context, not a validated pathogenic alteration.",
+      "mechanism": "See the manuscript gene summaries or background for where this label occurs. No additional gene function is inferred here.",
+      "remember": "A label identifies gene context, not a validated pathogenic alteration.",
+      "source": "Introduction; §3.2.2; Table 2",
+      "related": [
+        "gene",
+        "annotation",
+        "allele"
+      ],
+      "topic": "annotation",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "UNC13B"
+      ]
+    },
+    {
+      "id": "gene-adamtsl1",
+      "term": "ADAMTSL1",
+      "full": "",
+      "plain": "A gene label discussed or listed in the supplied manuscript.",
+      "why": "A label identifies gene context, not a validated pathogenic alteration.",
+      "mechanism": "See the manuscript gene summaries or background for where this label occurs. No additional gene function is inferred here.",
+      "remember": "A label identifies gene context, not a validated pathogenic alteration.",
+      "source": "Introduction; §3.2.2; Table 2",
+      "related": [
+        "gene",
+        "annotation",
+        "allele"
+      ],
+      "topic": "annotation",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "ADAMTSL1"
+      ]
+    },
+    {
+      "id": "gene-tek",
+      "term": "TEK",
+      "full": "",
+      "plain": "A gene label discussed or listed in the supplied manuscript.",
+      "why": "A label identifies gene context, not a validated pathogenic alteration.",
+      "mechanism": "See the manuscript gene summaries or background for where this label occurs. No additional gene function is inferred here.",
+      "remember": "A label identifies gene context, not a validated pathogenic alteration.",
+      "source": "Introduction; §3.2.2; Table 2",
+      "related": [
+        "gene",
+        "annotation",
+        "allele"
+      ],
+      "topic": "annotation",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "TEK"
+      ]
+    },
+    {
+      "id": "gene-znf618",
+      "term": "ZNF618",
+      "full": "",
+      "plain": "A gene label discussed or listed in the supplied manuscript.",
+      "why": "A label identifies gene context, not a validated pathogenic alteration.",
+      "mechanism": "See the manuscript gene summaries or background for where this label occurs. No additional gene function is inferred here.",
+      "remember": "A label identifies gene context, not a validated pathogenic alteration.",
+      "source": "Introduction; §3.2.2; Table 2",
+      "related": [
+        "gene",
+        "annotation",
+        "allele"
+      ],
+      "topic": "annotation",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "ZNF618"
+      ]
+    },
+    {
+      "id": "gene-ddx31",
+      "term": "DDX31",
+      "full": "",
+      "plain": "A gene label discussed or listed in the supplied manuscript.",
+      "why": "A label identifies gene context, not a validated pathogenic alteration.",
+      "mechanism": "See the manuscript gene summaries or background for where this label occurs. No additional gene function is inferred here.",
+      "remember": "A label identifies gene context, not a validated pathogenic alteration.",
+      "source": "Introduction; §3.2.2; Table 2",
+      "related": [
+        "gene",
+        "annotation",
+        "allele"
+      ],
+      "topic": "annotation",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "DDX31"
+      ]
+    },
+    {
+      "id": "gene-haus6",
+      "term": "HAUS6",
+      "full": "",
+      "plain": "A gene label discussed or listed in the supplied manuscript.",
+      "why": "A label identifies gene context, not a validated pathogenic alteration.",
+      "mechanism": "See the manuscript gene summaries or background for where this label occurs. No additional gene function is inferred here.",
+      "remember": "A label identifies gene context, not a validated pathogenic alteration.",
+      "source": "Introduction; §3.2.2; Table 2",
+      "related": [
+        "gene",
+        "annotation",
+        "allele"
+      ],
+      "topic": "annotation",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "HAUS6"
+      ]
+    },
+    {
+      "id": "gene-pappa",
+      "term": "PAPPA",
+      "full": "",
+      "plain": "A gene label discussed or listed in the supplied manuscript.",
+      "why": "A label identifies gene context, not a validated pathogenic alteration.",
+      "mechanism": "See the manuscript gene summaries or background for where this label occurs. No additional gene function is inferred here.",
+      "remember": "A label identifies gene context, not a validated pathogenic alteration.",
+      "source": "Introduction; §3.2.2; Table 2",
+      "related": [
+        "gene",
+        "annotation",
+        "allele"
+      ],
+      "topic": "annotation",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "PAPPA"
+      ]
+    },
+    {
+      "id": "gene-ankrd18b",
+      "term": "ANKRD18B",
+      "full": "",
+      "plain": "A gene label discussed or listed in the supplied manuscript.",
+      "why": "A label identifies gene context, not a validated pathogenic alteration.",
+      "mechanism": "See the manuscript gene summaries or background for where this label occurs. No additional gene function is inferred here.",
+      "remember": "A label identifies gene context, not a validated pathogenic alteration.",
+      "source": "Introduction; §3.2.2; Table 2",
+      "related": [
+        "gene",
+        "annotation",
+        "allele"
+      ],
+      "topic": "annotation",
+      "origin": "This is a plain-language explanation of the label in this study, not a claim about its historical origin.",
+      "support": "Educational explanation in the supplied manuscript context; not a new experimental finding.",
+      "aliases": [
+        "ANKRD18B"
+      ]
     }
   ],
   "flashcards": [
@@ -2166,7 +3708,13 @@
       "meaning": "Higher and more dispersed AML-associated counts, with overlapping ranges.",
       "caution": "These are three runs per group, not six independent patients. The embedded legacy title says “mutation burden”; use the manuscript’s annotation-record definition.",
       "source": "§3.2.2; Figure 1",
-      "topic": "counts"
+      "topic": "counts",
+      "terms": [
+        "median",
+        "run",
+        "annotation",
+        "coverage"
+      ]
     },
     {
       "id": "f2",
@@ -2177,7 +3725,15 @@
       "meaning": "PAX5 assignments occur in both groups; NUP214 in ALL and NOTCH1 in AML summaries.",
       "caution": "A gene assignment does not establish a pathogenic allele or fusion. The embedded figure uses legacy “mutation” wording.",
       "source": "§3.2.2; Figure 2",
-      "topic": "annotation"
+      "topic": "annotation",
+      "terms": [
+        "pax5",
+        "gene-nup214",
+        "gene-notch1",
+        "annotation",
+        "pathogenic",
+        "fusion"
+      ]
     },
     {
       "id": "f3",
@@ -2188,7 +3744,13 @@
       "meaning": "Substitutions predominate in both groups; truncations are more prominent in ALL.",
       "caution": "Effects are predicted annotation categories. Do not assign exact proportions by guessing bar heights.",
       "source": "§3.2.3; Figure 3",
-      "topic": "coding"
+      "topic": "coding",
+      "terms": [
+        "substitution",
+        "truncation",
+        "frameshift",
+        "protein"
+      ]
     },
     {
       "id": "f4",
@@ -2199,7 +3761,13 @@
       "meaning": "Proline-to-leucine leads ALL and glycine-to-arginine leads AML top-ten summaries.",
       "caution": "Categories pool coding sequences and do not identify gene-specific recurrence.",
       "source": "§3.2.4; Figure 4",
-      "topic": "coding"
+      "topic": "coding",
+      "terms": [
+        "aminoacid",
+        "protein",
+        "substitution",
+        "allele"
+      ]
     },
     {
       "id": "f5",
@@ -2211,7 +3779,13 @@
       "meaning": "Gene labels: 196 AML-only, 15 shared, 41 ALL-only. Records: 742 AML-only, 4 shared, 551 ALL-only.",
       "caution": "Group-restricted recovery does not prove biological absence. Panel A counts gene labels; panel B counts annotation records.",
       "source": "§3.2.5; Figure 5",
-      "topic": "overlap"
+      "topic": "overlap",
+      "terms": [
+        "set",
+        "annotation",
+        "coverage",
+        "biomarker"
+      ]
     },
     {
       "id": "f6",
@@ -2222,7 +3796,13 @@
       "meaning": "ALL-3 and AML-2 merge first; AML-1 joins last.",
       "caution": "Branch distance is not significance or diagnostic discrimination. Mixed labels do not erase leukemia biology.",
       "source": "§3.2.6; Figure 6",
-      "topic": "clustering"
+      "topic": "clustering",
+      "terms": [
+        "dendrogram",
+        "correlation",
+        "linkage",
+        "clustering"
+      ]
     },
     {
       "id": "f7",
@@ -2233,7 +3813,13 @@
       "meaning": "The row dendrogram pairs ALL-3 and AML-2, with leukemia labels interspersed.",
       "caution": "The exact mapping from row-wise unit-variance preprocessing to the displayed 0–1 colour scale is insufficiently documented.",
       "source": "§3.1.4; §3.2.6; Figure 7",
-      "topic": "heatmap"
+      "topic": "heatmap",
+      "terms": [
+        "heatmap",
+        "matrix",
+        "scaling",
+        "imputation"
+      ]
     }
   ],
   "slides": [
@@ -2452,6 +4038,83 @@
       "title": "Missing contact/slot",
       "detail": "No corresponding-author email or assigned slot was supplied. Neither was invented.",
       "source": "Manuscript title page; presentation metadata"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "number": 1,
+      "group": "Class 1 · Study foundations and methods",
+      "title": "Explain the study purpose, design and biological sources",
+      "lessons": [
+        "rationale",
+        "design",
+        "provenance"
+      ],
+      "source": "Introduction; §3.1.1; Table 1",
+      "support": "Learning objective inferred from the supplied manuscript; not a claim that the authors stated six research objectives."
+    },
+    {
+      "id": "o2",
+      "number": 2,
+      "group": "Class 1 · Study foundations and methods",
+      "title": "Explain processing, coverage, calling and annotation",
+      "lessons": [
+        "processing",
+        "alignment",
+        "calling",
+        "annotation"
+      ],
+      "source": "§3.1.2–§3.1.4; §3.2.1",
+      "support": "Learning objective inferred from the supplied manuscript; not a claim that the authors stated six research objectives."
+    },
+    {
+      "id": "o3",
+      "number": 3,
+      "group": "Class 2 · Results, interpretation and defence",
+      "title": "Interpret annotation counts and gene assignments",
+      "lessons": [
+        "counts"
+      ],
+      "source": "§3.2.2; Figures 1–2",
+      "support": "Learning objective inferred from the supplied manuscript; not a claim that the authors stated six research objectives."
+    },
+    {
+      "id": "o4",
+      "number": 4,
+      "group": "Class 2 · Results, interpretation and defence",
+      "title": "Compare coding effects and pooled position labels",
+      "lessons": [
+        "coding",
+        "positions"
+      ],
+      "source": "§3.2.3–§3.2.4; Figures 3–4; Table 2",
+      "support": "Learning objective inferred from the supplied manuscript; not a claim that the authors stated six research objectives."
+    },
+    {
+      "id": "o5",
+      "number": 5,
+      "group": "Class 2 · Results, interpretation and defence",
+      "title": "Interpret overlap, clustering and heat-map evidence",
+      "lessons": [
+        "overlap",
+        "clustering",
+        "heatmap"
+      ],
+      "source": "§3.2.5–§3.2.6; Figures 5–7",
+      "support": "Learning objective inferred from the supplied manuscript; not a claim that the authors stated six research objectives."
+    },
+    {
+      "id": "o6",
+      "number": 6,
+      "group": "Class 2 · Results, interpretation and defence",
+      "title": "Appraise limitations and defend the study conclusions",
+      "lessons": [
+        "limitations",
+        "conclusions"
+      ],
+      "source": "Discussion; Conclusion",
+      "support": "Learning objective inferred from the supplied manuscript; not a claim that the authors stated six research objectives."
     }
   ]
 }

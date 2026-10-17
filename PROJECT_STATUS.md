@@ -1,13 +1,13 @@
 # Project status
 
-Version 1.0.0 · 17 October 2026
+Version 1.2.0 · 17 October 2026
 
 ## Complete
 
 - Four source roles confirmed; manuscript and source presentations inspected.
 - Reference live HTML/CSS/JS and latest GitHub commit inspected; live/reference biography matched.
 - Complete buildless app, source files and local assets included.
-- 15 lessons, 41 glossary terms, 56 cards, 30 questions, five comparisons and eight supported concept relationships.
+- 15 lessons, 102 glossary terms, 56 cards, 30 questions, five comparisons and eight supported concept relationships.
 - All original manuscript figure panels and substantive tables; ten oral-slide previews and single-page poster preview.
 - Search, three themes, collapsed sidebar, focused lessons, term dialogs, concept map, revision scheduling, question outcomes, private notes/bookmarks, backup import/export, recovery protection, rehearsal checklist/timer, source reconciliation and developer profile.
 - Requested Markdown documentation and beginner setup/deployment instructions.
@@ -31,3 +31,11 @@ Automated results are in tests/TEST_RESULTS.md and tests/verification-report.jso
 ## Next action
 
 Extract the ZIP and open index.html, preferably through the local-server option in START_HERE.txt. Run the real-browser checklist before deploying. If deploying, use an intended private source repository and appropriate website access protection; repository privacy does not protect a public website.
+
+## Version 1.1 update
+
+Six objective-based sequences, 102 glossary terms, solid inline glossary underlines and substantially deeper Light/Dark/Colour palettes are implemented. Existing 56 flashcards and 30 questions retain ids and saved work. New glossary entries do not silently generate extra flashcards.
+
+## Version 1.2 sharing update
+
+Added a 1200 × 630 PNG sharing card with the existing app icon/title; PNG favicon, apple-touch and home-screen icons; static Open Graph/Twitter Card metadata; and a deployment-time real-production-URL configuration script. The Vercel build command now runs content generation and metadata configuration. Existing learning features and storage ids are unchanged. Verify the actual deployed URL and platform previews after deployment; cached or protected pages may not display a card.
