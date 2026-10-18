@@ -1,5 +1,5 @@
 {
-  "version": "1.4.0",
+  "version": "1.6.0",
   "name": "Chromosome 9 Study Desk",
   "subtitle": "Understand the evidence. Explain the study.",
   "studyTitle": "Chromosome 9 Variant Annotation Profiles Across Public Acute Leukemia Sequencing Datasets",
@@ -4103,7 +4103,20 @@
         "run",
         "annotation",
         "coverage"
-      ]
+      ],
+      "dimensions": [
+        {
+          "width": 2400,
+          "height": 1800
+        }
+      ],
+      "teaching": {
+        "shows": "Compare the distribution of recovered annotation-record counts across the ALL and AML runs.",
+        "read": "The horizontal axis gives the group; the vertical axis gives the count. The line inside each box is the median; the box summarizes the middle half of the values. Whiskers show the plotted spread under the plotting convention. With only three runs per group, each run strongly affects the shape.",
+        "walkthrough": "Start with the median line, then compare the spread. The manuscript reports medians of 92 for ALL and 1,822 for AML, with overlapping ranges. A higher AML box does not establish a disease-wide difference.",
+        "why": "The purpose is to describe recovered profiles. Unequal coverage, platforms and source material can change how many records are recovered.",
+        "remember": "WHY: a taller box means greater spread among these run counts, not stronger evidence of a leukemia mechanism."
+      }
     },
     {
       "id": "f2",
@@ -4122,7 +4135,20 @@
         "annotation",
         "pathogenic",
         "fusion"
-      ]
+      ],
+      "dimensions": [
+        {
+          "width": 3600,
+          "height": 1800
+        }
+      ],
+      "teaching": {
+        "shows": "Compare records assigned to the three displayed leukemia-associated gene labels.",
+        "read": "Read gene names along the horizontal axis and counts on the vertical axis. The legend assigns green to ALL and orange to AML. Compare the two bars within a gene before comparing different genes.",
+        "walkthrough": "PAX5 has assignments in both summaries; NUP214 is represented in ALL and NOTCH1 in AML. Read the displayed categories as gene assignments, not validated driver mutations.",
+        "why": "Gene-level summaries help identify annotation patterns worth examining. They do not identify the exact allele or prove a gene fusion.",
+        "remember": "WHY: a gene is a location and functional unit; a record assigned to that gene is not automatically a harmful change."
+      }
     },
     {
       "id": "f3",
@@ -4139,7 +4165,20 @@
         "truncation",
         "frameshift",
         "protein"
-      ]
+      ],
+      "dimensions": [
+        {
+          "width": 3000,
+          "height": 1800
+        }
+      ],
+      "teaching": {
+        "shows": "Compare the relative representation of predicted protein-effect categories.",
+        "read": "The horizontal axis lists effect types such as substitution, truncation and frame shift. The vertical axis is a proportion from 0 to 1; 1 corresponds to the whole category total used in the plot. Green denotes ALL and orange AML.",
+        "walkthrough": "The substitution bars dominate both summaries. The ALL truncation bar is more prominent than the AML truncation bar. Do not estimate exact percentages from image heights when values are not supplied.",
+        "why": "A proportion compares composition rather than raw counts. Different numbers of records can still produce similar proportions.",
+        "remember": "WHY: a substitution changes an amino-acid identity; a truncation predicts a shortened product. Neither prediction alone measures protein activity."
+      }
     },
     {
       "id": "f4",
@@ -4156,7 +4195,20 @@
         "protein",
         "substitution",
         "allele"
-      ]
+      ],
+      "dimensions": [
+        {
+          "width": 3600,
+          "height": 1800
+        }
+      ],
+      "teaching": {
+        "shows": "Compare the most represented amino-acid-change categories in the pooled coding summaries.",
+        "read": "Each horizontal-axis label names an original and replacement amino acid. The vertical axis gives counts. Green bars denote ALL and orange bars AML. These are top-ten summaries rather than every possible change.",
+        "walkthrough": "Proline-to-leucine leads the ALL summary; glycine-to-arginine leads AML. Compare categories within each group before considering differences between groups.",
+        "why": "The chart describes types of predicted coding change. Pooling across genes and transcripts means a category does not identify a recurrent allele at one locus.",
+        "remember": "WHY: the same amino-acid replacement can occur in different proteins and have different consequences at different positions."
+      }
     },
     {
       "id": "f5",
@@ -4174,7 +4226,24 @@
         "annotation",
         "coverage",
         "biomarker"
-      ]
+      ],
+      "dimensions": [
+        {
+          "width": 1800,
+          "height": 1800
+        },
+        {
+          "width": 1800,
+          "height": 1800
+        }
+      ],
+      "teaching": {
+        "shows": "Distinguish overlap of gene labels from overlap of annotation records.",
+        "read": "Panel A counts gene labels: left-only 196 AML, intersection 15 shared, right-only 41 ALL. Panel B counts records: 742 AML-only, 4 shared and 551 ALL-only. The intersection represents items present in both recovered sets; use the numbers rather than circle areas.",
+        "walkthrough": "The shared gene count and shared record count answer different questions. Many records can map to the same gene, so 15 shared genes and 4 shared records are not contradictory.",
+        "why": "This visual addresses similarity of recovered sets. A group-only item was recovered only in that set; this does not show biological absence from the other disease.",
+        "remember": "WHY: two books can mention the same chapter while containing different sentences; sharing a gene does not require sharing the same record."
+      }
     },
     {
       "id": "f6",
@@ -4191,7 +4260,20 @@
         "correlation",
         "linkage",
         "clustering"
-      ]
+      ],
+      "dimensions": [
+        {
+          "width": 3600,
+          "height": 1800
+        }
+      ],
+      "teaching": {
+        "shows": "Read which run profiles join together as the clustering threshold increases.",
+        "read": "The horizontal labels identify runs; vertical height shows the plotted distance at each merge. Follow branches upward from the leaves. The method specifies correlation distance and average linkage. Leaf order alone is not a similarity score.",
+        "walkthrough": "ALL-3 and AML-2 merge first. The reported sequence then adds ALL-1, ALL-2 and AML-3, with AML-1 joining last. Mixed group labels show that this clustering does not cleanly separate AML from ALL.",
+        "why": "This is an exploratory description of profile similarity. Distance is not a P-value, diagnostic accuracy or an independent measure of disease relatedness.",
+        "remember": "WHY: clustering groups the numerical profiles it receives; assay and sample differences can influence those profiles alongside biology."
+      }
     },
     {
       "id": "f7",
@@ -4208,7 +4290,20 @@
         "matrix",
         "scaling",
         "imputation"
-      ]
+      ],
+      "dimensions": [
+        {
+          "width": 3547,
+          "height": 2354
+        }
+      ],
+      "teaching": {
+        "shows": "Combine a colour-coded matrix of gene-associated profiles with clustering trees.",
+        "read": "Rows identify runs and columns identify genes. A cell colour corresponds to the displayed colour scale, marked from 0 to 1. The side tree clusters runs; the top tree clusters gene profiles. Read the legend before judging bright and dark cells.",
+        "walkthrough": "The row tree pairs ALL-3 with AML-2. Bands show differences in displayed values across runs and genes. The figure alone cannot tell whether a dark cell means true absence, low value, missingness or a preprocessing effect.",
+        "why": "The methods mention imputation and row-wise unit-variance scaling, but the conversion to the displayed 0–1 scale is not fully specified. Teach the visual pattern while keeping that reproducibility gap explicit.",
+        "remember": "WHY: scaling changes what colours mean. A brighter cell is not automatically a more pathogenic mutation or a larger clinical risk."
+      }
     }
   ],
   "slides": [
@@ -4504,6 +4599,126 @@
       ],
       "source": "Discussion; Conclusion",
       "support": "Learning objective inferred from the supplied manuscript; not a claim that the authors stated six research objectives."
+    }
+  ],
+  "visualConnections": [
+    {
+      "id": "method",
+      "title": "Methodology workflow",
+      "objectives": [
+        "o1",
+        "o2"
+      ],
+      "lessons": [
+        "design",
+        "processing"
+      ],
+      "purpose": "Connect the study design to the sequence-processing and annotation workflow."
+    },
+    {
+      "id": "table1",
+      "title": "Table 1 · Dataset composition",
+      "objectives": [
+        "o1"
+      ],
+      "lessons": [
+        "provenance"
+      ],
+      "purpose": "Identify biological sources and distinguish sequencing runs from independent samples."
+    },
+    {
+      "id": "f1",
+      "title": "Figure 1 · Annotation-record distributions",
+      "objectives": [
+        "o3"
+      ],
+      "lessons": [
+        "counts"
+      ],
+      "purpose": "Compare distributions of recovered annotation-record counts."
+    },
+    {
+      "id": "f2",
+      "title": "Figure 2 · Selected gene assignments",
+      "objectives": [
+        "o3",
+        "o2"
+      ],
+      "lessons": [
+        "counts",
+        "annotation"
+      ],
+      "purpose": "Interpret selected gene assignments and distinguish annotation from pathogenicity."
+    },
+    {
+      "id": "f3",
+      "title": "Figure 3 · Predicted protein effects",
+      "objectives": [
+        "o4"
+      ],
+      "lessons": [
+        "coding"
+      ],
+      "purpose": "Compare predicted coding-effect categories."
+    },
+    {
+      "id": "f4",
+      "title": "Figure 4 · Amino-acid-change categories",
+      "objectives": [
+        "o4"
+      ],
+      "lessons": [
+        "coding"
+      ],
+      "purpose": "Compare pooled amino-acid-change categories."
+    },
+    {
+      "id": "table2",
+      "title": "Table 2 · Selected gene and position labels",
+      "objectives": [
+        "o4",
+        "o3",
+        "o2"
+      ],
+      "lessons": [
+        "positions",
+        "counts",
+        "annotation"
+      ],
+      "purpose": "Separate gene labels, codon numbers and coding-sequence positions."
+    },
+    {
+      "id": "f5",
+      "title": "Figure 5 · Set overlap",
+      "objectives": [
+        "o5"
+      ],
+      "lessons": [
+        "overlap"
+      ],
+      "purpose": "Distinguish shared genes from shared annotation records."
+    },
+    {
+      "id": "f6",
+      "title": "Figure 6 · Run-level dendrogram",
+      "objectives": [
+        "o5"
+      ],
+      "lessons": [
+        "clustering"
+      ],
+      "purpose": "Interpret run similarity and the order of cluster merges."
+    },
+    {
+      "id": "f7",
+      "title": "Figure 7 · Clustered heat map",
+      "objectives": [
+        "o5"
+      ],
+      "lessons": [
+        "heatmap"
+      ],
+      "purpose": "Interpret the matrix, colour scale and clustering with preprocessing limitations."
     }
   ]
 }

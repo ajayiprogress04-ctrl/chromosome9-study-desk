@@ -35,3 +35,9 @@ Version 1.3.0: all existing automated checks plus sourced-teaching regression ch
 Version 1.3.1: automated suite passes, including exact title-phrase linking and glossary search. Browser visual and deployment checks remain unperformed.
 
 Version 1.4.0: automated suite passes. Simulated DOM confirms all eight figure image files in their corresponding lessons and gallery, both tables visible in lessons/gallery, and methodology schematic in design/processing. No real browser visual inspection or deployment performed.
+
+Version 1.4.1: automated suite passes, including simulated figure/table return restoring the prior gallery scroll offset while lessons still start at the top. Image dimensions reserve preview space. No real browser or deployment verification.
+
+Version 1.5.0: all automated checks pass, including figure-specific teaching in lesson, gallery and enlarged views, glossary links, methodology arrows and both table guides. Previous gallery-position regression remains passing. No real browser or deployment verification.
+
+Version 1.6.0: automated suite passes, including explicit two-way visual/objective links, all lesson evidence sections, gallery objective groups, direct methodology view and Figure 2 in Objective 3. Browser visual and deployment verification not performed.

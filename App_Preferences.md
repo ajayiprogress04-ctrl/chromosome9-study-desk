@@ -1,6 +1,6 @@
 # My App Design Preferences
 
-Version 9 · Consolidated from the Meiosis and Chromosome 9 app discussions · Updated 18 October 2026
+Version 12 · Consolidated from the Meiosis and Chromosome 9 app discussions · Updated 18 October 2026
 
 ## How to use this brief
 
@@ -181,3 +181,15 @@ Include important phrases from the app title as well as individual scientific te
 ## Show diagrams and tables where I learn
 
 Display relevant methodology diagrams, result figures and tables directly within their corresponding objective lessons, with clear captions, source references and brief interpretations. Do not rely only on a separate visual-library link or downloads. Keep a visible gallery with actual previews and an obvious overview entry point. Preserve original figures; label newly created teaching schematics. Support readable responsive images and horizontally scrollable tables, and retain enlargement controls.
+
+### Returning from a visual
+
+“Back to visual library” and browser Back from a figure or table must restore the previous gallery scroll position, not restart at the top. Reserve image dimensions so late-loading previews do not shift the restored view. Keep intentional Previous/Next lesson navigation starting at the top.
+
+## Explain every diagram like the lesson text
+
+Each methodology diagram and result figure needs a short explanation of what it shows, how to read its labels/axes/colours/symbols/arrows, a walkthrough, why it matters to the objective, and a memorable takeaway. Include interpretation limits and source references. Explain tables by their rows, columns and units. Underline and link important scientific terms in these explanations to the glossary. Keep the initial explanation short and further teaching expandable, both inside lessons and in enlarged visual views. Deliver all agreed updates together in one complete project ZIP for uploading at once.
+
+## Connect every visual to its objective
+
+Make objective connections explicit and clickable. Group methodology, figures and tables by learning objective in the visual gallery. Every lesson should offer its objective’s visual evidence with a brief explanation of each connection; individual visuals must link back to their objective. Allow a visual to support multiple objectives where appropriate, without inventing author-stated research objectives. For synthesis/limitations objectives, link the relevant existing evidence and explain when no separate original figure exists.
