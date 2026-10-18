@@ -67,3 +67,15 @@ All 175 worked units have three live dropdown questions (525 question slots). Th
 The former question-bank and flashcard routes open the unified example library. Supporting sources, diagrams, glossary definitions and private notes remain available. Five primary destinations and flexible return are retained. Definitions are optional reference, while practical examples carry the learning experience.
 
 Verification includes all 525 dropdown questions, all 105 glossary entries and every guided objective step, short feedback, empty-choice handling, assisted repeats, saved task/selection, glossary return, retained legacy answers and backup import. Old rubric and mandatory-three-stage assertions were replaced because those interactions were explicitly removed. No deployment or real-browser desktop/mobile layout test was performed.
+
+## Version 2.5.0 — audited study practice coverage
+
+Added 45 study-focused activities (three per topic): evidence interpretation, method connections and defence. The collection now has 220 activities, 200 distinct worked scenarios and 660 dropdown-question slots. These are teaching activities, not unique findings or a validated mastery measure. Existing concepts are intentionally reused across surfaces.
+
+The new cases use reported annotation counts, reference-feature distinctions, the six-run/four-source design, read accounting, filtering rules, predicted effects, pooled position labels, gene and record overlap denominators, dendrogram ordering and heat-map uncertainty. Planning/examiner situations and toy calculations are identified as teaching scenarios. No missing study results or undocumented software implementation were invented.
+
+The optional practice-focus dropdown filters understanding, application, evidence, mistakes, connections and defence, alongside objective selection. Glossary entries can select the three additional related topic cases as well as their own term example and the previous practical cases. New cases link to relevant original evidence in their optional reference section.
+
+COVERAGE_AUDIT.md and content/coverage-audit.json trace all 15 topics across six aspects and all 105 glossary/10 source-visual activities. The build regenerates the audit and fails if declared coverage or source references are missing. Audit availability does not prove learner understanding or exhaustive knowledge of the wider field. Missing raw commands, exact heat-map transformations and unestablished causal/clinical claims remain explicit limits.
+
+The compact example-and-dropdown layout, optional definitions, one-response Continue, five main destinations, original source assets, sharing, themes and backups remain. Old notes/answers are preserved; saved cursors at the old final checks enter added cases before those checks. No deployment or real-browser desktop/mobile visual verification was performed.

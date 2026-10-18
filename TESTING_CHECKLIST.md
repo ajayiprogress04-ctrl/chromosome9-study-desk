@@ -89,3 +89,11 @@ Added a 1200 × 630 PNG sharing card with the existing app icon/title; PNG favic
 - [x] Empty selection blocked; repeat correct after feedback is marked assisted.
 - [x] All objectives, glossary entries, old revision routes and backups verified in simulated DOM.
 - [ ] Real browser/mobile layout and native dropdown verification.
+
+## Version 2.5 coverage expansion
+
+- [x] Source numbers, set denominators, clustering pair and hypothetical z-score checked.
+- [x] All 660 live questions and all guided steps traverse in simulated DOM.
+- [x] Objective/skill filtering, related glossary cases, saved cursor migration and coverage links checked.
+- [x] Coverage audit references validated against actual activity and source IDs.
+- [ ] Real browser/mobile layout, native dropdowns and deployment.

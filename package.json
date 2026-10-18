@@ -1,10 +1,10 @@
 {
   "name": "chromosome9-study-desk",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "private": true,
   "description": "Personal source-linked chromosome 9 research learning app",
   "scripts": {
-    "build": "node scripts/build-content.cjs && node scripts/configure-sharing.cjs",
+    "build": "node scripts/build-content.cjs && node scripts/audit-coverage.cjs && node scripts/configure-sharing.cjs",
     "test": "node tests/core.test.cjs && node tests/app-smoke.test.cjs && node tests/sharing.test.cjs && python3 scripts/verify_project.py && node tests/teaching.test.cjs && node tests/learning.test.cjs",
     "start": "python3 -m http.server 8000"
   },

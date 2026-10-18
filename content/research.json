@@ -5198,6 +5198,78 @@
           "visual": null
         },
         {
+          "id": "teach:expand:rationale-evidence",
+          "unit": "expand:rationale-evidence",
+          "topic": "rationale",
+          "kind": "teach",
+          "label": "Why chromosome 9? · read the evidence",
+          "visual": null
+        },
+        {
+          "id": "teach:expand:rationale-connection",
+          "unit": "expand:rationale-connection",
+          "topic": "rationale",
+          "kind": "teach",
+          "label": "Why chromosome 9? · connect the methods",
+          "visual": null
+        },
+        {
+          "id": "teach:expand:rationale-defence",
+          "unit": "expand:rationale-defence",
+          "topic": "rationale",
+          "kind": "teach",
+          "label": "Why chromosome 9? · defend the interpretation",
+          "visual": null
+        },
+        {
+          "id": "teach:expand:design-evidence",
+          "unit": "expand:design-evidence",
+          "topic": "design",
+          "kind": "teach",
+          "label": "What kind of study is this? · read the evidence",
+          "visual": null
+        },
+        {
+          "id": "teach:expand:design-connection",
+          "unit": "expand:design-connection",
+          "topic": "design",
+          "kind": "teach",
+          "label": "What kind of study is this? · connect the methods",
+          "visual": null
+        },
+        {
+          "id": "teach:expand:design-defence",
+          "unit": "expand:design-defence",
+          "topic": "design",
+          "kind": "teach",
+          "label": "What kind of study is this? · defend the interpretation",
+          "visual": null
+        },
+        {
+          "id": "teach:expand:provenance-evidence",
+          "unit": "expand:provenance-evidence",
+          "topic": "provenance",
+          "kind": "teach",
+          "label": "Six runs, four biological sources · read the evidence",
+          "visual": null
+        },
+        {
+          "id": "teach:expand:provenance-connection",
+          "unit": "expand:provenance-connection",
+          "topic": "provenance",
+          "kind": "teach",
+          "label": "Six runs, four biological sources · connect the methods",
+          "visual": null
+        },
+        {
+          "id": "teach:expand:provenance-defence",
+          "unit": "expand:provenance-defence",
+          "topic": "provenance",
+          "kind": "teach",
+          "label": "Six runs, four biological sources · defend the interpretation",
+          "visual": null
+        },
+        {
           "id": "check:0",
           "unit": "lesson:rationale",
           "topic": "rationale",
@@ -5214,7 +5286,8 @@
           "visual": null
         }
       ],
-      "expansionStart": 22
+      "expansionStart": 22,
+      "coverageExpansionStart": 28
     },
     {
       "id": "o2",
@@ -5708,6 +5781,102 @@
           "visual": null
         },
         {
+          "id": "teach:expand:processing-evidence",
+          "unit": "expand:processing-evidence",
+          "topic": "processing",
+          "kind": "teach",
+          "label": "From public reads to an alignment · read the evidence",
+          "visual": null
+        },
+        {
+          "id": "teach:expand:processing-connection",
+          "unit": "expand:processing-connection",
+          "topic": "processing",
+          "kind": "teach",
+          "label": "From public reads to an alignment · connect the methods",
+          "visual": null
+        },
+        {
+          "id": "teach:expand:processing-defence",
+          "unit": "expand:processing-defence",
+          "topic": "processing",
+          "kind": "teach",
+          "label": "From public reads to an alignment · defend the interpretation",
+          "visual": null
+        },
+        {
+          "id": "teach:expand:alignment-evidence",
+          "unit": "expand:alignment-evidence",
+          "topic": "alignment",
+          "kind": "teach",
+          "label": "Identity is not coverage · read the evidence",
+          "visual": null
+        },
+        {
+          "id": "teach:expand:alignment-connection",
+          "unit": "expand:alignment-connection",
+          "topic": "alignment",
+          "kind": "teach",
+          "label": "Identity is not coverage · connect the methods",
+          "visual": null
+        },
+        {
+          "id": "teach:expand:alignment-defence",
+          "unit": "expand:alignment-defence",
+          "topic": "alignment",
+          "kind": "teach",
+          "label": "Identity is not coverage · defend the interpretation",
+          "visual": null
+        },
+        {
+          "id": "teach:expand:calling-evidence",
+          "unit": "expand:calling-evidence",
+          "topic": "calling",
+          "kind": "teach",
+          "label": "Calling thresholds versus group tests · read the evidence",
+          "visual": null
+        },
+        {
+          "id": "teach:expand:calling-connection",
+          "unit": "expand:calling-connection",
+          "topic": "calling",
+          "kind": "teach",
+          "label": "Calling thresholds versus group tests · connect the methods",
+          "visual": null
+        },
+        {
+          "id": "teach:expand:calling-defence",
+          "unit": "expand:calling-defence",
+          "topic": "calling",
+          "kind": "teach",
+          "label": "Calling thresholds versus group tests · defend the interpretation",
+          "visual": null
+        },
+        {
+          "id": "teach:expand:annotation-evidence",
+          "unit": "expand:annotation-evidence",
+          "topic": "annotation",
+          "kind": "teach",
+          "label": "Annotation records versus validated variants · read the evidence",
+          "visual": null
+        },
+        {
+          "id": "teach:expand:annotation-connection",
+          "unit": "expand:annotation-connection",
+          "topic": "annotation",
+          "kind": "teach",
+          "label": "Annotation records versus validated variants · connect the methods",
+          "visual": null
+        },
+        {
+          "id": "teach:expand:annotation-defence",
+          "unit": "expand:annotation-defence",
+          "topic": "annotation",
+          "kind": "teach",
+          "label": "Annotation records versus validated variants · defend the interpretation",
+          "visual": null
+        },
+        {
           "id": "check:0",
           "unit": "lesson:processing",
           "topic": "processing",
@@ -5724,7 +5893,8 @@
           "visual": null
         }
       ],
-      "expansionStart": 53
+      "expansionStart": 53,
+      "coverageExpansionStart": 61
     },
     {
       "id": "o3",
@@ -5778,6 +5948,30 @@
           "visual": null
         },
         {
+          "id": "teach:expand:counts-evidence",
+          "unit": "expand:counts-evidence",
+          "topic": "counts",
+          "kind": "teach",
+          "label": "What do the annotation counts show? · read the evidence",
+          "visual": null
+        },
+        {
+          "id": "teach:expand:counts-connection",
+          "unit": "expand:counts-connection",
+          "topic": "counts",
+          "kind": "teach",
+          "label": "What do the annotation counts show? · connect the methods",
+          "visual": null
+        },
+        {
+          "id": "teach:expand:counts-defence",
+          "unit": "expand:counts-defence",
+          "topic": "counts",
+          "kind": "teach",
+          "label": "What do the annotation counts show? · defend the interpretation",
+          "visual": null
+        },
+        {
           "id": "check:0",
           "unit": "lesson:counts",
           "topic": "counts",
@@ -5794,7 +5988,8 @@
           "visual": null
         }
       ],
-      "expansionStart": 4
+      "expansionStart": 4,
+      "coverageExpansionStart": 6
     },
     {
       "id": "o4",
@@ -5984,6 +6179,54 @@
           "visual": null
         },
         {
+          "id": "teach:expand:coding-evidence",
+          "unit": "expand:coding-evidence",
+          "topic": "coding",
+          "kind": "teach",
+          "label": "Protein effects and amino-acid summaries · read the evidence",
+          "visual": null
+        },
+        {
+          "id": "teach:expand:coding-connection",
+          "unit": "expand:coding-connection",
+          "topic": "coding",
+          "kind": "teach",
+          "label": "Protein effects and amino-acid summaries · connect the methods",
+          "visual": null
+        },
+        {
+          "id": "teach:expand:coding-defence",
+          "unit": "expand:coding-defence",
+          "topic": "coding",
+          "kind": "teach",
+          "label": "Protein effects and amino-acid summaries · defend the interpretation",
+          "visual": null
+        },
+        {
+          "id": "teach:expand:positions-evidence",
+          "unit": "expand:positions-evidence",
+          "topic": "positions",
+          "kind": "teach",
+          "label": "Why pooled positions are not hotspots · read the evidence",
+          "visual": null
+        },
+        {
+          "id": "teach:expand:positions-connection",
+          "unit": "expand:positions-connection",
+          "topic": "positions",
+          "kind": "teach",
+          "label": "Why pooled positions are not hotspots · connect the methods",
+          "visual": null
+        },
+        {
+          "id": "teach:expand:positions-defence",
+          "unit": "expand:positions-defence",
+          "topic": "positions",
+          "kind": "teach",
+          "label": "Why pooled positions are not hotspots · defend the interpretation",
+          "visual": null
+        },
+        {
           "id": "check:0",
           "unit": "lesson:coding",
           "topic": "coding",
@@ -6000,7 +6243,8 @@
           "visual": null
         }
       ],
-      "expansionStart": 19
+      "expansionStart": 19,
+      "coverageExpansionStart": 23
     },
     {
       "id": "o5",
@@ -6158,6 +6402,78 @@
           "visual": null
         },
         {
+          "id": "teach:expand:overlap-evidence",
+          "unit": "expand:overlap-evidence",
+          "topic": "overlap",
+          "kind": "teach",
+          "label": "Shared and group-restricted sets · read the evidence",
+          "visual": null
+        },
+        {
+          "id": "teach:expand:overlap-connection",
+          "unit": "expand:overlap-connection",
+          "topic": "overlap",
+          "kind": "teach",
+          "label": "Shared and group-restricted sets · connect the methods",
+          "visual": null
+        },
+        {
+          "id": "teach:expand:overlap-defence",
+          "unit": "expand:overlap-defence",
+          "topic": "overlap",
+          "kind": "teach",
+          "label": "Shared and group-restricted sets · defend the interpretation",
+          "visual": null
+        },
+        {
+          "id": "teach:expand:clustering-evidence",
+          "unit": "expand:clustering-evidence",
+          "topic": "clustering",
+          "kind": "teach",
+          "label": "Why clustering does not separate the groups · read the evidence",
+          "visual": null
+        },
+        {
+          "id": "teach:expand:clustering-connection",
+          "unit": "expand:clustering-connection",
+          "topic": "clustering",
+          "kind": "teach",
+          "label": "Why clustering does not separate the groups · connect the methods",
+          "visual": null
+        },
+        {
+          "id": "teach:expand:clustering-defence",
+          "unit": "expand:clustering-defence",
+          "topic": "clustering",
+          "kind": "teach",
+          "label": "Why clustering does not separate the groups · defend the interpretation",
+          "visual": null
+        },
+        {
+          "id": "teach:expand:heatmap-evidence",
+          "unit": "expand:heatmap-evidence",
+          "topic": "heatmap",
+          "kind": "teach",
+          "label": "Reading the clustered heat map · read the evidence",
+          "visual": null
+        },
+        {
+          "id": "teach:expand:heatmap-connection",
+          "unit": "expand:heatmap-connection",
+          "topic": "heatmap",
+          "kind": "teach",
+          "label": "Reading the clustered heat map · connect the methods",
+          "visual": null
+        },
+        {
+          "id": "teach:expand:heatmap-defence",
+          "unit": "expand:heatmap-defence",
+          "topic": "heatmap",
+          "kind": "teach",
+          "label": "Reading the clustered heat map · defend the interpretation",
+          "visual": null
+        },
+        {
           "id": "check:0",
           "unit": "lesson:overlap",
           "topic": "overlap",
@@ -6174,7 +6490,8 @@
           "visual": null
         }
       ],
-      "expansionStart": 13
+      "expansionStart": 13,
+      "coverageExpansionStart": 19
     },
     {
       "id": "o6",
@@ -6252,6 +6569,54 @@
           "visual": null
         },
         {
+          "id": "teach:expand:limitations-evidence",
+          "unit": "expand:limitations-evidence",
+          "topic": "limitations",
+          "kind": "teach",
+          "label": "What the evidence cannot establish · read the evidence",
+          "visual": null
+        },
+        {
+          "id": "teach:expand:limitations-connection",
+          "unit": "expand:limitations-connection",
+          "topic": "limitations",
+          "kind": "teach",
+          "label": "What the evidence cannot establish · connect the methods",
+          "visual": null
+        },
+        {
+          "id": "teach:expand:limitations-defence",
+          "unit": "expand:limitations-defence",
+          "topic": "limitations",
+          "kind": "teach",
+          "label": "What the evidence cannot establish · defend the interpretation",
+          "visual": null
+        },
+        {
+          "id": "teach:expand:conclusions-evidence",
+          "unit": "expand:conclusions-evidence",
+          "topic": "conclusions",
+          "kind": "teach",
+          "label": "A defensible oral synthesis · read the evidence",
+          "visual": null
+        },
+        {
+          "id": "teach:expand:conclusions-connection",
+          "unit": "expand:conclusions-connection",
+          "topic": "conclusions",
+          "kind": "teach",
+          "label": "A defensible oral synthesis · connect the methods",
+          "visual": null
+        },
+        {
+          "id": "teach:expand:conclusions-defence",
+          "unit": "expand:conclusions-defence",
+          "topic": "conclusions",
+          "kind": "teach",
+          "label": "A defensible oral synthesis · defend the interpretation",
+          "visual": null
+        },
+        {
           "id": "check:0",
           "unit": "lesson:limitations",
           "topic": "limitations",
@@ -6268,7 +6633,8 @@
           "visual": null
         }
       ],
-      "expansionStart": 5
+      "expansionStart": 5,
+      "coverageExpansionStart": 9
     }
   ]
 }

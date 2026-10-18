@@ -1,6 +1,6 @@
 # My App Design Preferences
 
-Version 18 · Consolidated from the Meiosis and Chromosome 9 app discussions · Updated 18 October 2026
+Version 19 · Consolidated from the Meiosis and Chromosome 9 app discussions · Updated 18 October 2026
 
 ## How to use this brief
 
@@ -319,3 +319,15 @@ Remove the screenshot-identified learning clutter: the worked-reasoning disclosu
 Use the simple pattern I prefer: One example → Demonstrated answer → Why → Remember → Your turn (dropdown choice) → brief feedback → Another question or next example. One answered question is enough to continue; the other questions are optional practice. Do not require me to type an explanation, check rubric points or finish three tasks to move on. Keep objective navigation, saved position, glossary links and original evidence available. Preserve old private answers and notes in backups even when their old interfaces are removed.
 
 Current app 2.4.0 retains 175 worked-example units and offers three dropdown questions per unit, available one at a time without a three-task gate. Old question-bank and flashcard URLs now open the simple example library. Glossary definitions remain optional; sources and scientific qualifications remain accessible outside the uncluttered practice card. This is my app design preference, not a claim that definitions are unnecessary for every learner or subject.
+
+## Numerous examples with systematic study coverage — 18 October 2026
+
+Build a large, organised collection of practical worked examples that helps me cover the particular study’s concepts, methods, findings, evidence interpretation and applications. Quantity alone is insufficient: audit coverage against the actual research objectives, methodology, results, figures, tables, terminology and limitations. Fill identifiable gaps with varied, relevant practice rather than superficial rewording.
+
+For each study topic, include six aspects: understand the idea, apply it in a different situation, read the actual evidence, spot a mistaken inference, connect methods to results, and defend the study in examiner or conference questions. Progress from straightforward demonstrations to connected interpretation and defence. Include calculations where appropriate, with the correct unit and denominator. Link study-based examples to the relevant source figure, table or methodology. Distinguish reported observations, derived arithmetic, hypothetical examples and unknown information.
+
+Keep the simple approved layout: Example → Demonstrated answer → Why → Remember → dropdown question → brief feedback → Another question or next example. Definitions stay optional and brief. Do not reintroduce written exercises, rubric checklists, self-assessment panels, compulsory three-stage completion or a crowded main menu. One answered question remains enough to continue. Optional dropdown filters may organise practice by objective or skill.
+
+Maintain a coverage map that links topics and practice skills to concrete activities, checks all glossary and visual references, and records unresolved evidence gaps. Update it when adding new material. Never invent missing results, exact plot percentages, undocumented software behaviour or clinical evidence. Describe coverage as content availability, not proof of complete knowledge or validated mastery.
+
+Current implementation: app 2.5.0 adds 45 worked cases across all 15 topics: evidence interpretation, method connections and study defence. The app now has 220 example activities representing 200 distinct worked scenarios and 660 dropdown-question slots. Shared concepts are reused across app surfaces. Every one of the six objectives, 15 topics, 105 glossary entries, seven result figures, two tables and the methodology visual is mapped in COVERAGE_AUDIT.md and content/coverage-audit.json. The optional practice-focus dropdown exposes the six learning aspects. Earlier notes, answers and progress are preserved; older final-check cursors enter the added practice cases before the concluding checks.
