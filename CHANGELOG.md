@@ -44,3 +44,7 @@ Added a 1200 × 630 PNG sharing card with the existing app icon/title; PNG favic
 - Explicit objective-to-visual mapping, grouped gallery, links from every lesson to objective evidence and links back from each visual.
 - Figure 2 is available in Objective 3 count/gene teaching as well as annotation teaching; methodology has its own direct view.
 - Preference brief updated to version 12; all prior updates included.
+
+## 1.6.1
+- Context-aware visual Back restores the originating lesson, gallery or prior visual, including scroll and expanded details.
+- Separate visual-library link and direct-entry fallback retained. Preferences version 13.

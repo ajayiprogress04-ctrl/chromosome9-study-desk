@@ -41,3 +41,5 @@ Version 1.4.1: automated suite passes, including simulated figure/table return r
 Version 1.5.0: all automated checks pass, including figure-specific teaching in lesson, gallery and enlarged views, glossary links, methodology arrows and both table guides. Previous gallery-position regression remains passing. No real browser or deployment verification.
 
 Version 1.6.0: automated suite passes, including explicit two-way visual/objective links, all lesson evidence sections, gallery objective groups, direct methodology view and Figure 2 in Objective 3. Browser visual and deployment verification not performed.
+
+Version 1.6.1: automated suite passes. Simulated navigation verifies lesson→figure→Back restores lesson and scroll; gallery→figure→table returns through both prior views; methodology return restores expanded sections. Real browser appearance and deployment remain unverified.

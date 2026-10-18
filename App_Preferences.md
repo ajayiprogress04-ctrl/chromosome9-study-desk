@@ -1,6 +1,6 @@
 # My App Design Preferences
 
-Version 12 · Consolidated from the Meiosis and Chromosome 9 app discussions · Updated 18 October 2026
+Version 13 · Consolidated from the Meiosis and Chromosome 9 app discussions · Updated 18 October 2026
 
 ## How to use this brief
 
@@ -193,3 +193,7 @@ Each methodology diagram and result figure needs a short explanation of what it 
 ## Connect every visual to its objective
 
 Make objective connections explicit and clickable. Group methodology, figures and tables by learning objective in the visual gallery. Every lesson should offer its objective’s visual evidence with a brief explanation of each connection; individual visuals must link back to their objective. Allow a visual to support multiple objectives where appropriate, without inventing author-stated research objectives. For synthesis/limitations objectives, link the relevant existing evidence and explain when no separate original figure exists.
+
+## Flexible return from visual evidence
+
+Use a context-aware Back button for figures, tables and methodology views. Return immediately to the actual previous view, including the exact objective lesson, gallery or previous visual, and restore scroll position and expanded reading sections. Do not force every return into the visual library. Keep the visual library as a separate navigation option and provide a safe fallback for directly opened visuals. Normal Previous/Next lesson navigation should still start at the top.
