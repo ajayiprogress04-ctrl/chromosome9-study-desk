@@ -1,5 +1,5 @@
 {
-  "version": "1.6.1",
+  "version": "2.0.0",
   "name": "Chromosome 9 Study Desk",
   "subtitle": "Understand the evidence. Explain the study.",
   "studyTitle": "Chromosome 9 Variant Annotation Profiles Across Public Acute Leukemia Sequencing Datasets",
@@ -36,7 +36,8 @@
       "poster": "Introduction and Objective; Results and Discussion",
       "steps": [],
       "support": "Faithful paraphrase; plain-language explanations are educational interpretations.",
-      "objective": "o1"
+      "objective": "o1",
+      "learning": "lesson:rationale"
     },
     {
       "id": "design",
@@ -66,7 +67,8 @@
       "poster": "Materials and Methods",
       "steps": [],
       "support": "Faithful paraphrase; plain-language explanations are educational interpretations.",
-      "objective": "o1"
+      "objective": "o1",
+      "learning": "lesson:design"
     },
     {
       "id": "provenance",
@@ -102,7 +104,8 @@
         "Interpret differences within that context."
       ],
       "support": "Faithful paraphrase; plain-language explanations are educational interpretations.",
-      "objective": "o1"
+      "objective": "o1",
+      "learning": "lesson:provenance"
     },
     {
       "id": "processing",
@@ -138,7 +141,8 @@
         "Transfer reference annotations and examine coverage."
       ],
       "support": "Faithful paraphrase; plain-language explanations are educational interpretations.",
-      "objective": "o2"
+      "objective": "o2",
+      "learning": "lesson:processing"
     },
     {
       "id": "alignment",
@@ -172,7 +176,8 @@
         "Restrict absence claims to adequately observed regions."
       ],
       "support": "Faithful paraphrase; plain-language explanations are educational interpretations.",
-      "objective": "o2"
+      "objective": "o2",
+      "learning": "lesson:alignment"
     },
     {
       "id": "calling",
@@ -203,7 +208,8 @@
       "poster": "Materials and Methods",
       "steps": [],
       "support": "Faithful paraphrase; plain-language explanations are educational interpretations.",
-      "objective": "o2"
+      "objective": "o2",
+      "learning": "lesson:calling"
     },
     {
       "id": "annotation",
@@ -234,7 +240,8 @@
       "poster": "Results and Discussion",
       "steps": [],
       "support": "Faithful paraphrase; plain-language explanations are educational interpretations.",
-      "objective": "o2"
+      "objective": "o2",
+      "learning": "lesson:annotation"
     },
     {
       "id": "counts",
@@ -264,7 +271,8 @@
       "poster": "Results and Discussion",
       "steps": [],
       "support": "Faithful paraphrase; plain-language explanations are educational interpretations.",
-      "objective": "o3"
+      "objective": "o3",
+      "learning": "lesson:counts"
     },
     {
       "id": "coding",
@@ -294,7 +302,8 @@
       "poster": "Results and Discussion",
       "steps": [],
       "support": "Faithful paraphrase; plain-language explanations are educational interpretations.",
-      "objective": "o4"
+      "objective": "o4",
+      "learning": "lesson:coding"
     },
     {
       "id": "positions",
@@ -324,7 +333,8 @@
       "poster": "Not individually displayed",
       "steps": [],
       "support": "Faithful paraphrase; plain-language explanations are educational interpretations.",
-      "objective": "o4"
+      "objective": "o4",
+      "learning": "lesson:positions"
     },
     {
       "id": "overlap",
@@ -354,7 +364,8 @@
       "poster": "Results and Discussion",
       "steps": [],
       "support": "Faithful paraphrase; plain-language explanations are educational interpretations.",
-      "objective": "o5"
+      "objective": "o5",
+      "learning": "lesson:overlap"
     },
     {
       "id": "clustering",
@@ -384,7 +395,8 @@
       "poster": "Results and Discussion",
       "steps": [],
       "support": "Faithful paraphrase; plain-language explanations are educational interpretations.",
-      "objective": "o5"
+      "objective": "o5",
+      "learning": "lesson:clustering"
     },
     {
       "id": "heatmap",
@@ -414,7 +426,8 @@
       "poster": "Clustering summarized; heat map not displayed",
       "steps": [],
       "support": "Faithful paraphrase; plain-language explanations are educational interpretations.",
-      "objective": "o5"
+      "objective": "o5",
+      "learning": "lesson:heatmap"
     },
     {
       "id": "limitations",
@@ -444,7 +457,8 @@
       "poster": "Conclusion; Materials and Methods",
       "steps": [],
       "support": "Faithful paraphrase; plain-language explanations are educational interpretations.",
-      "objective": "o6"
+      "objective": "o6",
+      "learning": "lesson:limitations"
     },
     {
       "id": "conclusions",
@@ -473,7 +487,8 @@
       "poster": "Conclusion",
       "steps": [],
       "support": "Faithful paraphrase; plain-language explanations are educational interpretations.",
-      "objective": "o6"
+      "objective": "o6",
+      "learning": "lesson:conclusions"
     }
   ],
   "terms": [
@@ -503,12 +518,13 @@
           "title": "NHGRI: Chromosome",
           "url": "https://www.genome.gov/genetics-glossary/Chromosome"
         }
-      ]
+      ],
+      "learning": "term:chromosome9"
     },
     {
       "id": "pax5",
       "term": "PAX5",
-      "full": "",
+      "full": "paired box 5",
       "plain": "A transcription factor important for establishing and maintaining B-cell identity.",
       "why": "Gene relevance does not identify which alteration is present.",
       "mechanism": "The expanded gene name is paired box 5. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
@@ -522,7 +538,8 @@
       "origin": "The official expanded name is paired box 5. This explains the label without inventing its naming history.",
       "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
-        "PAX5"
+        "PAX5",
+        "paired box 5"
       ],
       "example": "Finding PAX5 in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
       "backgroundSources": [
@@ -530,7 +547,8 @@
           "title": "NCBI Gene: PAX5",
           "url": "https://www.ncbi.nlm.nih.gov/gene/5079"
         }
-      ]
+      ],
+      "learning": "term:pax5"
     },
     {
       "id": "annotation",
@@ -555,7 +573,8 @@
         "variant annotation records",
         "annotations",
         "annotation"
-      ]
+      ],
+      "learning": "term:annotation"
     },
     {
       "id": "allele",
@@ -584,7 +603,8 @@
           "title": "NHGRI: Allele",
           "url": "https://www.genome.gov/genetics-glossary/Allele"
         }
-      ]
+      ],
+      "learning": "term:allele"
     },
     {
       "id": "run",
@@ -607,7 +627,8 @@
         "sequencing runs",
         "run-level",
         "runs"
-      ]
+      ],
+      "learning": "term:run"
     },
     {
       "id": "biosample",
@@ -630,7 +651,8 @@
         "BioSamples",
         "biological source",
         "biological sources"
-      ]
+      ],
+      "learning": "term:biosample"
     },
     {
       "id": "reh",
@@ -650,7 +672,8 @@
       "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "REH"
-      ]
+      ],
+      "learning": "term:reh"
     },
     {
       "id": "replicate",
@@ -674,7 +697,8 @@
         "biological replication",
         "independent samples",
         "replication"
-      ]
+      ],
+      "learning": "term:replicate"
     },
     {
       "id": "library",
@@ -698,7 +722,8 @@
         "library design",
         "library designs",
         "libraries"
-      ]
+      ],
+      "learning": "term:library"
     },
     {
       "id": "read",
@@ -722,7 +747,8 @@
         "read quality",
         "read length",
         "reads"
-      ]
+      ],
+      "learning": "term:read"
     },
     {
       "id": "q30",
@@ -750,7 +776,8 @@
           "title": "Illumina: sequencing quality scores",
           "url": "https://www.illumina.com/science/technology/next-generation-sequencing/plan-experiments/quality-scores.html"
         }
-      ]
+      ],
+      "learning": "term:q30"
     },
     {
       "id": "contig",
@@ -771,7 +798,8 @@
       "aliases": [
         "contig",
         "contigs"
-      ]
+      ],
+      "learning": "term:contig"
     },
     {
       "id": "reference",
@@ -795,7 +823,8 @@
         "reference genome",
         "GRCh38.p14",
         "NC_000009.12"
-      ]
+      ],
+      "learning": "term:reference"
     },
     {
       "id": "identity",
@@ -816,7 +845,8 @@
       "aliases": [
         "pairwise identity",
         "identity"
-      ]
+      ],
+      "learning": "term:identity"
     },
     {
       "id": "coverage",
@@ -839,7 +869,8 @@
         "chromosome coverage",
         "coverage",
         "sparse coverage"
-      ]
+      ],
+      "learning": "term:coverage"
     },
     {
       "id": "callable",
@@ -861,7 +892,8 @@
         "callable region",
         "callable regions",
         "callable coverage"
-      ]
+      ],
+      "learning": "term:callable"
     },
     {
       "id": "variantfrequency",
@@ -883,7 +915,8 @@
         "variant frequency",
         "variant-frequency setting",
         "variant-frequency"
-      ]
+      ],
+      "learning": "term:variantfrequency"
     },
     {
       "id": "strandbias",
@@ -904,7 +937,8 @@
       "aliases": [
         "strand bias",
         "strand-bias"
-      ]
+      ],
+      "learning": "term:strandbias"
     },
     {
       "id": "pvalue",
@@ -927,7 +961,8 @@
         "P-values",
         "p-value",
         "p-values"
-      ]
+      ],
+      "learning": "term:pvalue"
     },
     {
       "id": "descriptive",
@@ -949,7 +984,8 @@
         "descriptive analysis",
         "descriptive comparisons",
         "descriptive"
-      ]
+      ],
+      "learning": "term:descriptive"
     },
     {
       "id": "somatic",
@@ -981,7 +1017,8 @@
           "url": "https://www.genome.gov/genetics-glossary/Mutation",
           "title": "NHGRI: mutation"
         }
-      ]
+      ],
+      "learning": "term:somatic"
     },
     {
       "id": "transcript",
@@ -1003,7 +1040,8 @@
         "transcript",
         "transcripts",
         "transcript-level"
-      ]
+      ],
+      "learning": "term:transcript"
     },
     {
       "id": "median",
@@ -1024,7 +1062,8 @@
       "aliases": [
         "median",
         "medians"
-      ]
+      ],
+      "learning": "term:median"
     },
     {
       "id": "substitution",
@@ -1045,7 +1084,8 @@
       "aliases": [
         "substitution",
         "substitutions"
-      ]
+      ],
+      "learning": "term:substitution"
     },
     {
       "id": "truncation",
@@ -1066,7 +1106,8 @@
       "aliases": [
         "truncation",
         "truncations"
-      ]
+      ],
+      "learning": "term:truncation"
     },
     {
       "id": "frameshift",
@@ -1094,7 +1135,8 @@
           "title": "NHGRI: Frameshift Mutation",
           "url": "https://www.genome.gov/genetics-glossary/Frameshift-Mutation"
         }
-      ]
+      ],
+      "learning": "term:frameshift"
     },
     {
       "id": "codon",
@@ -1125,7 +1167,8 @@
           "title": "NHGRI: Codon",
           "url": "https://www.genome.gov/genetics-glossary/Codon"
         }
-      ]
+      ],
+      "learning": "term:codon"
     },
     {
       "id": "hotspot",
@@ -1148,7 +1191,8 @@
         "hotspots",
         "mutational hotspots",
         "mutation hotspots"
-      ]
+      ],
+      "learning": "term:hotspot"
     },
     {
       "id": "set",
@@ -1175,7 +1219,8 @@
         "annotation-set overlap",
         "set overlap",
         "group-restricted"
-      ]
+      ],
+      "learning": "term:set"
     },
     {
       "id": "dendrogram",
@@ -1198,7 +1243,8 @@
         "dendrograms",
         "branch height",
         "branch heights"
-      ]
+      ],
+      "learning": "term:dendrogram"
     },
     {
       "id": "correlation",
@@ -1225,7 +1271,8 @@
           "title": "SciPy: correlation distance",
           "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.distance.correlation.html"
         }
-      ]
+      ],
+      "learning": "term:correlation"
     },
     {
       "id": "linkage",
@@ -1252,7 +1299,8 @@
           "title": "SciPy: linkage",
           "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.cluster.hierarchy.linkage.html"
         }
-      ]
+      ],
+      "learning": "term:linkage"
     },
     {
       "id": "heatmap",
@@ -1275,7 +1323,8 @@
         "heat maps",
         "heatmap",
         "heat-map"
-      ]
+      ],
+      "learning": "term:heatmap"
     },
     {
       "id": "scaling",
@@ -1296,7 +1345,8 @@
       "aliases": [
         "row-wise scaling",
         "scaling"
-      ]
+      ],
+      "learning": "term:scaling"
     },
     {
       "id": "imputation",
@@ -1317,7 +1367,8 @@
       "aliases": [
         "imputation",
         "missing-value imputation"
-      ]
+      ],
+      "learning": "term:imputation"
     },
     {
       "id": "biomarker",
@@ -1340,7 +1391,8 @@
         "biomarkers",
         "clinical biomarker",
         "clinical biomarkers"
-      ]
+      ],
+      "learning": "term:biomarker"
     },
     {
       "id": "aml",
@@ -1369,7 +1421,8 @@
           "title": "NCI: Acute myeloid leukemia",
           "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/acute-myeloid-leukemia"
         }
-      ]
+      ],
+      "learning": "term:aml"
     },
     {
       "id": "all",
@@ -1398,7 +1451,8 @@
           "title": "NCI: Acute lymphoblastic leukemia",
           "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/all"
         }
-      ]
+      ],
+      "learning": "term:all"
     },
     {
       "id": "sra",
@@ -1420,7 +1474,8 @@
         "SRA",
         "Sequence Read Archive",
         "SRA Toolkit"
-      ]
+      ],
+      "learning": "term:sra"
     },
     {
       "id": "ena",
@@ -1441,7 +1496,8 @@
       "aliases": [
         "ENA",
         "European Nucleotide Archive"
-      ]
+      ],
+      "learning": "term:ena"
     },
     {
       "id": "geneious",
@@ -1462,7 +1518,8 @@
       "aliases": [
         "Geneious",
         "Geneious Mapper"
-      ]
+      ],
+      "learning": "term:geneious"
     },
     {
       "id": "sequencing",
@@ -1484,7 +1541,8 @@
         "sequencing",
         "long-read",
         "short-read"
-      ]
+      ],
+      "learning": "term:sequencing"
     },
     {
       "id": "dataset",
@@ -1505,7 +1563,8 @@
       "aliases": [
         "dataset",
         "datasets"
-      ]
+      ],
+      "learning": "term:dataset"
     },
     {
       "id": "dna",
@@ -1532,7 +1591,8 @@
           "title": "NHGRI: DNA",
           "url": "https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid-DNA"
         }
-      ]
+      ],
+      "learning": "term:dna"
     },
     {
       "id": "genome",
@@ -1560,7 +1620,8 @@
           "title": "NHGRI: Genome",
           "url": "https://www.genome.gov/genetics-glossary/Genome"
         }
-      ]
+      ],
+      "learning": "term:genome"
     },
     {
       "id": "variant",
@@ -1591,7 +1652,8 @@
           "url": "https://www.genome.gov/genetics-glossary/Genomic-Variation",
           "title": "NHGRI: genomic variation"
         }
-      ]
+      ],
+      "learning": "term:variant"
     },
     {
       "id": "mutation",
@@ -1620,7 +1682,8 @@
           "title": "NHGRI: Mutation",
           "url": "https://www.genome.gov/genetics-glossary/Mutation"
         }
-      ]
+      ],
+      "learning": "term:mutation"
     },
     {
       "id": "gene",
@@ -1654,7 +1717,8 @@
           "title": "NHGRI: Gene",
           "url": "https://www.genome.gov/genetics-glossary/Gene"
         }
-      ]
+      ],
+      "learning": "term:gene"
     },
     {
       "id": "rna",
@@ -1681,7 +1745,8 @@
           "title": "NHGRI: Ribonucleic Acid RNA",
           "url": "https://www.genome.gov/genetics-glossary/Ribonucleic-Acid-RNA"
         }
-      ]
+      ],
+      "learning": "term:rna"
     },
     {
       "id": "mrna",
@@ -1709,7 +1774,8 @@
           "title": "NHGRI: Messenger RNA",
           "url": "https://www.genome.gov/genetics-glossary/Messenger-RNA"
         }
-      ]
+      ],
+      "learning": "term:mrna"
     },
     {
       "id": "ncrna",
@@ -1730,7 +1796,8 @@
       "aliases": [
         "noncoding RNA",
         "noncoding RNA features"
-      ]
+      ],
+      "learning": "term:ncrna"
     },
     {
       "id": "cds",
@@ -1756,7 +1823,8 @@
         "coding position",
         "coding positions",
         "CDS"
-      ]
+      ],
+      "learning": "term:cds"
     },
     {
       "id": "protein",
@@ -1788,7 +1856,8 @@
           "title": "NHGRI: Protein",
           "url": "https://www.genome.gov/genetics-glossary/Protein"
         }
-      ]
+      ],
+      "learning": "term:protein"
     },
     {
       "id": "aminoacid",
@@ -1819,7 +1888,8 @@
           "title": "NHGRI: Amino Acids",
           "url": "https://www.genome.gov/genetics-glossary/Amino-Acids"
         }
-      ]
+      ],
+      "learning": "term:aminoacid"
     },
     {
       "id": "transition",
@@ -1840,7 +1910,8 @@
       "aliases": [
         "transition",
         "transitions"
-      ]
+      ],
+      "learning": "term:transition"
     },
     {
       "id": "transversion",
@@ -1861,7 +1932,8 @@
       "aliases": [
         "transversion",
         "transversions"
-      ]
+      ],
+      "learning": "term:transversion"
     },
     {
       "id": "insertion",
@@ -1889,7 +1961,8 @@
           "title": "NHGRI: Insertion",
           "url": "https://www.genome.gov/genetics-glossary/Insertion"
         }
-      ]
+      ],
+      "learning": "term:insertion"
     },
     {
       "id": "deletion",
@@ -1917,7 +1990,8 @@
           "title": "NHGRI: Deletion",
           "url": "https://www.genome.gov/genetics-glossary/Deletion"
         }
-      ]
+      ],
+      "learning": "term:deletion"
     },
     {
       "id": "tandemrepeat",
@@ -1939,7 +2013,8 @@
         "tandem repeat",
         "tandem repeats",
         "tandem-repeat"
-      ]
+      ],
+      "learning": "term:tandemrepeat"
     },
     {
       "id": "polymorphism",
@@ -1963,7 +2038,8 @@
         "polymorphism class",
         "polymorphism classes",
         "polymorphism-class"
-      ]
+      ],
+      "learning": "term:polymorphism"
     },
     {
       "id": "pathogenic",
@@ -1985,7 +2061,8 @@
         "pathogenicity",
         "pathogenic",
         "disease-causing"
-      ]
+      ],
+      "learning": "term:pathogenic"
     },
     {
       "id": "fusion",
@@ -2014,7 +2091,8 @@
           "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/fusion-gene",
           "title": "NCI: fusion gene"
         }
-      ]
+      ],
+      "learning": "term:fusion"
     },
     {
       "id": "germline",
@@ -2042,7 +2120,8 @@
           "title": "NHGRI: Germ Line",
           "url": "https://www.genome.gov/genetics-glossary/Germ-Line"
         }
-      ]
+      ],
+      "learning": "term:germline"
     },
     {
       "id": "matchednormal",
@@ -2063,7 +2142,8 @@
       "aliases": [
         "matched normal",
         "matched normal comparison"
-      ]
+      ],
+      "learning": "term:matchednormal"
     },
     {
       "id": "validation",
@@ -2086,7 +2166,8 @@
         "functional validation",
         "clinical validation",
         "validated"
-      ]
+      ],
+      "learning": "term:validation"
     },
     {
       "id": "normalization",
@@ -2108,7 +2189,8 @@
         "normalization",
         "allele normalization",
         "normalized"
-      ]
+      ],
+      "learning": "term:normalization"
     },
     {
       "id": "matrix",
@@ -2133,7 +2215,8 @@
         "feature matrices",
         "run-by-gene",
         "matrices"
-      ]
+      ],
+      "learning": "term:matrix"
     },
     {
       "id": "clustering",
@@ -2155,7 +2238,8 @@
       "aliases": [
         "hierarchical clustering",
         "clustering"
-      ]
+      ],
+      "learning": "term:clustering"
     },
     {
       "id": "variance",
@@ -2176,7 +2260,8 @@
       "aliases": [
         "unit-variance scaling",
         "unit-variance"
-      ]
+      ],
+      "learning": "term:variance"
     },
     {
       "id": "statistical",
@@ -2199,7 +2284,8 @@
         "statistically significant",
         "significance test",
         "significance testing"
-      ]
+      ],
+      "learning": "term:statistical"
     },
     {
       "id": "prevalence",
@@ -2220,7 +2306,8 @@
       "aliases": [
         "prevalence",
         "patient-level mutation prevalence"
-      ]
+      ],
+      "learning": "term:prevalence"
     },
     {
       "id": "mean",
@@ -2241,7 +2328,8 @@
         "arithmetic mean",
         "mean ungapped sequence length",
         "mean sequence length"
-      ]
+      ],
+      "learning": "term:mean"
     },
     {
       "id": "bp",
@@ -2263,7 +2351,8 @@
         "base pair",
         "base pairs",
         "bp"
-      ]
+      ],
+      "learning": "term:bp"
     },
     {
       "id": "adapters",
@@ -2284,7 +2373,8 @@
       "aliases": [
         "adapter",
         "adapters"
-      ]
+      ],
+      "learning": "term:adapters"
     },
     {
       "id": "assembly",
@@ -2306,7 +2396,8 @@
         "assembly",
         "assemblies",
         "sequence assembly"
-      ]
+      ],
+      "learning": "term:assembly"
     },
     {
       "id": "alignmentterm",
@@ -2329,7 +2420,8 @@
         "alignment",
         "alignments",
         "aligned"
-      ]
+      ],
+      "learning": "term:alignmentterm"
     },
     {
       "id": "fastqc",
@@ -2349,7 +2441,8 @@
       "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "FastQC"
-      ]
+      ],
+      "learning": "term:fastqc"
     },
     {
       "id": "trimmomatic",
@@ -2369,7 +2462,8 @@
       "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "Trimmomatic"
-      ]
+      ],
+      "learning": "term:trimmomatic"
     },
     {
       "id": "spades",
@@ -2389,7 +2483,8 @@
       "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "SPAdes"
-      ]
+      ],
+      "learning": "term:spades"
     },
     {
       "id": "quast",
@@ -2409,7 +2504,8 @@
       "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "QUAST"
-      ]
+      ],
+      "learning": "term:quast"
     },
     {
       "id": "gc",
@@ -2430,7 +2526,8 @@
         "GC",
         "GC content",
         "guanine–cytosine"
-      ]
+      ],
+      "learning": "term:gc"
     },
     {
       "id": "ml2",
@@ -2450,7 +2547,8 @@
       "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "ML-2"
-      ]
+      ],
+      "learning": "term:ml2"
     },
     {
       "id": "hl60",
@@ -2470,12 +2568,13 @@
       "support": "Study-context explanation. The manuscript reference below supports its use in this analysis.",
       "aliases": [
         "HL-60"
-      ]
+      ],
+      "learning": "term:hl60"
     },
     {
       "id": "gene-nup214",
       "term": "NUP214",
-      "full": "",
+      "full": "nucleoporin 214",
       "plain": "A nuclear-pore protein involved in transport between the nucleus and cytoplasm.",
       "why": "A label identifies gene context, not a validated pathogenic alteration.",
       "mechanism": "The expanded gene name is nucleoporin 214. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
@@ -2490,7 +2589,8 @@
       "origin": "The official expanded name is nucleoporin 214. This explains the label without inventing its naming history.",
       "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
-        "NUP214"
+        "NUP214",
+        "nucleoporin 214"
       ],
       "example": "Finding NUP214 in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
       "backgroundSources": [
@@ -2498,12 +2598,13 @@
           "title": "NCBI Gene: NUP214",
           "url": "https://www.ncbi.nlm.nih.gov/gene/8021"
         }
-      ]
+      ],
+      "learning": "term:gene-nup214"
     },
     {
       "id": "gene-notch1",
       "term": "NOTCH1",
-      "full": "",
+      "full": "notch receptor 1",
       "plain": "A cell-surface receptor that carries signals between neighbouring cells and helps regulate development and cell fate.",
       "why": "A label identifies gene context, not a validated pathogenic alteration.",
       "mechanism": "The expanded gene name is notch receptor 1. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
@@ -2518,7 +2619,8 @@
       "origin": "The official expanded name is notch receptor 1. This explains the label without inventing its naming history.",
       "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
-        "NOTCH1"
+        "NOTCH1",
+        "notch receptor 1"
       ],
       "example": "Finding NOTCH1 in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
       "backgroundSources": [
@@ -2526,12 +2628,13 @@
           "title": "NCBI Gene: NOTCH1",
           "url": "https://www.ncbi.nlm.nih.gov/gene/4851"
         }
-      ]
+      ],
+      "learning": "term:gene-notch1"
     },
     {
       "id": "gene-cdkn2a",
       "term": "CDKN2A",
-      "full": "",
+      "full": "cyclin dependent kinase inhibitor 2A",
       "plain": "A gene producing distinct proteins involved in restraining cell-cycle progression through CDK4/6 and p53-related regulation.",
       "why": "A label identifies gene context, not a validated pathogenic alteration.",
       "mechanism": "The expanded gene name is cyclin dependent kinase inhibitor 2A. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
@@ -2546,7 +2649,8 @@
       "origin": "The official expanded name is cyclin dependent kinase inhibitor 2A. This explains the label without inventing its naming history.",
       "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
-        "CDKN2A"
+        "CDKN2A",
+        "cyclin dependent kinase inhibitor 2A"
       ],
       "example": "Finding CDKN2A in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
       "backgroundSources": [
@@ -2554,12 +2658,13 @@
           "title": "NCBI Gene: CDKN2A",
           "url": "https://www.ncbi.nlm.nih.gov/gene/1029"
         }
-      ]
+      ],
+      "learning": "term:gene-cdkn2a"
     },
     {
       "id": "gene-golga2",
       "term": "GOLGA2",
-      "full": "",
+      "full": "golgin A2",
       "plain": "A Golgi-associated protein implicated in organizing Golgi stacks and vesicle transport.",
       "why": "A label identifies gene context, not a validated pathogenic alteration.",
       "mechanism": "The expanded gene name is golgin A2. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
@@ -2574,7 +2679,8 @@
       "origin": "The official expanded name is golgin A2. This explains the label without inventing its naming history.",
       "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
-        "GOLGA2"
+        "GOLGA2",
+        "golgin A2"
       ],
       "example": "Finding GOLGA2 in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
       "backgroundSources": [
@@ -2582,12 +2688,13 @@
           "title": "NCBI Gene: GOLGA2",
           "url": "https://www.ncbi.nlm.nih.gov/gene/2801"
         }
-      ]
+      ],
+      "learning": "term:gene-golga2"
     },
     {
       "id": "gene-washc1",
       "term": "WASHC1",
-      "full": "",
+      "full": "WASH complex subunit 1",
       "plain": "A component of the WASH complex involved in actin organization and endosomal transport.",
       "why": "A label identifies gene context, not a validated pathogenic alteration.",
       "mechanism": "The expanded gene name is WASH complex subunit 1. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
@@ -2602,7 +2709,8 @@
       "origin": "The official expanded name is WASH complex subunit 1. This explains the label without inventing its naming history.",
       "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
-        "WASHC1"
+        "WASHC1",
+        "WASH complex subunit 1"
       ],
       "example": "Finding WASHC1 in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
       "backgroundSources": [
@@ -2610,12 +2718,13 @@
           "title": "NCBI Gene: WASHC1",
           "url": "https://www.ncbi.nlm.nih.gov/gene/100287171"
         }
-      ]
+      ],
+      "learning": "term:gene-washc1"
     },
     {
       "id": "gene-cdc14b",
       "term": "CDC14B",
-      "full": "",
+      "full": "cell division cycle 14B",
       "plain": "A phosphatase that removes phosphate groups from proteins and is implicated in cell-cycle regulation.",
       "why": "A label identifies gene context, not a validated pathogenic alteration.",
       "mechanism": "The expanded gene name is cell division cycle 14B. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
@@ -2630,7 +2739,8 @@
       "origin": "The official expanded name is cell division cycle 14B. This explains the label without inventing its naming history.",
       "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
-        "CDC14B"
+        "CDC14B",
+        "cell division cycle 14B"
       ],
       "example": "Finding CDC14B in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
       "backgroundSources": [
@@ -2638,12 +2748,13 @@
           "title": "NCBI Gene: CDC14B",
           "url": "https://www.ncbi.nlm.nih.gov/gene/8555"
         }
-      ]
+      ],
+      "learning": "term:gene-cdc14b"
     },
     {
       "id": "gene-dnm1",
       "term": "DNM1",
-      "full": "",
+      "full": "dynamin 1",
       "plain": "A GTP-using protein that helps reshape and separate membranes during endocytosis and vesicle trafficking.",
       "why": "A label identifies gene context, not a validated pathogenic alteration.",
       "mechanism": "The expanded gene name is dynamin 1. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
@@ -2658,7 +2769,8 @@
       "origin": "The official expanded name is dynamin 1. This explains the label without inventing its naming history.",
       "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
-        "DNM1"
+        "DNM1",
+        "dynamin 1"
       ],
       "example": "Finding DNM1 in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
       "backgroundSources": [
@@ -2666,12 +2778,13 @@
           "title": "NCBI Gene: DNM1",
           "url": "https://www.ncbi.nlm.nih.gov/gene/1759"
         }
-      ]
+      ],
+      "learning": "term:gene-dnm1"
     },
     {
       "id": "gene-kank1",
       "term": "KANK1",
-      "full": "",
+      "full": "KN motif and ankyrin repeat domains 1",
       "plain": "A protein involved in organizing the actin cytoskeleton.",
       "why": "A label identifies gene context, not a validated pathogenic alteration.",
       "mechanism": "The expanded gene name is KN motif and ankyrin repeat domains 1. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
@@ -2686,7 +2799,8 @@
       "origin": "The official expanded name is KN motif and ankyrin repeat domains 1. This explains the label without inventing its naming history.",
       "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
-        "KANK1"
+        "KANK1",
+        "KN motif and ankyrin repeat domains 1"
       ],
       "example": "Finding KANK1 in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
       "backgroundSources": [
@@ -2694,12 +2808,13 @@
           "title": "NCBI Gene: KANK1",
           "url": "https://www.ncbi.nlm.nih.gov/gene/23189"
         }
-      ]
+      ],
+      "learning": "term:gene-kank1"
     },
     {
       "id": "gene-phf2",
       "term": "PHF2",
-      "full": "",
+      "full": "PHD finger protein 2",
       "plain": "A protein with a PHD finger domain associated with chromatin-related regulation of gene expression.",
       "why": "A label identifies gene context, not a validated pathogenic alteration.",
       "mechanism": "The expanded gene name is PHD finger protein 2. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
@@ -2714,7 +2829,8 @@
       "origin": "The official expanded name is PHD finger protein 2. This explains the label without inventing its naming history.",
       "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
-        "PHF2"
+        "PHF2",
+        "PHD finger protein 2"
       ],
       "example": "Finding PHF2 in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
       "backgroundSources": [
@@ -2722,12 +2838,13 @@
           "title": "NCBI Gene: PHF2",
           "url": "https://www.ncbi.nlm.nih.gov/gene/5253"
         }
-      ]
+      ],
+      "learning": "term:gene-phf2"
     },
     {
       "id": "gene-fam120a",
       "term": "FAM120A",
-      "full": "",
+      "full": "family with sequence similarity 120 member A",
       "plain": "An RNA-binding protein found in the cytosol; the consulted summary supports this broad role rather than a specific leukemia mechanism.",
       "why": "A label identifies gene context, not a validated pathogenic alteration.",
       "mechanism": "The expanded gene name is family with sequence similarity 120 member A. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
@@ -2742,7 +2859,8 @@
       "origin": "The official expanded name is family with sequence similarity 120 member A. This explains the label without inventing its naming history.",
       "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
-        "FAM120A"
+        "FAM120A",
+        "family with sequence similarity 120 member A"
       ],
       "example": "Finding FAM120A in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
       "backgroundSources": [
@@ -2750,12 +2868,13 @@
           "title": "NCBI Gene: FAM120A",
           "url": "https://www.ncbi.nlm.nih.gov/gene/23196"
         }
-      ]
+      ],
+      "learning": "term:gene-fam120a"
     },
     {
       "id": "gene-hnrnpk",
       "term": "HNRNPK",
-      "full": "",
+      "full": "heterogeneous nuclear ribonucleoprotein K",
       "plain": "An RNA-binding protein involved in handling RNA, including pre-mRNA processing and other aspects of RNA metabolism.",
       "why": "A label identifies gene context, not a validated pathogenic alteration.",
       "mechanism": "The expanded gene name is heterogeneous nuclear ribonucleoprotein K. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
@@ -2770,7 +2889,8 @@
       "origin": "The official expanded name is heterogeneous nuclear ribonucleoprotein K. This explains the label without inventing its naming history.",
       "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
-        "HNRNPK"
+        "HNRNPK",
+        "heterogeneous nuclear ribonucleoprotein K"
       ],
       "example": "Finding HNRNPK in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
       "backgroundSources": [
@@ -2778,12 +2898,13 @@
           "title": "NCBI Gene: HNRNPK",
           "url": "https://www.ncbi.nlm.nih.gov/gene/3190"
         }
-      ]
+      ],
+      "learning": "term:gene-hnrnpk"
     },
     {
       "id": "gene-unc13b",
       "term": "UNC13B",
-      "full": "",
+      "full": "unc-13 homolog B",
       "plain": "A protein implicated in preparing vesicles for release; the consulted summary also discusses effects in kidney-cell models.",
       "why": "A label identifies gene context, not a validated pathogenic alteration.",
       "mechanism": "The expanded gene name is unc-13 homolog B. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
@@ -2798,7 +2919,8 @@
       "origin": "The official expanded name is unc-13 homolog B. This explains the label without inventing its naming history.",
       "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
-        "UNC13B"
+        "UNC13B",
+        "unc-13 homolog B"
       ],
       "example": "Finding UNC13B in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
       "backgroundSources": [
@@ -2806,12 +2928,13 @@
           "title": "NCBI Gene: UNC13B",
           "url": "https://www.ncbi.nlm.nih.gov/gene/10497"
         }
-      ]
+      ],
+      "learning": "term:gene-unc13b"
     },
     {
       "id": "gene-adamtsl1",
       "term": "ADAMTSL1",
-      "full": "",
+      "full": "ADAMTS like 1",
       "plain": "A secreted protein proposed to function in the extracellular matrix. Its name does not mean it has the catalytic metalloproteinase domains of typical ADAMTS enzymes.",
       "why": "A label identifies gene context, not a validated pathogenic alteration.",
       "mechanism": "The expanded gene name is ADAMTS like 1. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
@@ -2826,7 +2949,8 @@
       "origin": "The official expanded name is ADAMTS like 1. This explains the label without inventing its naming history.",
       "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
-        "ADAMTSL1"
+        "ADAMTSL1",
+        "ADAMTS like 1"
       ],
       "example": "Finding ADAMTSL1 in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
       "backgroundSources": [
@@ -2834,12 +2958,13 @@
           "title": "NCBI Gene: ADAMTSL1",
           "url": "https://www.ncbi.nlm.nih.gov/gene/92949"
         }
-      ]
+      ],
+      "learning": "term:gene-adamtsl1"
     },
     {
       "id": "gene-tek",
       "term": "TEK",
-      "full": "",
+      "full": "TEK receptor tyrosine kinase",
       "plain": "A receptor tyrosine kinase that responds to angiopoietin signalling and participates in blood-vessel development.",
       "why": "A label identifies gene context, not a validated pathogenic alteration.",
       "mechanism": "The expanded gene name is TEK receptor tyrosine kinase. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
@@ -2854,7 +2979,8 @@
       "origin": "The official expanded name is TEK receptor tyrosine kinase. This explains the label without inventing its naming history.",
       "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
-        "TEK"
+        "TEK",
+        "TEK receptor tyrosine kinase"
       ],
       "example": "Finding TEK in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
       "backgroundSources": [
@@ -2862,12 +2988,13 @@
           "title": "NCBI Gene: TEK",
           "url": "https://www.ncbi.nlm.nih.gov/gene/7010"
         }
-      ]
+      ],
+      "learning": "term:gene-tek"
     },
     {
       "id": "gene-znf618",
       "term": "ZNF618",
-      "full": "",
+      "full": "zinc finger protein 618",
       "plain": "A zinc-finger protein with annotated chromatin-binding and transcription-regulatory associations; some functional assignments remain predicted.",
       "why": "A label identifies gene context, not a validated pathogenic alteration.",
       "mechanism": "The expanded gene name is zinc finger protein 618. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
@@ -2882,7 +3009,8 @@
       "origin": "The official expanded name is zinc finger protein 618. This explains the label without inventing its naming history.",
       "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
-        "ZNF618"
+        "ZNF618",
+        "zinc finger protein 618"
       ],
       "example": "Finding ZNF618 in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
       "backgroundSources": [
@@ -2890,12 +3018,13 @@
           "title": "NCBI Gene: ZNF618",
           "url": "https://www.ncbi.nlm.nih.gov/gene/114991"
         }
-      ]
+      ],
+      "learning": "term:gene-znf618"
     },
     {
       "id": "gene-ddx31",
       "term": "DDX31",
-      "full": "",
+      "full": "DEAD-box helicase 31",
       "plain": "A member of the DEAD-box RNA-helicase family. The consulted RefSeq summary does not establish this member’s precise function.",
       "why": "A label identifies gene context, not a validated pathogenic alteration.",
       "mechanism": "The expanded gene name is DEAD-box helicase 31. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
@@ -2910,7 +3039,8 @@
       "origin": "The official expanded name is DEAD-box helicase 31. This explains the label without inventing its naming history.",
       "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
-        "DDX31"
+        "DDX31",
+        "DEAD-box helicase 31"
       ],
       "example": "Finding DDX31 in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
       "backgroundSources": [
@@ -2918,12 +3048,13 @@
           "title": "NCBI Gene: DDX31",
           "url": "https://www.ncbi.nlm.nih.gov/gene/64794"
         }
-      ]
+      ],
+      "learning": "term:gene-ddx31"
     },
     {
       "id": "gene-haus6",
       "term": "HAUS6",
-      "full": "",
+      "full": "HAUS augmin like complex subunit 6",
       "plain": "A subunit of the augmin complex involved in spindle microtubules and chromosome segregation during cell division.",
       "why": "A label identifies gene context, not a validated pathogenic alteration.",
       "mechanism": "The expanded gene name is HAUS augmin like complex subunit 6. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
@@ -2938,7 +3069,8 @@
       "origin": "The official expanded name is HAUS augmin like complex subunit 6. This explains the label without inventing its naming history.",
       "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
-        "HAUS6"
+        "HAUS6",
+        "HAUS augmin like complex subunit 6"
       ],
       "example": "Finding HAUS6 in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
       "backgroundSources": [
@@ -2946,12 +3078,13 @@
           "title": "NCBI Gene: HAUS6",
           "url": "https://www.ncbi.nlm.nih.gov/gene/54801"
         }
-      ]
+      ],
+      "learning": "term:gene-haus6"
     },
     {
       "id": "gene-pappa",
       "term": "PAPPA",
-      "full": "",
+      "full": "pappalysin 1",
       "plain": "A secreted enzyme that cleaves insulin-like growth factor binding proteins and can alter availability of growth-factor signals.",
       "why": "A label identifies gene context, not a validated pathogenic alteration.",
       "mechanism": "The expanded gene name is pappalysin 1. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
@@ -2966,7 +3099,8 @@
       "origin": "The official expanded name is pappalysin 1. This explains the label without inventing its naming history.",
       "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
-        "PAPPA"
+        "PAPPA",
+        "pappalysin 1"
       ],
       "example": "Finding PAPPA in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
       "backgroundSources": [
@@ -2974,12 +3108,13 @@
           "title": "NCBI Gene: PAPPA",
           "url": "https://www.ncbi.nlm.nih.gov/gene/5069"
         }
-      ]
+      ],
+      "learning": "term:gene-pappa"
     },
     {
       "id": "gene-ankrd18b",
       "term": "ANKRD18B",
-      "full": "",
+      "full": "ankyrin repeat domain 18B",
       "plain": "A gene encoding an ankyrin-repeat-domain protein. The consulted Gene record does not provide a well-established specific biological function.",
       "why": "A label identifies gene context, not a validated pathogenic alteration.",
       "mechanism": "The expanded gene name is ankyrin repeat domain 18B. These are general gene/protein annotations. They do not establish that a particular variant in this study altered this function.",
@@ -2994,7 +3129,8 @@
       "origin": "The official expanded name is ankyrin repeat domain 18B. This explains the label without inventing its naming history.",
       "support": "Established background is explained separately from the manuscript-specific interpretation below.",
       "aliases": [
-        "ANKRD18B"
+        "ANKRD18B",
+        "ankyrin repeat domain 18B"
       ],
       "example": "Finding ANKRD18B in an annotation set identifies an assigned gene; determining an allele’s effect requires its exact sequence, transcript and supporting evidence.",
       "backgroundSources": [
@@ -3002,7 +3138,8 @@
           "title": "NCBI Gene: ANKRD18B",
           "url": "https://www.ncbi.nlm.nih.gov/gene/158177"
         }
-      ]
+      ],
+      "learning": "term:gene-ankrd18b"
     },
     {
       "id": "public-acute-leukemia",
@@ -3032,7 +3169,8 @@
           "title": "NCI: acute leukemia",
           "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/acute-leukemia"
         }
-      ]
+      ],
+      "learning": "term:public-acute-leukemia"
     },
     {
       "id": "acute-leukemia",
@@ -3061,7 +3199,8 @@
           "title": "NCI: acute leukemia",
           "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/acute-leukemia"
         }
-      ]
+      ],
+      "learning": "term:acute-leukemia"
     },
     {
       "id": "public-datasets",
@@ -3086,7 +3225,8 @@
         "public sequencing datasets",
         "public datasets",
         "publicly available datasets"
-      ]
+      ],
+      "learning": "term:public-datasets"
     }
   ],
   "flashcards": [
@@ -3095,392 +3235,448 @@
       "topic": "rationale",
       "front": "Why chromosome 9?",
       "back": "This study describes chromosome 9 annotation patterns across public acute leukemia sequencing runs. The chromosome contains leukemia-associated loci, but a gene label alone does not establish a pathogenic alteration.",
-      "source": "Introduction; Background and Literature Review; §3.2.2"
+      "source": "Introduction; Background and Literature Review; §3.2.2",
+      "learning": "lesson:rationale"
     },
     {
       "id": "fc-design",
       "topic": "design",
       "front": "What kind of study is this?",
       "back": "A secondary descriptive analysis of six sequencing runs, not a review article or a recruited patient cohort. The analytical unit determines which conclusions are defensible. Six runs are not six independent patients.",
-      "source": "§3.1.1; §3.1.4; §3.2.1"
+      "source": "§3.1.1; §3.1.4; §3.2.1",
+      "learning": "lesson:design"
     },
     {
       "id": "fc-provenance",
       "topic": "provenance",
       "front": "Six runs, four biological sources",
       "back": "The ALL group repeats one REH BioSample. AML inputs differ in biological material and assay purpose. A profile can differ because of the source or assay, even when the disease label is unchanged.",
-      "source": "§3.1.1; Table 1; §3.2.1"
+      "source": "§3.1.1; Table 1; §3.2.1",
+      "learning": "lesson:provenance"
     },
     {
       "id": "fc-processing",
       "topic": "processing",
       "front": "From public reads to an alignment",
       "back": "Quality assessment, trimming, assembly checks and chromosome-focused alignment precede annotation. Downstream annotation depends on which sequences survive processing and how well they represent the reference.",
-      "source": "§3.1.2"
+      "source": "§3.1.2",
+      "learning": "lesson:processing"
     },
     {
       "id": "fc-alignment",
       "topic": "alignment",
       "front": "Identity is not coverage",
       "back": "ALL-1 had 91.4% pairwise identity but only 0.8% chromosome 9 reference coverage. Good agreement in a small observed region does not tell us what lies in the unobserved remainder.",
-      "source": "§3.2.1; Discussion"
+      "source": "§3.2.1; Discussion",
+      "learning": "lesson:alignment"
     },
     {
       "id": "fc-calling",
       "topic": "calling",
       "front": "Calling thresholds versus group tests",
       "back": "Geneious filter settings are not tests of AML–ALL differences. A small calling P-value cannot establish disease-group enrichment.",
-      "source": "§3.1.3; §3.1.4"
+      "source": "§3.1.3; §3.1.4",
+      "learning": "lesson:calling"
     },
     {
       "id": "fc-annotation",
       "topic": "annotation",
       "front": "Annotation records versus validated variants",
       "back": "An annotation record is an annotated entry used in the summaries, not automatically an independent somatic mutation. Counting records, assigning genes and proving pathogenicity are different analytical tasks.",
-      "source": "§3.1.3; §3.2.1–§3.2.2; Discussion"
+      "source": "§3.1.3; §3.2.1–§3.2.2; Discussion",
+      "learning": "lesson:annotation"
     },
     {
       "id": "fc-counts",
       "topic": "counts",
       "front": "What do the annotation counts show?",
       "back": "AML-associated counts had a higher median and wider range, with overlap between groups. Describe the observed pattern without converting it into a prevalence estimate or significance claim.",
-      "source": "§3.2.2; Figure 1"
+      "source": "§3.2.2; Figure 1",
+      "learning": "lesson:counts"
     },
     {
       "id": "fc-coding",
       "topic": "coding",
       "front": "Protein effects and amino-acid summaries",
       "back": "Substitutions predominated in both groups. Truncation labels were more prominent in ALL. Predicted consequence labels suggest follow-up questions but do not prove a protein-level mechanism.",
-      "source": "§3.2.3–§3.2.4; Figures 3–4"
+      "source": "§3.2.3–§3.2.4; Figures 3–4",
+      "learning": "lesson:coding"
     },
     {
       "id": "fc-positions",
       "topic": "positions",
       "front": "Why pooled positions are not hotspots",
       "back": "Codon and coding-position labels are pooled across coding sequences, not chromosome coordinates. The same number can refer to positions in many different proteins or transcripts.",
-      "source": "§3.2.4; Table 2; Discussion"
+      "source": "§3.2.4; Table 2; Discussion",
+      "learning": "lesson:positions"
     },
     {
       "id": "fc-overlap",
       "topic": "overlap",
       "front": "Shared and group-restricted sets",
       "back": "Few recovered labels or annotation records were shared between the two pooled groups. A recovered-set difference describes these data; it does not establish biological exclusivity.",
-      "source": "§3.2.5; Figure 5; Discussion"
+      "source": "§3.2.5; Figure 5; Discussion",
+      "learning": "lesson:overlap"
     },
     {
       "id": "fc-clustering",
       "topic": "clustering",
       "front": "Why clustering does not separate the groups",
       "back": "AML and ALL labels intermix. ALL-3 and AML-2 form the closest pair. A dendrogram summarizes similarity in a chosen feature representation, not diagnostic accuracy.",
-      "source": "§3.1.4; §3.2.6; Figures 6–7"
+      "source": "§3.1.4; §3.2.6; Figures 6–7",
+      "learning": "lesson:clustering"
     },
     {
       "id": "fc-heatmap",
       "topic": "heatmap",
       "front": "Reading the clustered heat map",
       "back": "Rows are six runs, columns are genes, and values show the plotted annotation representation. Colour is meaningful only with its scale and preprocessing, not as a direct clinical measure.",
-      "source": "§3.1.4; §3.2.6; Figure 7 caption"
+      "source": "§3.1.4; §3.2.6; Figure 7 caption",
+      "learning": "lesson:heatmap"
     },
     {
       "id": "fc-limitations",
       "topic": "limitations",
       "front": "What the evidence cannot establish",
       "back": "The study supports descriptive annotation comparisons, with substantial design and coverage limitations. Good discussion depends as much on the boundary of a claim as on the observed numbers.",
-      "source": "Discussion; Conclusion"
+      "source": "Discussion; Conclusion",
+      "learning": "lesson:limitations"
     },
     {
       "id": "fc-conclusions",
       "topic": "conclusions",
       "front": "A defensible oral synthesis",
       "back": "Different recovered profiles, limited overlap and mixed clustering support further controlled study. A concise synthesis should connect the observations to their limits and a realistic next step.",
-      "source": "Discussion; Conclusion"
+      "source": "Discussion; Conclusion",
+      "learning": "lesson:conclusions"
     },
     {
       "id": "fc-term-chromosome9",
       "topic": "rationale",
       "front": "Explain Chromosome 9 in this study.",
       "back": "The chromosome reference selected for this comparison. Same reference, different recovered profiles.",
-      "source": "§3.1.2"
+      "source": "§3.1.2",
+      "learning": "lesson:rationale"
     },
     {
       "id": "fc-term-pax5",
       "topic": "rationale",
       "front": "Explain PAX5 in this study.",
       "back": "A gene label discussed in the leukemia literature and found in both study groups. Gene name is context, not a verdict.",
-      "source": "Introduction; §3.2.2"
+      "source": "Introduction; §3.2.2",
+      "learning": "lesson:rationale"
     },
     {
       "id": "fc-term-annotation",
       "topic": "annotation",
       "front": "Explain Annotation record in this study.",
       "back": "An annotated entry included in the descriptive summaries. Record count is not automatically mutation count.",
-      "source": "§3.1.3"
+      "source": "§3.1.3",
+      "learning": "lesson:annotation"
     },
     {
       "id": "fc-term-allele",
       "topic": "annotation",
       "front": "Explain Allele in this study.",
       "back": "A particular version of sequence at a specified locus. Which change, at which site?",
-      "source": "§3.1.3; Discussion"
+      "source": "§3.1.3; Discussion",
+      "learning": "lesson:annotation"
     },
     {
       "id": "fc-term-run",
       "topic": "design",
       "front": "Explain Sequencing run in this study.",
       "back": "One sequencing data acquisition identified by a run accession. A run is a measurement, not necessarily a new sample.",
-      "source": "§3.1.1; Table 1"
+      "source": "§3.1.1; Table 1",
+      "learning": "lesson:design"
     },
     {
       "id": "fc-term-biosample",
       "topic": "provenance",
       "front": "Explain BioSample in this study.",
       "back": "An identifier describing the biological source of archived sequence data. Count sources separately from runs.",
-      "source": "Table 1"
+      "source": "Table 1",
+      "learning": "lesson:provenance"
     },
     {
       "id": "fc-term-reh",
       "topic": "provenance",
       "front": "Explain REH in this study.",
       "back": "The leukemia cell-line source represented by all three ALL runs. Three platforms, one REH source.",
-      "source": "§3.1.1"
+      "source": "§3.1.1",
+      "learning": "lesson:provenance"
     },
     {
       "id": "fc-term-replicate",
       "topic": "design",
       "front": "Explain Biological replication in this study.",
       "back": "Independent biological sources, as distinct from repeated measurement of one source. More runs need not mean more biology.",
-      "source": "§3.1.1; Discussion"
+      "source": "§3.1.1; Discussion",
+      "learning": "lesson:design"
     },
     {
       "id": "fc-term-library",
       "topic": "provenance",
       "front": "Explain Sequencing library in this study.",
       "back": "The prepared sequence material measured by a sequencing experiment. Preparation shapes what you can observe.",
-      "source": "§3.1.1"
+      "source": "§3.1.1",
+      "learning": "lesson:provenance"
     },
     {
       "id": "fc-term-read",
       "topic": "processing",
       "front": "Explain Read in this study.",
       "back": "A sequence observation obtained by sequencing. Observed sequence first, interpretation later.",
-      "source": "§3.1.2"
+      "source": "§3.1.2",
+      "learning": "lesson:processing"
     },
     {
       "id": "fc-term-q30",
       "topic": "processing",
       "front": "Explain Q30 in this study.",
       "back": "The quality-filtering threshold described in the methods. Quality does not replace coverage.",
-      "source": "§3.1.2"
+      "source": "§3.1.2",
+      "learning": "lesson:processing"
     },
     {
       "id": "fc-term-contig",
       "topic": "processing",
       "front": "Explain Contig in this study.",
       "back": "An assembled contiguous sequence used in the reported processing workflow. Assembled stretch of sequence.",
-      "source": "§3.1.2"
+      "source": "§3.1.2",
+      "learning": "lesson:processing"
     },
     {
       "id": "fc-term-reference",
       "topic": "alignment",
       "front": "Explain Reference sequence in this study.",
       "back": "The sequence used as the alignment and annotation coordinate context. A coordinate framework, not a patient measurement.",
-      "source": "§3.1.2"
+      "source": "§3.1.2",
+      "learning": "lesson:alignment"
     },
     {
       "id": "fc-term-identity",
       "topic": "alignment",
       "front": "Explain Pairwise identity in this study.",
       "back": "Agreement between the sequences being aligned. Match quality and observed extent are different.",
-      "source": "§3.2.1"
+      "source": "§3.2.1",
+      "learning": "lesson:alignment"
     },
     {
       "id": "fc-term-coverage",
       "topic": "alignment",
       "front": "Explain Reference coverage in this study.",
       "back": "How much of the chromosome reference is represented by the aligned sequences. How much did we actually observe?",
-      "source": "§3.2.1"
+      "source": "§3.2.1",
+      "learning": "lesson:alignment"
     },
     {
       "id": "fc-term-callable",
       "topic": "limitations",
       "front": "Explain Callable region in this study.",
       "back": "A region sufficiently observed for a justified variant comparison. No observation is not proof of no variant.",
-      "source": "Discussion"
+      "source": "Discussion",
+      "learning": "lesson:limitations"
     },
     {
       "id": "fc-term-variantfrequency",
       "topic": "calling",
       "front": "Explain Variant-frequency setting in this study.",
       "back": "A calling setting used to retain candidate differences in Geneious. Caller rule, not cohort result.",
-      "source": "§3.1.3"
+      "source": "§3.1.3",
+      "learning": "lesson:calling"
     },
     {
       "id": "fc-term-strandbias",
       "topic": "calling",
       "front": "Explain Strand bias in this study.",
       "back": "Uneven representation of a candidate difference across sequence strands, considered during filtering. Check evidence symmetry before interpretation.",
-      "source": "§3.1.3"
+      "source": "§3.1.3",
+      "learning": "lesson:calling"
     },
     {
       "id": "fc-term-pvalue",
       "topic": "calling",
       "front": "Explain Calling P-value in this study.",
       "back": "A statistical quantity used within the variant-calling/filtering procedure. Ask which question the P-value belongs to.",
-      "source": "§3.1.3–§3.1.4"
+      "source": "§3.1.3–§3.1.4",
+      "learning": "lesson:calling"
     },
     {
       "id": "fc-term-descriptive",
       "topic": "design",
       "front": "Explain Descriptive analysis in this study.",
       "back": "A summary of observed patterns without the reported between-group significance testing or clinical-performance estimation. Describe the collection before generalizing.",
-      "source": "§3.1.4"
+      "source": "§3.1.4",
+      "learning": "lesson:design"
     },
     {
       "id": "fc-term-somatic",
       "topic": "annotation",
       "front": "Explain Somatic variant in this study.",
       "back": "A sequence alteration arising in somatic cells, distinct from inherited variation. Annotation alone does not prove somatic origin.",
-      "source": "§3.1.3; Discussion"
+      "source": "§3.1.3; Discussion",
+      "learning": "lesson:annotation"
     },
     {
       "id": "fc-term-transcript",
       "topic": "positions",
       "front": "Explain Transcript context in this study.",
       "back": "The RNA/coding-sequence reference context used to describe a predicted effect. Name the transcript before naming the consequence.",
-      "source": "Background; Discussion"
+      "source": "Background; Discussion",
+      "learning": "lesson:positions"
     },
     {
       "id": "fc-term-median",
       "topic": "counts",
       "front": "Explain Median in this study.",
       "back": "The middle value after ordering the observations. Middle, not average.",
-      "source": "§3.2.2"
+      "source": "§3.2.2",
+      "learning": "lesson:counts"
     },
     {
       "id": "fc-term-substitution",
       "topic": "coding",
       "front": "Explain Predicted substitution in this study.",
       "back": "A predicted protein-effect category predominant in both groups. Predicted label first, validation later.",
-      "source": "§3.2.3"
+      "source": "§3.2.3",
+      "learning": "lesson:coding"
     },
     {
       "id": "fc-term-truncation",
       "topic": "coding",
       "front": "Explain Predicted truncation in this study.",
       "back": "An annotation predicting a shortened protein product. A predicted shorter product, not a proven phenotype.",
-      "source": "§3.2.3"
+      "source": "§3.2.3",
+      "learning": "lesson:coding"
     },
     {
       "id": "fc-term-frameshift",
       "topic": "coding",
       "front": "Explain Frameshift in this study.",
       "back": "A coding consequence that changes how downstream codons are read. Shift the reading frame, then inspect the context.",
-      "source": "§3.1.3; §3.2.3"
+      "source": "§3.1.3; §3.2.3",
+      "learning": "lesson:coding"
     },
     {
       "id": "fc-term-codon",
       "topic": "positions",
       "front": "Explain Codon label in this study.",
       "back": "A position label within a coding sequence, pooled here across coding sequences. A number needs a gene and transcript.",
-      "source": "§3.2.4; Table 2"
+      "source": "§3.2.4; Table 2",
+      "learning": "lesson:positions"
     },
     {
       "id": "fc-term-hotspot",
       "topic": "positions",
       "front": "Explain Mutational hotspot in this study.",
       "back": "A recurrent alteration region requiring defined molecular context and suitable independent evidence. Recurrence needs a precise address.",
-      "source": "Discussion"
+      "source": "Discussion",
+      "learning": "lesson:positions"
     },
     {
       "id": "fc-term-set",
       "topic": "overlap",
       "front": "Explain Annotation set in this study.",
       "back": "A collection of recovered labels or records used for overlap comparison. Specify what a set contains.",
-      "source": "§3.2.5; Figure 5"
+      "source": "§3.2.5; Figure 5",
+      "learning": "lesson:overlap"
     },
     {
       "id": "fc-term-dendrogram",
       "topic": "clustering",
       "front": "Explain Dendrogram in this study.",
       "back": "A tree showing the order and distances of clustering merges. A similarity tree, not a diagnosis.",
-      "source": "§3.2.6; Figure 6"
+      "source": "§3.2.6; Figure 6",
+      "learning": "lesson:clustering"
     },
     {
       "id": "fc-term-correlation",
       "topic": "clustering",
       "front": "Explain Correlation distance in this study.",
       "back": "The similarity-related distance used for the reported clustering. Close in this matrix, under this rule.",
-      "source": "§3.1.4"
+      "source": "§3.1.4",
+      "learning": "lesson:clustering"
     },
     {
       "id": "fc-term-linkage",
       "topic": "clustering",
       "front": "Explain Average linkage in this study.",
       "back": "The merge rule used to build the reported hierarchical clustering. Distance plus merge rule makes a tree.",
-      "source": "§3.1.4"
+      "source": "§3.1.4",
+      "learning": "lesson:clustering"
     },
     {
       "id": "fc-term-heatmap",
       "topic": "heatmap",
       "front": "Explain Heat map in this study.",
       "back": "A coloured display of the processed run-by-gene annotation matrix. Read the legend and transformation first.",
-      "source": "§3.2.6; Figure 7"
+      "source": "§3.2.6; Figure 7",
+      "learning": "lesson:heatmap"
     },
     {
       "id": "fc-term-scaling",
       "topic": "heatmap",
       "front": "Explain Row-wise scaling in this study.",
       "back": "The reported transformation of run-level profiles before heat-map analysis. Transformed values are not automatically raw frequencies.",
-      "source": "§3.1.4; Figure 7"
+      "source": "§3.1.4; Figure 7",
+      "learning": "lesson:heatmap"
     },
     {
       "id": "fc-term-imputation",
       "topic": "heatmap",
       "front": "Explain Missing-value imputation in this study.",
       "back": "Filling missing entries as part of matrix processing. A filled value needs a stated rule.",
-      "source": "§3.1.4"
+      "source": "§3.1.4",
+      "learning": "lesson:heatmap"
     },
     {
       "id": "fc-term-biomarker",
       "topic": "conclusions",
       "front": "Explain Clinical biomarker in this study.",
       "back": "A measurable feature with evidence supporting a defined clinical use. A candidate pattern is a starting point.",
-      "source": "Discussion; Conclusion"
+      "source": "Discussion; Conclusion",
+      "learning": "lesson:conclusions"
     },
     {
       "id": "fc-term-aml",
       "topic": "provenance",
       "front": "Explain AML in this study.",
       "back": "The disease-associated label used for three included sequencing runs. Disease label plus provenance.",
-      "source": "§3.1.1; Table 1"
+      "source": "§3.1.1; Table 1",
+      "learning": "lesson:provenance"
     },
     {
       "id": "fc-term-all",
       "topic": "provenance",
       "front": "Explain ALL in this study.",
       "back": "The disease-associated label used for the three REH runs. Three ALL runs, one source.",
-      "source": "§3.1.1; Table 1"
+      "source": "§3.1.1; Table 1",
+      "learning": "lesson:provenance"
     },
     {
       "id": "fc-term-sra",
       "topic": "processing",
       "front": "Explain SRA in this study.",
       "back": "A public archive used to obtain the sequencing inputs. Archive accessions support traceability.",
-      "source": "§3.1.1–§3.1.2"
+      "source": "§3.1.1–§3.1.2",
+      "learning": "lesson:processing"
     },
     {
       "id": "fc-term-ena",
       "topic": "processing",
       "front": "Explain ENA in this study.",
       "back": "Another archive used for the public sequence data. Locate the archived source before interpreting it.",
-      "source": "§3.1.1–§3.1.2"
+      "source": "§3.1.1–§3.1.2",
+      "learning": "lesson:processing"
     },
     {
       "id": "fc-term-geneious",
       "topic": "processing",
       "front": "Explain Geneious in this study.",
       "back": "The software used for chromosome 9 alignment, calling and annotation in the reported workflow. Tool name is not a full reproducible protocol.",
-      "source": "§3.1.2–§3.1.3"
+      "source": "§3.1.2–§3.1.3",
+      "learning": "lesson:processing"
     }
   ],
   "questions": [
@@ -3501,7 +3697,8 @@
       "answer": "Sequencing run",
       "explanation": "The methods explicitly use the sequencing run. The other options imply patient recruitment or clinical analysis that did not occur.",
       "source": "§3.1.1",
-      "support": "Source-supported question. Wrong options are deliberate distractors."
+      "support": "Source-supported question. Wrong options are deliberate distractors.",
+      "learning": "lesson:design"
     },
     {
       "id": "q02",
@@ -3520,7 +3717,8 @@
       "answer": "Four",
       "explanation": "The three ALL runs share one source; the AML runs have three other BioSamples. Six counts runs, not biological sources.",
       "source": "Table 1; §3.2.1",
-      "support": "Source-supported question. Wrong options are deliberate distractors."
+      "support": "Source-supported question. Wrong options are deliberate distractors.",
+      "learning": "lesson:provenance"
     },
     {
       "id": "q03",
@@ -3539,7 +3737,8 @@
       "answer": "Agreement within aligned sequences",
       "explanation": "Identity describes alignment agreement. It does not measure chromosome extent, gene mutation prevalence or clinical validity. ALL-1 coverage is 0.8%.",
       "source": "§3.2.1",
-      "support": "Source-supported question. Wrong options are deliberate distractors."
+      "support": "Source-supported question. Wrong options are deliberate distractors.",
+      "learning": "lesson:alignment"
     },
     {
       "id": "q04",
@@ -3558,7 +3757,8 @@
       "answer": "Variant detection/filtering",
       "explanation": "It is a caller threshold. No between-group significance test or clinical analysis is reported.",
       "source": "§3.1.3–§3.1.4",
-      "support": "Source-supported question. Wrong options are deliberate distractors."
+      "support": "Source-supported question. Wrong options are deliberate distractors.",
+      "learning": "lesson:calling"
     },
     {
       "id": "q05",
@@ -3577,7 +3777,8 @@
       "answer": "AML-associated counts have a higher median, with overlapping ranges",
       "explanation": "The descriptive record-count summary is supported. Significance, pathogenicity, absence and patient independence are not established.",
       "source": "§3.2.2",
-      "support": "Source-supported question. Wrong options are deliberate distractors."
+      "support": "Source-supported question. Wrong options are deliberate distractors.",
+      "learning": "lesson:counts"
     },
     {
       "id": "q06",
@@ -3596,7 +3797,8 @@
       "answer": "15 and 4",
       "explanation": "The shared intersection contains 15 gene labels and 4 records. Other values are group-restricted counts or reverse the units.",
       "source": "§3.2.5; Figure 5",
-      "support": "Source-supported question. Wrong options are deliberate distractors."
+      "support": "Source-supported question. Wrong options are deliberate distractors.",
+      "learning": "lesson:overlap"
     },
     {
       "id": "q07",
@@ -3615,7 +3817,8 @@
       "answer": "ALL-3 and AML-2",
       "explanation": "Figures 6 and 7 pair ALL-3 with AML-2. Shared disease labels do not determine the recovered-profile clustering.",
       "source": "§3.2.6",
-      "support": "Source-supported question. Wrong options are deliberate distractors."
+      "support": "Source-supported question. Wrong options are deliberate distractors.",
+      "learning": "lesson:clustering"
     },
     {
       "id": "q08",
@@ -3634,7 +3837,8 @@
       "answer": "Normalized gene/transcript-specific recurrence across independent samples",
       "explanation": "A pooled codon number is not a unique molecular address. Normalized recurrence and appropriate replication are needed.",
       "source": "§3.2.4; Discussion",
-      "support": "Source-supported question. Wrong options are deliberate distractors."
+      "support": "Source-supported question. Wrong options are deliberate distractors.",
+      "learning": "lesson:positions"
     },
     {
       "id": "q09",
@@ -3653,7 +3857,8 @@
       "answer": "Substitution",
       "explanation": "Substitutions predominate. Truncations and frameshifts are smaller categories; experimental validation is not reported.",
       "source": "§3.2.3",
-      "support": "Source-supported question. Wrong options are deliberate distractors."
+      "support": "Source-supported question. Wrong options are deliberate distractors.",
+      "learning": "lesson:coding"
     },
     {
       "id": "q10",
@@ -3672,7 +3877,8 @@
       "answer": "Annotation assignments to PAX5 in both profiles",
       "explanation": "The result is a gene assignment. Specific shared alleles, causality, fusions and diagnostic performance require other evidence.",
       "source": "§3.2.2",
-      "support": "Source-supported question. Wrong options are deliberate distractors."
+      "support": "Source-supported question. Wrong options are deliberate distractors.",
+      "learning": "lesson:annotation"
     },
     {
       "id": "q11",
@@ -3691,7 +3897,8 @@
       "answer": "A higher value on the displayed processed annotation scale",
       "explanation": "The matrix is processed annotation data, not expression or clinical severity. The preprocessing-to-0–1 mapping needs clarification.",
       "source": "§3.1.4; Figure 7",
-      "support": "Source-supported question. Wrong options are deliberate distractors."
+      "support": "Source-supported question. Wrong options are deliberate distractors.",
+      "learning": "lesson:heatmap"
     },
     {
       "id": "q12",
@@ -3710,7 +3917,8 @@
       "answer": "HL-60 apoptotic DNA-fragment library",
       "explanation": "AML-2 is the HL-60 apoptotic fragment library. The other options misdescribe the input.",
       "source": "§3.1.1; Table 1",
-      "support": "Source-supported question. Wrong options are deliberate distractors."
+      "support": "Source-supported question. Wrong options are deliberate distractors.",
+      "learning": "lesson:provenance"
     },
     {
       "id": "q13",
@@ -3729,7 +3937,8 @@
       "answer": "Proline-to-leucine and glycine-to-arginine",
       "explanation": "The reported ALL leader is proline-to-leucine, while AML is glycine-to-arginine. These are pooled categories, not proof of gene-specific recurrence.",
       "source": "§3.2.4",
-      "support": "Source-supported question. Wrong options are deliberate distractors."
+      "support": "Source-supported question. Wrong options are deliberate distractors.",
+      "learning": "lesson:coding"
     },
     {
       "id": "q14",
@@ -3748,7 +3957,8 @@
       "answer": "Independent biological samples with suitable callable coverage",
       "explanation": "Independent sources and adequate comparable observation address major limitations. The other choices add presentation or overinterpretation rather than valid evidence.",
       "source": "Discussion",
-      "support": "Source-supported question. Wrong options are deliberate distractors."
+      "support": "Source-supported question. Wrong options are deliberate distractors.",
+      "learning": "lesson:limitations"
     },
     {
       "id": "q15",
@@ -3767,7 +3977,8 @@
       "answer": "The reference annotation layer",
       "explanation": "They are reference-derived genomic features. They are not counts of altered genes, expression measurements or pathogenic alleles.",
       "source": "§3.2.1",
-      "support": "Source-supported question. Wrong options are deliberate distractors."
+      "support": "Source-supported question. Wrong options are deliberate distractors.",
+      "learning": "lesson:annotation"
     },
     {
       "id": "sa-rationale",
@@ -3779,7 +3990,8 @@
       "answer": "This study describes chromosome 9 annotation patterns across public acute leukemia sequencing runs. The chromosome contains leukemia-associated loci, but a gene label alone does not establish a pathogenic alteration.",
       "explanation": "A known leukemia-associated gene makes every record assigned to it pathogenic. Gene relevance and the effect of a particular allele are different questions.",
       "source": "Introduction; Background and Literature Review; §3.2.2",
-      "support": "Source-supported self-assessed short answer."
+      "support": "Source-supported self-assessed short answer.",
+      "learning": "lesson:rationale"
     },
     {
       "id": "sa-design",
@@ -3791,7 +4003,8 @@
       "answer": "A secondary descriptive analysis of six sequencing runs, not a review article or a recruited patient cohort. The analytical unit determines which conclusions are defensible. Six runs are not six independent patients.",
       "explanation": "Three ALL runs and three AML runs mean two independent clinical cohorts of three patients each.",
       "source": "§3.1.1; §3.1.4; §3.2.1",
-      "support": "Source-supported self-assessed short answer."
+      "support": "Source-supported self-assessed short answer.",
+      "learning": "lesson:design"
     },
     {
       "id": "sa-provenance",
@@ -3803,7 +4016,8 @@
       "answer": "The ALL group repeats one REH BioSample. AML inputs differ in biological material and assay purpose. A profile can differ because of the source or assay, even when the disease label is unchanged.",
       "explanation": "The label AML makes all three AML assays interchangeable.",
       "source": "§3.1.1; Table 1; §3.2.1",
-      "support": "Source-supported self-assessed short answer."
+      "support": "Source-supported self-assessed short answer.",
+      "learning": "lesson:provenance"
     },
     {
       "id": "sa-processing",
@@ -3815,7 +4029,8 @@
       "answer": "Quality assessment, trimming, assembly checks and chromosome-focused alignment precede annotation. Downstream annotation depends on which sequences survive processing and how well they represent the reference.",
       "explanation": "Naming several tools proves every platform received an optimal or identical valid workflow.",
       "source": "§3.1.2",
-      "support": "Source-supported self-assessed short answer."
+      "support": "Source-supported self-assessed short answer.",
+      "learning": "lesson:processing"
     },
     {
       "id": "sa-alignment",
@@ -3827,7 +4042,8 @@
       "answer": "ALL-1 had 91.4% pairwise identity but only 0.8% chromosome 9 reference coverage. Good agreement in a small observed region does not tell us what lies in the unobserved remainder.",
       "explanation": "High pairwise identity means the whole chromosome has been adequately sampled.",
       "source": "§3.2.1; Discussion",
-      "support": "Source-supported self-assessed short answer."
+      "support": "Source-supported self-assessed short answer.",
+      "learning": "lesson:alignment"
     },
     {
       "id": "sa-calling",
@@ -3839,7 +4055,8 @@
       "answer": "Geneious filter settings are not tests of AML–ALL differences. A small calling P-value cannot establish disease-group enrichment.",
       "explanation": "P < 0.001 in the calling method means AML has significantly more mutations than ALL.",
       "source": "§3.1.3; §3.1.4",
-      "support": "Source-supported self-assessed short answer."
+      "support": "Source-supported self-assessed short answer.",
+      "learning": "lesson:calling"
     },
     {
       "id": "sa-annotation",
@@ -3851,7 +4068,8 @@
       "answer": "An annotation record is an annotated entry used in the summaries, not automatically an independent somatic mutation. Counting records, assigning genes and proving pathogenicity are different analytical tasks.",
       "explanation": "A reference gene feature count equals the number of variant-bearing genes.",
       "source": "§3.1.3; §3.2.1–§3.2.2; Discussion",
-      "support": "Source-supported self-assessed short answer."
+      "support": "Source-supported self-assessed short answer.",
+      "learning": "lesson:annotation"
     },
     {
       "id": "sa-counts",
@@ -3863,7 +4081,8 @@
       "answer": "AML-associated counts had a higher median and wider range, with overlap between groups. Describe the observed pattern without converting it into a prevalence estimate or significance claim.",
       "explanation": "The bigger AML median proves a significant difference or greater clinical mutation burden.",
       "source": "§3.2.2; Figure 1",
-      "support": "Source-supported self-assessed short answer."
+      "support": "Source-supported self-assessed short answer.",
+      "learning": "lesson:counts"
     },
     {
       "id": "sa-coding",
@@ -3875,7 +4094,8 @@
       "answer": "Substitutions predominated in both groups. Truncation labels were more prominent in ALL. Predicted consequence labels suggest follow-up questions but do not prove a protein-level mechanism.",
       "explanation": "A frequent pooled amino-acid change identifies a common functional driver in one gene.",
       "source": "§3.2.3–§3.2.4; Figures 3–4",
-      "support": "Source-supported self-assessed short answer."
+      "support": "Source-supported self-assessed short answer.",
+      "learning": "lesson:coding"
     },
     {
       "id": "sa-positions",
@@ -3887,7 +4107,8 @@
       "answer": "Codon and coding-position labels are pooled across coding sequences, not chromosome coordinates. The same number can refer to positions in many different proteins or transcripts.",
       "explanation": "The most prominent pooled codon label is a chromosome 9 mutation hotspot.",
       "source": "§3.2.4; Table 2; Discussion",
-      "support": "Source-supported self-assessed short answer."
+      "support": "Source-supported self-assessed short answer.",
+      "learning": "lesson:positions"
     },
     {
       "id": "sa-overlap",
@@ -3899,7 +4120,8 @@
       "answer": "Few recovered labels or annotation records were shared between the two pooled groups. A recovered-set difference describes these data; it does not establish biological exclusivity.",
       "explanation": "AML-only entries are validated leukemia-specific biomarkers or proven absent from ALL.",
       "source": "§3.2.5; Figure 5; Discussion",
-      "support": "Source-supported self-assessed short answer."
+      "support": "Source-supported self-assessed short answer.",
+      "learning": "lesson:overlap"
     },
     {
       "id": "sa-clustering",
@@ -3911,7 +4133,8 @@
       "answer": "AML and ALL labels intermix. ALL-3 and AML-2 form the closest pair. A dendrogram summarizes similarity in a chosen feature representation, not diagnostic accuracy.",
       "explanation": "The closest pair has the same biology, or the dendrogram proves that leukemia types are indistinguishable.",
       "source": "§3.1.4; §3.2.6; Figures 6–7",
-      "support": "Source-supported self-assessed short answer."
+      "support": "Source-supported self-assessed short answer.",
+      "learning": "lesson:clustering"
     },
     {
       "id": "sa-heatmap",
@@ -3923,7 +4146,8 @@
       "answer": "Rows are six runs, columns are genes, and values show the plotted annotation representation. Colour is meaningful only with its scale and preprocessing, not as a direct clinical measure.",
       "explanation": "A green cell means increased gene expression, or a displayed 0–1 value is necessarily a raw mutation frequency.",
       "source": "§3.1.4; §3.2.6; Figure 7 caption",
-      "support": "Source-supported self-assessed short answer."
+      "support": "Source-supported self-assessed short answer.",
+      "learning": "lesson:heatmap"
     },
     {
       "id": "sa-limitations",
@@ -3935,7 +4159,8 @@
       "answer": "The study supports descriptive annotation comparisons, with substantial design and coverage limitations. Good discussion depends as much on the boundary of a claim as on the observed numbers.",
       "explanation": "Listing limitations means the descriptive findings have no value. Their value is bounded, not erased.",
       "source": "Discussion; Conclusion",
-      "support": "Source-supported self-assessed short answer."
+      "support": "Source-supported self-assessed short answer.",
+      "learning": "lesson:limitations"
     },
     {
       "id": "sa-conclusions",
@@ -3947,7 +4172,8 @@
       "answer": "Different recovered profiles, limited overlap and mixed clustering support further controlled study. A concise synthesis should connect the observations to their limits and a realistic next step.",
       "explanation": "The title must be defended as a discovery of disease-specific pathogenic variants.",
       "source": "Discussion; Conclusion",
-      "support": "Source-supported self-assessed short answer."
+      "support": "Source-supported self-assessed short answer.",
+      "learning": "lesson:conclusions"
     }
   ],
   "comparisons": [
@@ -3976,7 +4202,8 @@
           "One REH BioSample"
         ]
       ],
-      "source": "§3.1.1; Table 1"
+      "source": "§3.1.1; Table 1",
+      "learning": "compare:units"
     },
     {
       "id": "agreement",
@@ -4003,7 +4230,8 @@
           "Accuracy or pathogenicity of every candidate"
         ]
       ],
-      "source": "§3.2.1"
+      "source": "§3.2.1",
+      "learning": "compare:agreement"
     },
     {
       "id": "evidence",
@@ -4030,7 +4258,8 @@
           "Not established for all summarized records"
         ]
       ],
-      "source": "§3.1.3; Discussion"
+      "source": "§3.1.3; Discussion",
+      "learning": "compare:evidence"
     },
     {
       "id": "statistics",
@@ -4057,7 +4286,8 @@
           "Only descriptive patterns are reported"
         ]
       ],
-      "source": "§3.1.3–§3.1.4"
+      "source": "§3.1.3–§3.1.4",
+      "learning": "compare:statistics"
     },
     {
       "id": "recurrence",
@@ -4084,7 +4314,8 @@
           "Requires suitable recurrent evidence"
         ]
       ],
-      "source": "§3.2.4; Discussion"
+      "source": "§3.2.4; Discussion",
+      "learning": "compare:recurrence"
     }
   ],
   "figures": [
@@ -4116,7 +4347,8 @@
         "walkthrough": "Start with the median line, then compare the spread. The manuscript reports medians of 92 for ALL and 1,822 for AML, with overlapping ranges. A higher AML box does not establish a disease-wide difference.",
         "why": "The purpose is to describe recovered profiles. Unequal coverage, platforms and source material can change how many records are recovered.",
         "remember": "WHY: a taller box means greater spread among these run counts, not stronger evidence of a leukemia mechanism."
-      }
+      },
+      "learning": "figure:f1"
     },
     {
       "id": "f2",
@@ -4148,7 +4380,8 @@
         "walkthrough": "PAX5 has assignments in both summaries; NUP214 is represented in ALL and NOTCH1 in AML. Read the displayed categories as gene assignments, not validated driver mutations.",
         "why": "Gene-level summaries help identify annotation patterns worth examining. They do not identify the exact allele or prove a gene fusion.",
         "remember": "WHY: a gene is a location and functional unit; a record assigned to that gene is not automatically a harmful change."
-      }
+      },
+      "learning": "figure:f2"
     },
     {
       "id": "f3",
@@ -4178,7 +4411,8 @@
         "walkthrough": "The substitution bars dominate both summaries. The ALL truncation bar is more prominent than the AML truncation bar. Do not estimate exact percentages from image heights when values are not supplied.",
         "why": "A proportion compares composition rather than raw counts. Different numbers of records can still produce similar proportions.",
         "remember": "WHY: a substitution changes an amino-acid identity; a truncation predicts a shortened product. Neither prediction alone measures protein activity."
-      }
+      },
+      "learning": "figure:f3"
     },
     {
       "id": "f4",
@@ -4208,7 +4442,8 @@
         "walkthrough": "Proline-to-leucine leads the ALL summary; glycine-to-arginine leads AML. Compare categories within each group before considering differences between groups.",
         "why": "The chart describes types of predicted coding change. Pooling across genes and transcripts means a category does not identify a recurrent allele at one locus.",
         "remember": "WHY: the same amino-acid replacement can occur in different proteins and have different consequences at different positions."
-      }
+      },
+      "learning": "figure:f4"
     },
     {
       "id": "f5",
@@ -4243,7 +4478,8 @@
         "walkthrough": "The shared gene count and shared record count answer different questions. Many records can map to the same gene, so 15 shared genes and 4 shared records are not contradictory.",
         "why": "This visual addresses similarity of recovered sets. A group-only item was recovered only in that set; this does not show biological absence from the other disease.",
         "remember": "WHY: two books can mention the same chapter while containing different sentences; sharing a gene does not require sharing the same record."
-      }
+      },
+      "learning": "figure:f5"
     },
     {
       "id": "f6",
@@ -4273,7 +4509,8 @@
         "walkthrough": "ALL-3 and AML-2 merge first. The reported sequence then adds ALL-1, ALL-2 and AML-3, with AML-1 joining last. Mixed group labels show that this clustering does not cleanly separate AML from ALL.",
         "why": "This is an exploratory description of profile similarity. Distance is not a P-value, diagnostic accuracy or an independent measure of disease relatedness.",
         "remember": "WHY: clustering groups the numerical profiles it receives; assay and sample differences can influence those profiles alongside biology."
-      }
+      },
+      "learning": "figure:f6"
     },
     {
       "id": "f7",
@@ -4303,7 +4540,8 @@
         "walkthrough": "The row tree pairs ALL-3 with AML-2. Bands show differences in displayed values across runs and genes. The figure alone cannot tell whether a dark cell means true absence, low value, missingness or a preprocessing effect.",
         "why": "The methods mention imputation and row-wise unit-variance scaling, but the conversion to the displayed 0–1 scale is not fully specified. Teach the visual pattern while keeping that reproducibility gap explicit.",
         "remember": "WHY: scaling changes what colours mean. A brighter cell is not automatically a more pathogenic mutation or a larger clinical risk."
-      }
+      },
+      "learning": "figure:f7"
     }
   ],
   "slides": [
@@ -4318,7 +4556,8 @@
       "source": "Introduction; Background and Literature Review; §3.2.2",
       "question": "What would be an overinterpretation of this slide?",
       "answer": "A known leukemia-associated gene makes every record assigned to it pathogenic. Gene relevance and the effect of a particular allele are different questions.",
-      "questionKind": "Inferred rehearsal question based on the supplied slide and manuscript."
+      "questionKind": "Inferred rehearsal question based on the supplied slide and manuscript.",
+      "learning": "oral:slide-1"
     },
     {
       "id": "slide-2",
@@ -4331,7 +4570,8 @@
       "source": "Introduction; Background and Literature Review; §3.2.2",
       "question": "What would be an overinterpretation of this slide?",
       "answer": "A known leukemia-associated gene makes every record assigned to it pathogenic. Gene relevance and the effect of a particular allele are different questions.",
-      "questionKind": "Inferred rehearsal question based on the supplied slide and manuscript."
+      "questionKind": "Inferred rehearsal question based on the supplied slide and manuscript.",
+      "learning": "oral:slide-2"
     },
     {
       "id": "slide-3",
@@ -4344,7 +4584,8 @@
       "source": "§3.1.1; §3.1.4; §3.2.1",
       "question": "What would be an overinterpretation of this slide?",
       "answer": "Three ALL runs and three AML runs mean two independent clinical cohorts of three patients each.",
-      "questionKind": "Inferred rehearsal question based on the supplied slide and manuscript."
+      "questionKind": "Inferred rehearsal question based on the supplied slide and manuscript.",
+      "learning": "oral:slide-3"
     },
     {
       "id": "slide-4",
@@ -4357,7 +4598,8 @@
       "source": "§3.1.2",
       "question": "What would be an overinterpretation of this slide?",
       "answer": "Naming several tools proves every platform received an optimal or identical valid workflow.",
-      "questionKind": "Inferred rehearsal question based on the supplied slide and manuscript."
+      "questionKind": "Inferred rehearsal question based on the supplied slide and manuscript.",
+      "learning": "oral:slide-4"
     },
     {
       "id": "slide-5",
@@ -4370,7 +4612,8 @@
       "source": "Introduction; Background and Literature Review; §3.2.2",
       "question": "What would be an overinterpretation of this slide?",
       "answer": "A known leukemia-associated gene makes every record assigned to it pathogenic. Gene relevance and the effect of a particular allele are different questions.",
-      "questionKind": "Inferred rehearsal question based on the supplied slide and manuscript."
+      "questionKind": "Inferred rehearsal question based on the supplied slide and manuscript.",
+      "learning": "oral:slide-5"
     },
     {
       "id": "slide-6",
@@ -4383,7 +4626,8 @@
       "source": "§3.2.3–§3.2.4; Figures 3–4",
       "question": "What would be an overinterpretation of this slide?",
       "answer": "A frequent pooled amino-acid change identifies a common functional driver in one gene.",
-      "questionKind": "Inferred rehearsal question based on the supplied slide and manuscript."
+      "questionKind": "Inferred rehearsal question based on the supplied slide and manuscript.",
+      "learning": "oral:slide-6"
     },
     {
       "id": "slide-7",
@@ -4396,7 +4640,8 @@
       "source": "§3.2.5; Figure 5; Discussion",
       "question": "What would be an overinterpretation of this slide?",
       "answer": "AML-only entries are validated leukemia-specific biomarkers or proven absent from ALL.",
-      "questionKind": "Inferred rehearsal question based on the supplied slide and manuscript."
+      "questionKind": "Inferred rehearsal question based on the supplied slide and manuscript.",
+      "learning": "oral:slide-7"
     },
     {
       "id": "slide-8",
@@ -4409,7 +4654,8 @@
       "source": "§3.1.4; §3.2.6; Figures 6–7",
       "question": "What would be an overinterpretation of this slide?",
       "answer": "The closest pair has the same biology, or the dendrogram proves that leukemia types are indistinguishable.",
-      "questionKind": "Inferred rehearsal question based on the supplied slide and manuscript."
+      "questionKind": "Inferred rehearsal question based on the supplied slide and manuscript.",
+      "learning": "oral:slide-8"
     },
     {
       "id": "slide-9",
@@ -4422,7 +4668,8 @@
       "source": "Discussion; Conclusion",
       "question": "What would be an overinterpretation of this slide?",
       "answer": "Listing limitations means the descriptive findings have no value. Their value is bounded, not erased.",
-      "questionKind": "Inferred rehearsal question based on the supplied slide and manuscript."
+      "questionKind": "Inferred rehearsal question based on the supplied slide and manuscript.",
+      "learning": "oral:slide-9"
     },
     {
       "id": "slide-10",
@@ -4435,7 +4682,8 @@
       "source": "Introduction; Background and Literature Review; §3.2.2",
       "question": "What would be an overinterpretation of this slide?",
       "answer": "A known leukemia-associated gene makes every record assigned to it pathogenic. Gene relevance and the effect of a particular allele are different questions.",
-      "questionKind": "Inferred rehearsal question based on the supplied slide and manuscript."
+      "questionKind": "Inferred rehearsal question based on the supplied slide and manuscript.",
+      "learning": "oral:slide-10"
     }
   ],
   "relationships": [

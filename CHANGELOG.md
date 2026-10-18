@@ -48,3 +48,12 @@ Added a 1200 × 630 PNG sharing card with the existing app icon/title; PNG favic
 ## 1.6.1
 - Context-aware visual Back restores the originating lesson, gallery or prior visual, including scroll and expanded details.
 - Separate visual-library link and direct-entry fallback retained. Preferences version 13.
+
+## 2.0.0
+
+- Permanently updated the existing preference brief to version 14 with the objective–worked example–independent practice–feedback standard.
+- Added 145 structured, source-linked teaching activities including every one of the 105 glossary terms.
+- Added gated application questions, numeric/choice submission, optional written calculation reasoning, non-answer hints, explanatory feedback and distinct correction/transfer tasks.
+- Added rubric-based accurate/partial/needs-revision self-assessment for open responses, without claiming automatic language grading.
+- Added compatible version-1 learning records, drafts and explicit assisted-reveal accounting. Existing bank/card IDs, notes, themes and navigation remain.
+- Added schema/coverage, scoring, state and interaction regression checks and updated guides.

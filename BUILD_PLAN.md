@@ -5,7 +5,7 @@
 | Intake | All four source roles confirmed | Complete |
 | Inspection | Manuscript, oral/poster text, all figures; live reference code/theme/profile/latest commit | Complete |
 | Reconciliation | Study type, units, legacy figure wording, heat-map uncertainty | Complete |
-| Learning design | 15 topics; 102 terms; 56 cards; 30 questions; evidence map | Complete |
+| Learning design | 15 topics; 105 terms; 56 cards; 30 questions; evidence map | Complete |
 | Implementation | Static source code, themes, lessons, recall, questions, viewers, notes, source tracking | Complete |
 | Checks | Core logic, simulated DOM, static asset/source/contrast checks | Run and recorded in tests |
 | Real-browser QA | Desktop/mobile, keyboard, fullscreen/share/clipboard, actual file-origin storage | Outstanding |

@@ -1,26 +1,31 @@
 # Verification results
 
-Executed 17 October 2026 in the supplied container.
+Executed 18 October 2026 for version 2.0.0.
 
 | Check | Actual result |
 |---|---|
-| JavaScript syntax | app.js and core.js parse successfully |
-| Core logic | 15 test groups passed |
-| Simulated DOM workflows | 16 test groups passed |
-| Static/source/asset checks | 327 passed, zero findings |
-| Three-theme computed contrast | Normal text/action pairs ≥ 4.5:1; focus/control boundaries ≥ 3:1 |
-| Original scientific images | All eight image files match DOCX package bytes |
-| Local font and preview assets | WOFF signatures, portrait and all oral/poster PNGs verified |
+| Build and JavaScript syntax | Passed for app.js, learning.js and core.js |
+| Existing core logic | 15 test groups passed |
+| Simulated DOM workflows | 30 groups passed, including 8 new learning interaction groups |
+| New learning content/state logic | 11 groups passed |
+| Static/source/asset checks | 332 passed, zero findings |
+| Structured coverage | 145 activities, including every one of 105 glossary terms |
+| First application task types | 117 multiple-choice, 18 numeric, 10 open response |
+| Follow-up work | Each activity has a distinct rubric-based correction task and transfer task |
+| Prior preference preservation | All earlier content retained, with three documented superseding edits |
+| Original figure assets | Preserved byte-for-byte |
 | Deployment | Not performed |
-| Real-browser layout, mobile, fullscreen, clipboard, native share | Not performed |
+| Real-browser desktop/mobile layout, native sharing/fullscreen/clipboard | Not performed |
 
-Core groups cover schema links, interval arithmetic, due queues, saved-state roundtrip, invalid import rejection, cross-type search, escaping, clean share addresses, transparent activity indicators and exact reported values.
+The 145 activities intentionally reuse relevant underlying concepts across learning surfaces. They are not a claim of 145 independently researched findings or unique scientific concepts. First application tasks are followed by a different correction and transfer task. The existing 56 flashcards and 30 bank questions retain their identifiers and behavior.
 
-Simulated interface groups cover main routes, every lesson/figure/table, explicit landing controls, Previous/Next top reset, glossary history and precise lesson/diagram return, answers retained after End review, topic-filter question advancement, persisted review ratings, escaped notes, invalid routes and real import handlers for valid/invalid backups. These use an explicitly limited test double rather than a browser DOM.
+The tests cover full glossary and learning-surface coverage, complete worked reasoning, objective/source links, missing/placeholder content rejection, correct numeric arithmetic and units, choice feedback, hidden initial practice/feedback, hints, submit/reveal, distinct retry/transfer stages, partial rubric self-assessment, learner-text escaping, draft persistence, optional learning records and older version-1 backup compatibility. Existing flexible visual return, source assets, themes, sharing configuration and question/card persistence continue to pass.
 
-Source checks confirm original assets and structured-content consistency. They do not prove the biological validity of the original analysis or audit external papers. No original matrix or executable bioinformatics pipeline was supplied.
+Automatic grading checks choices or numeric results. Written reasoning and transfer responses are self-assessed with explicit rubrics. Only attempt counts and the latest response/outcome are stored, not a full answer transcript. Reveals are assisted study. No validated mastery or clinical-readiness score is claimed.
 
-The managed environment did not expose the supported browser-control capability; no alternate browser automation or preview server was used. Browser checklist items remain in TESTING_CHECKLIST.md.
+Declarative JSON Schema validation was not run because the optional jsonschema package is unavailable. The required executable structure, reference and coverage validator runs in the build and browser initialization and passes. Browser visual/mobile behavior remains a manual acceptance item in TESTING_CHECKLIST.md; no alternate browser automation was used.
+
+## Retained earlier verification history
 
 ## Version 1.1 regression coverage
 

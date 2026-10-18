@@ -48,3 +48,12 @@ See tests/verification-report.json and tests/TEST_RESULTS.md for actual results.
 ## Version 1.2 sharing update
 
 Added a 1200 × 630 PNG sharing card with the existing app icon/title; PNG favicon, apple-touch and home-screen icons; static Open Graph/Twitter Card metadata; and a deployment-time real-production-URL configuration script. The Vercel build command now runs content generation and metadata configuration. Existing learning features and storage ids are unchanged. Verify the actual deployed URL and platform previews after deployment; cached or protected pages may not display a card.
+
+## Worked learning browser checks (not yet performed)
+
+- On desktop and phone, open a lesson and a glossary term. Read the outcome, expand the worked answer and start practice. Check readable formulas, form width, keyboard focus and visible contrast in all themes.
+- Enter a number and a percentage in relevant numeric tasks. Submit, inspect feedback and optional written reasoning, then try the different correction task and transfer rubric.
+- In a free response, mark only some rubric points and save Partly correct. Mark all after revision and save accurate. Confirm neither is presented as automatic language grading.
+- After a wrong answer, inspect misconception feedback and try another scenario. Confirm hints do not reveal model feedback and the initial question/answer are gated.
+- Refresh, export/import a backup and verify drafts, attempts and self-assessments. Confirm reading alone does not create a practice result.
+- Return from a term or figure to the same lesson with its reading position and open sections intact. Test End review and existing question/card workflows.

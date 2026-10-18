@@ -1,0 +1,213 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Objective-linked worked learning activities",
+  "type": "object",
+  "required": [
+    "version",
+    "units"
+  ],
+  "properties": {
+    "version": {
+      "const": 1
+    },
+    "units": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "topic",
+          "objective",
+          "outcome",
+          "explanation",
+          "worked",
+          "practice",
+          "retry",
+          "mastery",
+          "source"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "topic": {
+            "type": "string"
+          },
+          "objective": {
+            "type": "string"
+          },
+          "worked": {
+            "type": "object",
+            "required": [
+              "scenario",
+              "information",
+              "steps",
+              "answer",
+              "why",
+              "principle"
+            ],
+            "properties": {
+              "information": {
+                "type": "array",
+                "minItems": 2
+              },
+              "steps": {
+                "type": "array",
+                "minItems": 2
+              }
+            }
+          },
+          "practice": {
+            "type": "object",
+            "required": [
+              "id",
+              "kind",
+              "prompt",
+              "answer",
+              "steps",
+              "why",
+              "hint",
+              "takeaway"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "kind": {
+                "enum": [
+                  "mcq",
+                  "numeric",
+                  "short"
+                ]
+              },
+              "prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "answer": {
+                "type": "string",
+                "minLength": 1
+              },
+              "steps": {
+                "type": "array",
+                "minItems": 2,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "rubric": {
+                "type": "array",
+                "minItems": 2,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          },
+          "retry": {
+            "type": "object",
+            "required": [
+              "id",
+              "kind",
+              "prompt",
+              "answer",
+              "steps",
+              "why",
+              "hint",
+              "takeaway"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "kind": {
+                "enum": [
+                  "mcq",
+                  "numeric",
+                  "short"
+                ]
+              },
+              "prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "answer": {
+                "type": "string",
+                "minLength": 1
+              },
+              "steps": {
+                "type": "array",
+                "minItems": 2,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "rubric": {
+                "type": "array",
+                "minItems": 2,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          },
+          "mastery": {
+            "type": "object",
+            "required": [
+              "id",
+              "kind",
+              "prompt",
+              "answer",
+              "steps",
+              "why",
+              "hint",
+              "takeaway"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "kind": {
+                "enum": [
+                  "mcq",
+                  "numeric",
+                  "short"
+                ]
+              },
+              "prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "answer": {
+                "type": "string",
+                "minLength": 1
+              },
+              "steps": {
+                "type": "array",
+                "minItems": 2,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "rubric": {
+                "type": "array",
+                "minItems": 2,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

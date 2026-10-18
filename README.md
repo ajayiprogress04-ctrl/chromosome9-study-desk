@@ -16,7 +16,7 @@ For a consistent local address, open a terminal in the extracted folder and run 
 
 - 15 source-linked lessons under six numbered learning objectives in two expandable classes.
 - Concise WHY explanations, expandable details, misconceptions and evidence.
-- 102 glossary entries with related terms and context-preserving return.
+- 105 glossary entries with related terms and context-preserving return.
 - 56 flashcards with transparent, implemented interval scheduling.
 - 30 questions: 15 multiple-choice and 15 self-assessed short answers.
 - Five comparison tables, an explanatory concept map, all seven manuscript figures (eight image panels), both substantive source tables, all ten oral-slide previews and the poster preview.
@@ -69,3 +69,9 @@ A 1200 × 630 PNG sharing card contains the existing chromosome icon and app tit
 For another host, after obtaining your actual production address, run `node scripts/configure-sharing.cjs YOUR_ACTUAL_HTTPS_ADDRESS` and upload the resulting files. Do not type that instruction placeholder as a real domain. If no deployment address is available, local development keeps relative PNG metadata and does not invent a production URL.
 
 After deployment, inspect the raw page source for an absolute og:image URL, open that image address, and test an actual shared message. A platform may cache an earlier preview, apply a crop, suppress a card or fail to retrieve protected pages. Do not remove access protections merely to force a preview. If needed, a separately accessible generic landing page/card can be discussed while keeping study content protected. No universal logo-display guarantee is made, and live preview behavior has not been tested.
+
+## Worked learning system (version 2.0)
+
+All 105 glossary entries and the lesson/visual/rehearsal teaching surfaces now have objective-linked worked examples and separate application tasks. Open the demonstration, then start “Your turn”. Submit a choice, number or written explanation; hints and explicit reveal are available. Feedback explains the answer, and further correction/transfer tasks use a rubric. Free-response grading is self-assessment.
+
+The additional 145 structured activities are in `content/learning.json`; reusable controls are in `learning.js`. Edit the JSON, then run `npm run build`. A missing example, practice, rubric or objective link fails validation. `npm test` includes content, numeric-grading, answer-gating, feedback, draft/state, compatibility and prior navigation checks. Activity counts are not validated mastery estimates. Export/import retains learning records and drafts.

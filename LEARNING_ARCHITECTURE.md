@@ -38,3 +38,11 @@ Each of the ten oral slides has a key message, authored explanation guide and in
 ## Boundaries and gaps
 
 No clinical diagnosis, mechanistic leukemia simulation, patient prevalence estimate or independent bibliographic audit is provided. The study’s reference-feature counts, predicted effects and pooled coding labels are distinguished from altered genes, validated consequences and genomic hotspots. Missing processing details and the heat-map transformation remain open questions rather than guessed implementations.
+
+## Objective, demonstration, practice and feedback
+
+`learning.js` provides one reusable progressive component. The outcome identifies the parent objective. The worked example explains a concrete scenario with its answer and reasoning. “Your turn” starts a different application question. Hints provide guidance, submission or explicit reveal opens explanatory feedback, and a separate correction or transfer task provides further practice.
+
+Numeric inputs support direct numbers and percentages under the question's stated unit convention. Arithmetic grading checks the result only; optional written calculations remain learner-reviewed. Multiple-choice grading returns feedback tied to the chosen misconception. Open-ended work has a model and checklist rubric. Accurate/partial/needs-revision labels are explicitly self-assessments, not AI language grades.
+
+The glossary, lessons, source visuals, comparisons and oral rehearsal use the same component. Flashcards connect to it after recall reveal; existing question-bank items offer their related worked activity. Existing read markers retain their meaning as reading activity. New attempt records do not imply validated mastery.

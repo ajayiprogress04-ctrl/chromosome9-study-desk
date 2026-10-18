@@ -1,0 +1,22 @@
+{
+  "app_version": "2.0.0",
+  "preferences_version": 14,
+  "date": "2026-10-18",
+  "teaching_units": 145,
+  "glossary_entries": 105,
+  "first_application_types": {
+    "mcq": 117,
+    "numeric": 18,
+    "short": 10
+  },
+  "core_test_groups": 15,
+  "simulated_dom_groups": 30,
+  "learning_content_state_groups": 11,
+  "static_checks": 332,
+  "static_errors": [],
+  "build": "pass",
+  "browser_desktop_mobile": "not performed",
+  "deployment": "not performed",
+  "automatic_free_text_grading": "not implemented; explicit rubric self-assessment",
+  "missing_glossary_activities": 0
+}

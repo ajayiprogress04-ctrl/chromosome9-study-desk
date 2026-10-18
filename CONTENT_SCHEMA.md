@@ -28,10 +28,20 @@ Support classes distinguish faithful paraphrases, explanatory interpretations, i
 - read/recent/bookmarks contain topic ids; rehearsal maps checklist indices to booleans.
 - theme is light/dark/colour; sidebar is a desktop-collapse boolean.
 
-core.js validates imported state and scientific links. Maximum backup upload size is 3 MB. Notes and responses are length-limited by import validation and escaped on output. No submitted text is evaluated as HTML or code. Unknown state versions are rejected. Unreadable on-device state is preserved for raw recovery export; an intentional valid import replaces it.
+core.js validates imported state and scientific links. Maximum backup upload size is 10 MB. Notes and responses are length-limited by import validation and escaped on output. No submitted text is evaluated as HTML or code. Unknown state versions are rejected. Unreadable on-device state is preserved for raw recovery export; an intentional valid import replaces it.
 
 Schema checks validate structure/references, not scientific truth. Scientific content still requires comparison against supplied documents. A draft JSON Schema is also supplied in content/schema.json for tooling; the executable checks are in core.js and scripts/verify_project.py.
 
 ## Objective and linking additions in 1.1
 
 objectives[] contains id, number, group/class, title, lessons[], source and support. Every topic belongs to exactly one objective. Glossary terms have aliases[] for whole-word, longest-phrase inline linking. Existing ids and localStorage version remain unchanged.
+
+## Structured teaching content (2.0)
+
+`content/learning.json` holds 145 activities. `content/learning.schema.json` documents the shape and `StudyCore.validateLearning()` enforces coverage, objective references, worked reasoning, distinct prompts, answer keys, feedback, rubrics and no placeholder content during the build.
+
+Each activity has `id`, `title`, `topic`, `objective`, `outcome`, `explanation`, `scenarioLabel`, `worked`, `practice`, `retry`, `mastery`, `commonConfusion`, `source` and optional authoritative `backgroundSources`. A worked demonstration contains a scenario, information, reasoning steps, answer, why and a transferable principle. Questions support `mcq`, `numeric` and `short`. Numeric tasks specify an expected value, absolute tolerance and unit convention; open tasks require a rubric. Submission or explicit reveal controls feedback visibility.
+
+Content owners reference activities through `learning` IDs. All 105 terms, 15 lessons, 7 figures, 10 oral slides and 5 comparisons are covered, together with 2 tables and the methodology schematic. Existing cards and bank questions reference the appropriate lesson activity. These are application activities in addition to the existing 56 cards and 30 bank questions.
+
+The optional version-1 state field `learning` maps activity-and-stage IDs to `{response, outcome, at, attempts}`. Outcomes are `correct`, `incorrect`, `unassessed`, `self-correct`, `partial`, `needs-work` or `revealed`. Drafts, optional calculation reasoning and rubric checks use namespaced strings in `notes`. Old version-1 backups without this field remain valid. Attempt counts are cumulative; the displayed outcome is the latest outcome. Reveals are assisted study and never scored as independent correctness. Reopening a page alone does not create an attempt.

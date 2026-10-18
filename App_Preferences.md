@@ -1,6 +1,6 @@
 # My App Design Preferences
 
-Version 13 · Consolidated from the Meiosis and Chromosome 9 app discussions · Updated 18 October 2026
+Version 14 · Consolidated from the Meiosis and Chromosome 9 app discussions · Updated 18 October 2026
 
 ## How to use this brief
 
@@ -79,7 +79,7 @@ Make additional details available separately:
 - Why this name? Give the naming logic or origin only when known and supported.
 - Why does it work this way? Explain the mechanism simply.
 - Remember it this way: a short memory aid.
-- A brief example only when useful and accurate.
+- A worked example and a separate practice question are required for every glossary term. Keep the initial view short and reveal the teaching sequence progressively.
 - Related terms and relevant source/lesson links.
 
 Underline and link every relevant scientific term, abbreviation and methodological phrase throughout readable learning content, not only a separate Useful terms list. Cover inflections and full forms with context-appropriate glossary entries. Use visible underlining, preserve readable text and avoid nested links, form fields, navigation controls and misleading common-word matches. Keep quiz answer options intact. Original raster labels must remain unchanged; provide a linked explanatory key below the image instead of pretending text inside an image is interactive. Make important terms, abbreviations and appropriate diagram labels clickable. Keep search convenient. Do not display every full definition while browsing term names. Explain uncertain or unavailable information honestly; do not manufacture definitions, etymologies or image interpretations.
@@ -140,7 +140,7 @@ These are specific to **Chromosome 9 Study Desk**, not compulsory counts or stru
 
 - Repository/app identifier: `chromosome9-study-desk`; subtitle: “Understand the evidence. Explain the study.” No production domain has been confirmed in this discussion.
 - Six inferred learning objectives govern 15 lessons across two expandable classes: study foundations/methods, then results/interpretation/defence. These are educational objectives derived from the manuscript, not six invented author-stated research objectives.
-- Latest implementation: 102 glossary entries, 56 existing flashcards and 30 questions. New terminology must not silently change existing question/card identifiers or reset saved work.
+- Latest implementation: 105 glossary entries, 56 existing flashcards and 30 questions. New terminology must not silently change existing question/card identifiers or reset saved work.
 - The manuscript is a secondary descriptive sequencing-data analysis, not a review article or a patient cohort. Preserve that distinction in lessons, questions and presentation practice.
 - Keep the manuscript as the scientific authority; use oral slides for rehearsal, the poster for concise communication, and this brief for design. Record disagreements rather than merging them silently.
 - Preserve the deeper Light palette with warm tan surfaces and dark wine/navy/green text, true-black Dark surfaces, and deep-plum/burgundy Colour surfaces. These describe the latest implemented direction; browser visual acceptance is not assumed from automated contrast tests.
@@ -197,3 +197,81 @@ Make objective connections explicit and clickable. Group methodology, figures an
 ## Flexible return from visual evidence
 
 Use a context-aware Back button for figures, tables and methodology views. Return immediately to the actual previous view, including the exact objective lesson, gallery or previous visual, and restore scroll position and expanded reading sections. Do not force every return into the visual library. Keep the visual library as a separate navigation option and provide a safe fallback for directly opened visuals. Normal Previous/Next lesson navigation should still start at the top.
+
+## Permanent Learning Design Standard: Objectives, Worked Examples, Independent Practice, and Feedback
+
+### Scope and governing principle
+
+Apply this standard to every appropriate future application that teaches, explains, trains, revises or assesses knowledge, and to upgrades of existing educational applications. It is a foundational default, not a temporary request for one project. Do not force exercises into unrelated non-educational workflows.
+
+Use this sequence: **Learning objective → Simple explanation → Worked example → Demonstrated answer → Independent practice → Feedback → Mastery check.** Teach reasoning that the learner can immediately apply in a different situation. Reading, opening a page and revealing an answer do not prove mastery.
+
+### Observable objectives and connected activities
+
+Every major module, topic, lesson and meaningful subtopic needs a clear outcome appropriate to its scope. Use observable verbs such as define, identify, explain, interpret, compare, differentiate, calculate, apply, predict, analyse, evaluate, construct or justify. Avoid “learn about” when a specific outcome can be stated. For example: “Interpret a p-value and distinguish statistical significance from effect size and practical importance.”
+
+Connect each outcome to its explanation, worked demonstration, independent question, feedback and assessment. Keep learning objectives derived from sources distinct from research objectives actually stated by an author. Scientific diagrams, tables and glossary subtopics must identify the objective they support.
+
+### Required worked-example structure
+
+Every concept taught must have an appropriate example. Use a familiar situation first when helpful, then the subject-specific setting. Include all of the following:
+
+1. A concrete scenario or problem.
+2. The concept or principle being demonstrated.
+3. The relevant information.
+4. Step-by-step reasoning.
+5. The correct answer or outcome.
+6. Why the answer is correct.
+7. A short transferable principle to remember.
+
+For quantitative work, give the formula, substitution, calculation, units and interpretation where applicable. For mechanisms, identify components and the order or relationship of events. For conceptual work, demonstrate classification, comparison or evidence interpretation. For literature appraisal, demonstrate comparing explanations or identifying a limitation. Do not force arithmetic into a non-numerical concept.
+
+Clearly identify hypothetical teaching scenarios and invented example numbers as hypothetical. Distinguish them from reported study findings. Never invent patient histories, published findings, citations, measurements or missing methods and present them as real evidence. Explain a genuine evidence gap instead of filling it with fiction.
+
+### Required independent practice and answer control
+
+Immediately after the demonstration and its answer, offer a separate “Your turn” question testing the same principle with changed numbers, context, biological material or evidence. The task must require a fresh application, not repeat the demonstration verbatim or ask the learner to copy its answer.
+
+Keep the practice question out of view until the learner explicitly chooses to start. Keep the answer and explanatory feedback out of view until submission or an explicit reveal action. An optional hint should guide reasoning without giving the complete solution. Use suitable controls: choices, numerical entry, free text, ordering or diagram tasks according to the skill and implemented capabilities. Do not imply unsupported interaction types exist.
+
+For a numerical task, accept a meaningful tolerance and units where supported. For free text, use a transparent rubric and allow scientifically valid wording. Do not claim automated language grading when the learner is comparing their own response with a model.
+
+### Explanatory feedback, further practice and transfer
+
+After an attempt or explicit reveal, show the correct answer, reasoning steps, why the answer follows, how the demonstration’s principle transfers, common mistakes and a brief takeaway. For an incorrect response, explain the likely misconception where the selected option supports that inference. Do not present a red cross as sufficient teaching.
+
+For open responses, distinguish correct reasoning, partially correct reasoning and remaining gaps through a rubric. Accept valid alternative explanations. Allow the learner to mark their response accurate, partial or needing revision, and label that as self-assessment. Do not infer accuracy from exact wording alone.
+
+Offer another distinct opportunity after difficulty. A transfer or mastery check should change the setting or add a relevant complication. Keep quiz scores, independent attempts, assisted reveals and self-assessed performance distinct. Record useful progress without presenting it as validated mastery, clinical readiness or competence.
+
+### Every glossary entry is a small learning activity
+
+A definition alone is insufficient. Every entry must include an example with its demonstrated answer and reasoning, a different practice question, and answer/feedback after the appropriate action. Also include the term, abbreviation expansion where applicable, simple meaning, scientific or technical explanation, relevance, common confusion, related concepts and source reference.
+
+Use “not applicable” for fields that genuinely do not apply, such as an acronym expansion for an ordinary word. Do not invent an expansion, etymology or historical naming story. A conceptual, scientific, classification or interpretation scenario is suitable when an everyday or numerical scenario would be misleading.
+
+### Apply the method throughout educational features
+
+Use the same principle across objectives, lessons and subtopics, concept clusters, scientific mechanisms, statistical/computational tutorials, question banks, revision, case-based work, visual interpretation, comparisons, methodology, oral rehearsal and practice assessments. Adapt the presentation to the skill, rather than forcing identical wording everywhere.
+
+For a figure or table, demonstrate interpreting one part and ask the learner to interpret a different part or changed hypothetical example. For oral rehearsal, provide a model explanation and then a comparable audience question. Flashcards can connect to worked demonstrations and application practice; recall ratings remain self-assessments.
+
+### Implementation, persistence and validation
+
+Inspect the actual project before designing the implementation. Reuse its technology stack, data conventions, colours, typography, responsive layout, navigation and existing state. Add reusable content structures and teaching components. Keep the brief explanation visible and longer examples expandable, with minimal clutter.
+
+Validate that required objectives, scenarios, information, reasoning, answers, principles, practice, feedback, rubrics and sources exist. Placeholder text such as “example coming soon” is invalid. Validate objective references and activity links. Make lesson completeness a content-quality requirement, not a claim of learner mastery.
+
+Preserve saved notes, answers, schedules and preferences. Add compatible progress fields or migrate old backups safely. Preserve answer history or attempt counts, distinguish answer reveals from independent submissions, and do not erase previous work when providing another exercise.
+
+Test the actual paths: start practice, enter/select an answer, submit, receive feedback, request a hint, explicitly reveal, self-assess a free response, try another scenario, attempt a transfer check, refresh, export/import and return to the same reading context. Test hidden-answer behaviour and escaping of learner text. Verify coverage of every glossary term and relevant learning surface. Separate real browser/mobile checks from simulated-DOM and static checks, reporting unperformed checks honestly.
+
+### Reuse and delivery
+
+For a future educational app: read this brief, identify learning features, map objectives to demonstrations and practice, use subject-appropriate scenarios, provide feedback and further practice, validate completeness, test and preserve the remaining preferences. Request missing essential files; reuse available current source files instead of requesting redundant uploads.
+
+Update this existing preference file in place and preserve its identity and unrelated requirements. Provide the updated standalone Markdown and one complete cumulative project ZIP, with implementation notes, actual test results, missing examples or unsupported features and remaining work. The portable file must be attached or selected in a future context; saving it does not guarantee automatic access by every future conversation.
+
+### Chromosome 9 implementation record
+
+Version 2.0 adds a structured teaching activity for each glossary entry, lesson and source-visual interpretation, with related applications for comparisons and oral rehearsal. Keep hypothetical practice separate from manuscript findings. Local learning records must distinguish independent multiple-choice scores, explicit reveals and rubric-based self-assessments. The existing question bank, flashcards, objective navigation and flexible visual return remain available.

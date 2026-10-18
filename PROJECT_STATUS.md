@@ -1,13 +1,13 @@
 # Project status
 
-Version 1.2.0 · 17 October 2026
+Version 2.0.0 · 18 October 2026
 
 ## Complete
 
 - Four source roles confirmed; manuscript and source presentations inspected.
 - Reference live HTML/CSS/JS and latest GitHub commit inspected; live/reference biography matched.
 - Complete buildless app, source files and local assets included.
-- 15 lessons, 102 glossary terms, 56 cards, 30 questions, five comparisons and eight supported concept relationships.
+- 15 lessons, 105 glossary terms, 56 cards, 30 questions, five comparisons and eight supported concept relationships.
 - All original manuscript figure panels and substantive tables; ten oral-slide previews and single-page poster preview.
 - Search, three themes, collapsed sidebar, focused lessons, term dialogs, concept map, revision scheduling, question outcomes, private notes/bookmarks, backup import/export, recovery protection, rehearsal checklist/timer, source reconciliation and developer profile.
 - Requested Markdown documentation and beginner setup/deployment instructions.
@@ -39,3 +39,13 @@ Six objective-based sequences, 102 glossary terms, solid inline glossary underli
 ## Version 1.2 sharing update
 
 Added a 1200 × 630 PNG sharing card with the existing app icon/title; PNG favicon, apple-touch and home-screen icons; static Open Graph/Twitter Card metadata; and a deployment-time real-production-URL configuration script. The Vercel build command now runs content generation and metadata configuration. Existing learning features and storage ids are unchanged. Verify the actual deployed URL and platform previews after deployment; cached or protected pages may not display a card.
+
+## Version 2.0 learning upgrade
+
+- 145 structured activities cover every glossary entry and all lessons, figures, tables, methodology, comparisons and oral rehearsal.
+- Worked scenarios contain information, steps, model answers and principles. Separate practice supports choices, numeric input, optional calculation reasoning and free response.
+- Questions start hidden. Hints guide without revealing full solutions. Submission or explicit reveal opens explanatory feedback. Distinct correction and transfer tasks follow.
+- Rubrics support transparent accurate, partial or needs-revision self-assessment. No automatic free-text grading is provided.
+- New optional learning records preserve attempt counts and latest outcomes through compatible version-1 backups. Existing notes, cards, bank question IDs and visual return behavior remain.
+- Preference brief version 14 makes this standard reusable in future educational applications.
+- Browser visual/mobile verification and deployment remain unperformed.
