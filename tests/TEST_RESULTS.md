@@ -1,18 +1,18 @@
 # Verification results
 
-Executed 18 October 2026 for version 2.1.0.
+Executed 18 October 2026 for version 2.2.0.
 
 | Check | Actual result |
 |---|---|
 | Build and JavaScript syntax | Passed for app.js, learning.js and core.js |
 | Existing core logic | 15 test groups passed |
-| Simulated DOM workflows | 35 groups passed, including complete guided-path traversal and dropdown handlers |
+| Simulated DOM workflows | 38 groups passed, including complete guided-path traversal and dropdown handlers |
 | New learning content/state logic | 13 groups passed |
 | Static/source/asset checks | 332 passed, zero findings |
 | Structured coverage | 145 activities, including every one of 105 glossary terms |
 | First application task types | 117 multiple-choice, 18 numeric, 10 open response |
 | Follow-up work | Each activity has a distinct rubric-based correction task and transfer task |
-| Preference update | Version 15 retains prior standards and explicitly supersedes definition-first and delayed-question flow |
+| Preference update | Version 16 retains prior standards and explicitly supersedes definition-first and delayed-question flow |
 | Original figure assets | Preserved byte-for-byte |
 | Deployment | Not performed |
 | Real-browser desktop/mobile layout, native sharing/fullscreen/clipboard | Not performed |
@@ -57,3 +57,13 @@ Version 1.6.1: automated suite passes. Simulated navigation verifies lesson→fi
 - Checked actual handlers for workspace/term/comparison/evidence/answer selection, question-bank dropdown submission, one active comparison, source reference access and guided visual-return position.
 - Old backup compatibility and valid/invalid guided progress shapes pass. Existing source images, precise reported values, schedules, notes and navigation regressions remain covered.
 - No real-browser desktop/mobile, native share/fullscreen or deployment verification was performed. The required manual checks remain in TESTING_CHECKLIST.md.
+
+## Version 2.2.0 — repeated practical learning
+
+The screenshot-approved example / demonstrated answer / why / remember layout is retained. Every ordinary guided concept and every glossary entry now presents three existing, distinct tasks in sequence: application, correction of a claim, and transfer of reasoning. These follow-ups are part of the normal journey rather than optional buttons. A single answered question cannot enable the main Continue action. Feedback, explicit rubric self-assessment, reviewed-task dropdowns and the selected task are saved locally and included in backups. Previously saved responses remain valid.
+
+All 105 glossary entries have three tasks each (315 existing authored tasks). Objective paths retain their concept steps and two final checks. Task slots by objective are 68, 161, 14, 59, 41 and 17; concepts shared between glossary/objectives reuse the same saved responses, and final checks can revisit transfer prompts. These are practice opportunities, not counts of unique concepts or validated mastery. Return and related-term navigation remain available without forcing completion.
+
+No new scientific findings or external medical advice were added. Written responses remain self-assessed against rubrics. Desktop/mobile visual testing and deployment were not performed.
+
+Verification includes all three tasks for every objective concept and all 105 glossary terms; blocked premature completion, unavailable-task dropdown jumps and saved task restoration.

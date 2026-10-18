@@ -65,3 +65,10 @@ Added a 1200 × 630 PNG sharing card with the existing app icon/title; PNG favic
 - Save a free-response rubric assessment and Continue. Revisit a reviewed step, reload and verify the cursor; complete the two final checks.
 - Use workspace, term, comparison, evidence, bank-answer, recall-rating and self-assessment dropdowns with mouse and keyboard.
 - Open full reference or a figure and return to the same guided step and reading position. Verify that reference navigation remains available without forcing an exercise.
+
+## Repeated practice follow-up
+
+- [x] Simulated: three-task completion through all objectives and 105 glossary terms.
+- [x] Simulated: next-concept action blocked after only one response.
+- [x] Simulated: saved task restored, reviewed-task dropdown cannot jump to unattempted future task.
+- [ ] Real browser: check task dropdown, focus and feedback on desktop/mobile.

@@ -55,3 +55,11 @@ Added a 1200 × 630 PNG sharing card with the existing app icon/title; PNG favic
 The main objective journey is now a saved step sequence rather than a long lesson with an optional added learning card. Glossary entries are example-first. Full notes, original images/tables, provenance, scientific cautions and downloads remain available as reference. Existing notes, bank/card identifiers, schedules and version-1 backups are preserved.
 
 Dropdown selection now covers workspace sections, grouped objectives, reviewed steps, terms, comparisons, evidence, gallery filters, bank answers, card ratings and self-assessment. Other apps have not been modified; the reusable preference applies when they are available for an upgrade.
+
+## Version 2.2.0 — repeated practical learning
+
+The screenshot-approved example / demonstrated answer / why / remember layout is retained. Every ordinary guided concept and every glossary entry now presents three existing, distinct tasks in sequence: application, correction of a claim, and transfer of reasoning. These follow-ups are part of the normal journey rather than optional buttons. A single answered question cannot enable the main Continue action. Feedback, explicit rubric self-assessment, reviewed-task dropdowns and the selected task are saved locally and included in backups. Previously saved responses remain valid.
+
+All 105 glossary entries have three tasks each (315 existing authored tasks). Objective paths retain their concept steps and two final checks. Task slots by objective are 68, 161, 14, 59, 41 and 17; concepts shared between glossary/objectives reuse the same saved responses, and final checks can revisit transfer prompts. These are practice opportunities, not counts of unique concepts or validated mastery. Return and related-term navigation remain available without forcing completion.
+
+No new scientific findings or external medical advice were added. Written responses remain self-assessed against rubrics. Desktop/mobile visual testing and deployment were not performed.

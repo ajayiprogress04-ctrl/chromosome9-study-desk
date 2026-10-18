@@ -16,3 +16,5 @@ html[data-theme=colour]{--bg:#0c0012;--surface:#20001c;--soft:#350023;--ink:#fff
 .step-position{font-size:.9rem;color:var(--muted)}.guided-evidence{margin:1rem 0}.guided-evidence img{width:100%;height:auto;background:white;display:block;margin:.5rem 0}.informational-example{margin:.8rem 0 1.2rem}.informational-example h3{margin-top:.4rem}.objective-evidence{margin:.8rem 0}#guided-step-picker,#glossary-term-picker,#comparison-picker,#evidence-picker,#visual-objective-picker,select[data-objective-menu]{width:100%;max-width:100%;font:inherit;min-height:2.7rem}.learning-flow>details{margin-top:.7rem}.learning-flow>p.tiny{margin-bottom:.35rem}.learning-flow .application-task h3{margin-bottom:.4rem}@media(max-width:680px){.step-position{font-size:.85rem}.learning-flow{padding-top:.4rem}.learning-flow .toolbar{gap:.45rem}}
 
 #workspace-picker{width:100%;max-width:100%;min-height:2.7rem;font:inherit;margin:.5rem 0 1rem}
+
+.practice-sequence{margin:1rem 0;padding:.8rem;border:1px solid var(--line);border-radius:.5rem;background:var(--soft)}.practice-sequence p{margin:.35rem 0}.practice-sequence label{display:block;margin-top:.7rem}

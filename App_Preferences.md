@@ -1,6 +1,6 @@
 # My App Design Preferences
 
-Version 15 · Consolidated from the Meiosis and Chromosome 9 app discussions · Updated 18 October 2026
+Version 16 · Consolidated from the Meiosis and Chromosome 9 app discussions · Updated 18 October 2026
 
 ## How to use this brief
 
@@ -289,3 +289,13 @@ My main teaching experience must be: **one useful informational example → one 
 - Verify example-before-question order, answer gating, response-specific feedback, retry, Continue, end checks, saved-step restoration, safe backup import, reference access and glossary/visual return. State browser/mobile verification limits honestly.
 
 Chromosome 9 version 2.1 introduces saved guided objective paths, example-first term dialogs, one comparison at a time and dropdown selection for the remaining bank choices and ratings. It preserves original source documents, essential facts, scientific uncertainty and prior saved learning records.
+
+## Repeated practical learning in objectives and glossary — 18 October 2026
+
+Keep the screenshot-approved layout: One example → Demonstrated answer → Why → Remember → expandable worked reasoning → Your turn. Use this in both objectives and glossary entries.
+
+Give every concept several distinct practice opportunities, not just one question or a definition. In this app, expose three sequential tasks: apply the concept, correct a mistaken claim, and transfer the reasoning to another situation. Make correction and transfer part of the normal journey rather than optional hidden extras. Keep questions practical and relevant to the specific concept; use calculations where suitable and distinguish hypothetical exercises from actual study findings. Do not count reworded duplicates as new scientific evidence.
+
+Show one question at a time, immediate feedback after an attempt, a visible task count and saved position. Require a response and feedback review for all three tasks before the normal Continue action leaves the concept. Written explanations use an explicit rubric and honest self-assessment, not claimed automatic understanding or certified mastery. Allow revisiting reviewed tasks through a dropdown; preserve independent glossary navigation and the flexible Return button. Existing responses, notes, objectives, visual evidence and themes must remain usable. Record activity completion separately from correctness.
+
+Current implementation: app 2.2.0, all 105 glossary entries and each ordinary guided objective concept use the three-task sequence. Existing sourced exercises are promoted into the main flow; no new manuscript results are invented. Two end checks per objective remain available. This standard applies when modifying future accessible apps; unrelated apps have not been modified here.
