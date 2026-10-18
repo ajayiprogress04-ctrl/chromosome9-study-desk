@@ -18,3 +18,5 @@ html[data-theme=colour]{--bg:#0c0012;--surface:#20001c;--soft:#350023;--ink:#fff
 #workspace-picker{width:100%;max-width:100%;min-height:2.7rem;font:inherit;margin:.5rem 0 1rem}
 
 .practice-sequence{margin:1rem 0;padding:.8rem;border:1px solid var(--line);border-radius:.5rem;background:var(--soft)}.practice-sequence p{margin:.35rem 0}.practice-sequence label{display:block;margin-top:.7rem}
+
+#example-picker,#example-objective-picker,#more-tools-picker{display:block;width:100%;max-width:100%;min-height:2.7rem;font:inherit;margin:.5rem 0 1rem}#navigation>details{margin:.6rem 0}#main>.learning-flow{max-width:65rem}

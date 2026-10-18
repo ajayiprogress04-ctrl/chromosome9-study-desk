@@ -1,6 +1,6 @@
 # My App Design Preferences
 
-Version 16 · Consolidated from the Meiosis and Chromosome 9 app discussions · Updated 18 October 2026
+Version 18 · Consolidated from the Meiosis and Chromosome 9 app discussions · Updated 18 October 2026
 
 ## How to use this brief
 
@@ -299,3 +299,23 @@ Give every concept several distinct practice opportunities, not just one questio
 Show one question at a time, immediate feedback after an attempt, a visible task count and saved position. Require a response and feedback review for all three tasks before the normal Continue action leaves the concept. Written explanations use an explicit rubric and honest self-assessment, not claimed automatic understanding or certified mastery. Allow revisiting reviewed tasks through a dropdown; preserve independent glossary navigation and the flexible Return button. Existing responses, notes, objectives, visual evidence and themes must remain usable. Record activity completion separately from correctness.
 
 Current implementation: app 2.2.0, all 105 glossary entries and each ordinary guided objective concept use the three-task sequence. Existing sourced exercises are promoted into the main flow; no new manuscript results are invented. Two end checks per objective remain available. This standard applies when modifying future accessible apps; unrelated apps have not been modified here.
+
+## Example-first app as the default experience — 18 October 2026
+
+Worked examples are the main way I understand and remember concepts. Make them the central learning experience throughout my app, with many practical cases across the objectives and glossary, figures and tables, comparisons, revision and presentation practice. Preserve the approved visual structure: One example, Demonstrated answer, Why, Remember, optional worked reasoning, then Your turn and feedback. Prefer this to long explanatory pages or dense dashboards.
+
+Simplify navigation and reduce competing content. Use a short dropdown of main learning destinations and place supporting tools, lengthy notes and references in expandable sections. The current main destinations are Start/continue, Learn an objective, Worked examples, Practise a term, and Figures and tables. Make the start page immediately useful with the saved concept and its worked example. Keep search, dropdown selections, flexible return, themes, sharing and backups.
+
+Increase the number and variety of worked cases, not just the number of menu items or repetitions of the same question. Include practical interpretation, calculations with clearly hypothetical values, correction of misconceptions, and transfer questions. Do not invent manuscript results. Label related topic cases distinctly from an example about the precise glossary term. Preserve scientific qualifications and access to source evidence even when reducing visible content. Progress should resume at the saved task, and shared activities should stay consistent when returning from the glossary.
+
+Current app 2.3.0 adds 30 authored hypothetical worked cases and 90 follow-up tasks across all 15 topics. The library now exposes 175 worked-example units with three tasks each (525 authored tasks, some reused across app surfaces). All glossary entries offer their own term example and two related topic cases. This replaces the previous crowded main menu with five main destinations; supporting tools remain available under More practice and reference. This preference should guide future accessible app updates; unrelated apps were not changed here.
+
+## Simplify practice; examples teach first — latest correction, 18 October 2026
+
+My latest preference supersedes the earlier mandatory three-stage practice and rubric requirements. I learn better from practical worked examples than from many definitions or meanings. Let examples do most of the teaching. Give a short why with feedback and keep definitions as optional brief reference only.
+
+Remove the screenshot-identified learning clutter: the worked-reasoning disclosure, the Practice 2 of 3/reviewed-task panel, written peer-review exercises, long model-answer and transferable-rule sections, rubric checkboxes, self-assessment dropdown and save button, and the Common confusion and sources panel within the practice card. Do not replace these with another compulsory assessment process.
+
+Use the simple pattern I prefer: One example → Demonstrated answer → Why → Remember → Your turn (dropdown choice) → brief feedback → Another question or next example. One answered question is enough to continue; the other questions are optional practice. Do not require me to type an explanation, check rubric points or finish three tasks to move on. Keep objective navigation, saved position, glossary links and original evidence available. Preserve old private answers and notes in backups even when their old interfaces are removed.
+
+Current app 2.4.0 retains 175 worked-example units and offers three dropdown questions per unit, available one at a time without a three-task gate. Old question-bank and flashcard URLs now open the simple example library. Glossary definitions remain optional; sources and scientific qualifications remain accessible outside the uncluttered practice card. This is my app design preference, not a claim that definitions are unnecessary for every learner or subject.

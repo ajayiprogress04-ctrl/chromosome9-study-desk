@@ -5150,6 +5150,54 @@
           "visual": "table1"
         },
         {
+          "id": "teach:case:rationale-1",
+          "unit": "case:rationale-1",
+          "topic": "rationale",
+          "kind": "teach",
+          "label": "One chromosome, limited scope",
+          "visual": null
+        },
+        {
+          "id": "teach:case:rationale-2",
+          "unit": "case:rationale-2",
+          "topic": "rationale",
+          "kind": "teach",
+          "label": "Gene name versus functional evidence",
+          "visual": null
+        },
+        {
+          "id": "teach:case:design-1",
+          "unit": "case:design-1",
+          "topic": "design",
+          "kind": "teach",
+          "label": "Description versus causation",
+          "visual": null
+        },
+        {
+          "id": "teach:case:design-2",
+          "unit": "case:design-2",
+          "topic": "design",
+          "kind": "teach",
+          "label": "What secondary analysis adds",
+          "visual": null
+        },
+        {
+          "id": "teach:case:provenance-1",
+          "unit": "case:provenance-1",
+          "topic": "provenance",
+          "kind": "teach",
+          "label": "Count the sources",
+          "visual": null
+        },
+        {
+          "id": "teach:case:provenance-2",
+          "unit": "case:provenance-2",
+          "topic": "provenance",
+          "kind": "teach",
+          "label": "Another platform, same material",
+          "visual": null
+        },
+        {
           "id": "check:0",
           "unit": "lesson:rationale",
           "topic": "rationale",
@@ -5165,7 +5213,8 @@
           "label": "Transfer check 2",
           "visual": null
         }
-      ]
+      ],
+      "expansionStart": 22
     },
     {
       "id": "o2",
@@ -5595,6 +5644,70 @@
           "visual": "method"
         },
         {
+          "id": "teach:case:processing-1",
+          "unit": "case:processing-1",
+          "topic": "processing",
+          "kind": "teach",
+          "label": "Repair the workflow order",
+          "visual": null
+        },
+        {
+          "id": "teach:case:processing-2",
+          "unit": "case:processing-2",
+          "topic": "processing",
+          "kind": "teach",
+          "label": "Reads are not contigs",
+          "visual": null
+        },
+        {
+          "id": "teach:case:alignment-1",
+          "unit": "case:alignment-1",
+          "topic": "alignment",
+          "kind": "teach",
+          "label": "High identity, sparse observation",
+          "visual": null
+        },
+        {
+          "id": "teach:case:alignment-2",
+          "unit": "case:alignment-2",
+          "topic": "alignment",
+          "kind": "teach",
+          "label": "Unobserved does not mean absent",
+          "visual": null
+        },
+        {
+          "id": "teach:case:calling-1",
+          "unit": "case:calling-1",
+          "topic": "calling",
+          "kind": "teach",
+          "label": "A filter is not a group comparison",
+          "visual": null
+        },
+        {
+          "id": "teach:case:calling-2",
+          "unit": "case:calling-2",
+          "topic": "calling",
+          "kind": "teach",
+          "label": "Alternative support fraction",
+          "visual": null
+        },
+        {
+          "id": "teach:case:annotation-1",
+          "unit": "case:annotation-1",
+          "topic": "annotation",
+          "kind": "teach",
+          "label": "One allele, several transcripts",
+          "visual": null
+        },
+        {
+          "id": "teach:case:annotation-2",
+          "unit": "case:annotation-2",
+          "topic": "annotation",
+          "kind": "teach",
+          "label": "A prediction needs confirmation",
+          "visual": null
+        },
+        {
           "id": "check:0",
           "unit": "lesson:processing",
           "topic": "processing",
@@ -5610,7 +5723,8 @@
           "label": "Transfer check 2",
           "visual": null
         }
-      ]
+      ],
+      "expansionStart": 53
     },
     {
       "id": "o3",
@@ -5648,6 +5762,22 @@
           "visual": "f2"
         },
         {
+          "id": "teach:case:counts-1",
+          "unit": "case:counts-1",
+          "topic": "counts",
+          "kind": "teach",
+          "label": "Large total, unknown denominator",
+          "visual": null
+        },
+        {
+          "id": "teach:case:counts-2",
+          "unit": "case:counts-2",
+          "topic": "counts",
+          "kind": "teach",
+          "label": "The median resists one extreme",
+          "visual": null
+        },
+        {
           "id": "check:0",
           "unit": "lesson:counts",
           "topic": "counts",
@@ -5663,7 +5793,8 @@
           "label": "Transfer check 2",
           "visual": null
         }
-      ]
+      ],
+      "expansionStart": 4
     },
     {
       "id": "o4",
@@ -5821,6 +5952,38 @@
           "visual": "table2"
         },
         {
+          "id": "teach:case:coding-1",
+          "unit": "case:coding-1",
+          "topic": "coding",
+          "kind": "teach",
+          "label": "Substitution versus measured harm",
+          "visual": null
+        },
+        {
+          "id": "teach:case:coding-2",
+          "unit": "case:coding-2",
+          "topic": "coding",
+          "kind": "teach",
+          "label": "Synonymous still needs context",
+          "visual": null
+        },
+        {
+          "id": "teach:case:positions-1",
+          "unit": "case:positions-1",
+          "topic": "positions",
+          "kind": "teach",
+          "label": "The same codon number in two genes",
+          "visual": null
+        },
+        {
+          "id": "teach:case:positions-2",
+          "unit": "case:positions-2",
+          "topic": "positions",
+          "kind": "teach",
+          "label": "Coordinate systems must match",
+          "visual": null
+        },
+        {
           "id": "check:0",
           "unit": "lesson:coding",
           "topic": "coding",
@@ -5836,7 +5999,8 @@
           "label": "Transfer check 2",
           "visual": null
         }
-      ]
+      ],
+      "expansionStart": 19
     },
     {
       "id": "o5",
@@ -5946,6 +6110,54 @@
           "visual": "f7"
         },
         {
+          "id": "teach:case:overlap-1",
+          "unit": "case:overlap-1",
+          "topic": "overlap",
+          "kind": "teach",
+          "label": "Compare exact set members",
+          "visual": null
+        },
+        {
+          "id": "teach:case:overlap-2",
+          "unit": "case:overlap-2",
+          "topic": "overlap",
+          "kind": "teach",
+          "label": "Restricted in this screen",
+          "visual": null
+        },
+        {
+          "id": "teach:case:clustering-1",
+          "unit": "case:clustering-1",
+          "topic": "clustering",
+          "kind": "teach",
+          "label": "A mixed pair in the tree",
+          "visual": null
+        },
+        {
+          "id": "teach:case:clustering-2",
+          "unit": "case:clustering-2",
+          "topic": "clustering",
+          "kind": "teach",
+          "label": "Similarity direction matters",
+          "visual": null
+        },
+        {
+          "id": "teach:case:heatmap-1",
+          "unit": "case:heatmap-1",
+          "topic": "heatmap",
+          "kind": "teach",
+          "label": "Colour is relative after scaling",
+          "visual": null
+        },
+        {
+          "id": "teach:case:heatmap-2",
+          "unit": "case:heatmap-2",
+          "topic": "heatmap",
+          "kind": "teach",
+          "label": "Two red cells, different scales",
+          "visual": null
+        },
+        {
           "id": "check:0",
           "unit": "lesson:overlap",
           "topic": "overlap",
@@ -5961,7 +6173,8 @@
           "label": "Transfer check 2",
           "visual": null
         }
-      ]
+      ],
+      "expansionStart": 13
     },
     {
       "id": "o6",
@@ -6007,6 +6220,38 @@
           "visual": null
         },
         {
+          "id": "teach:case:limitations-1",
+          "unit": "case:limitations-1",
+          "topic": "limitations",
+          "kind": "teach",
+          "label": "Technical runs do not create replication",
+          "visual": null
+        },
+        {
+          "id": "teach:case:limitations-2",
+          "unit": "case:limitations-2",
+          "topic": "limitations",
+          "kind": "teach",
+          "label": "Annotation is not a diagnostic test",
+          "visual": null
+        },
+        {
+          "id": "teach:case:conclusions-1",
+          "unit": "case:conclusions-1",
+          "topic": "conclusions",
+          "kind": "teach",
+          "label": "Keep the conclusion within the evidence",
+          "visual": null
+        },
+        {
+          "id": "teach:case:conclusions-2",
+          "unit": "case:conclusions-2",
+          "topic": "conclusions",
+          "kind": "teach",
+          "label": "Answer an oral challenge",
+          "visual": null
+        },
+        {
           "id": "check:0",
           "unit": "lesson:limitations",
           "topic": "limitations",
@@ -6022,7 +6267,8 @@
           "label": "Transfer check 2",
           "visual": null
         }
-      ]
+      ],
+      "expansionStart": 5
     }
   ]
 }

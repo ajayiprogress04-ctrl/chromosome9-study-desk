@@ -72,3 +72,20 @@ Added a 1200 × 630 PNG sharing card with the existing app icon/title; PNG favic
 - [x] Simulated: next-concept action blocked after only one response.
 - [x] Simulated: saved task restored, reviewed-task dropdown cannot jump to unattempted future task.
 - [ ] Real browser: check task dropdown, focus and feedback on desktop/mobile.
+
+## Version 2.3 example-first simplification
+
+- [x] Simulated: five main destinations, supporting menu routes remain accessible.
+- [x] Simulated: new case selection/filter, three-task gate, saved library selection.
+- [x] Simulated: two related topic cases selectable from glossary.
+- [x] Simulated: original notes/answers retained and old final-check cursors enter new cases.
+- [x] Simulated: shared activity refreshes after glossary return at the same scroll.
+- [ ] Real browser and mobile: inspect revised layout, menu, native dropdowns and focus.
+
+## Version 2.4 simple practice (supersedes rubric checklist)
+
+- [x] All 525 live choices can be answered; no removed panel, learning textarea or rubric checkbox renders.
+- [x] One response enables next concept; no compulsory three-task assessment.
+- [x] Empty selection blocked; repeat correct after feedback is marked assisted.
+- [x] All objectives, glossary entries, old revision routes and backups verified in simulated DOM.
+- [ ] Real browser/mobile layout and native dropdown verification.
