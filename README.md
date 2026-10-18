@@ -70,8 +70,10 @@ For another host, after obtaining your actual production address, run `node scri
 
 After deployment, inspect the raw page source for an absolute og:image URL, open that image address, and test an actual shared message. A platform may cache an earlier preview, apply a crop, suppress a card or fail to retrieve protected pages. Do not remove access protections merely to force a preview. If needed, a separately accessible generic landing page/card can be discussed while keeping study content protected. No universal logo-display guarantee is made, and live preview behavior has not been tested.
 
-## Worked learning system (version 2.0)
+## Guided example-first learning (version 2.1)
 
-All 105 glossary entries and the lesson/visual/rehearsal teaching surfaces now have objective-linked worked examples and separate application tasks. Open the demonstration, then start “Your turn”. Submit a choice, number or written explanation; hints and explicit reveal are available. Feedback explains the answer, and further correction/transfer tasks use a rubric. Free-response grading is self-assessment.
+All 105 glossary entries and the lesson/visual/rehearsal teaching surfaces now have objective-linked worked examples and separate application tasks. Choose an objective to resume one informational example and its immediately following question. Submit a choice, number or written explanation; hints are available before feedback. Continue advances only after a response and, for free responses, a saved self-assessment. Feedback explains the answer, and further correction/transfer tasks use a rubric. Free-response grading is self-assessment. Each objective ends with two transfer checks, and reviewed steps can be revisited through a dropdown.
 
 The additional 145 structured activities are in `content/learning.json`; reusable controls are in `learning.js`. Edit the JSON, then run `npm run build`. A missing example, practice, rubric or objective link fails validation. `npm test` includes content, numeric-grading, answer-gating, feedback, draft/state, compatibility and prior navigation checks. Activity counts are not validated mastery estimates. Export/import retains learning records and drafts.
+
+Dropdowns are the default selection style for workspace sections, objectives, terms, comparisons, evidence, answer choices, ratings and self-assessment. Submit, Try Again and Continue remain direct actions. Full lesson references and original sources remain available without forcing a learning exercise on reference navigation.

@@ -1,6 +1,6 @@
 # My App Design Preferences
 
-Version 14 · Consolidated from the Meiosis and Chromosome 9 app discussions · Updated 18 October 2026
+Version 15 · Consolidated from the Meiosis and Chromosome 9 app discussions · Updated 18 October 2026
 
 ## How to use this brief
 
@@ -56,7 +56,7 @@ These are established simplification choices for Meiosis. For another app, do no
 - Use the familiar ☰ three-line button to collapse and expand the desktop left panel; remember the choice. On phones, use it to open the navigation drawer.
 - Categorise objectives under expandable class/module headings, rather than one long flat list. Meiosis uses Class 1 and Class 2.
 - Use a compact objective dropdown on the landing page and inside lessons. Group options by class and identify the current objective. The primary design must be objective based: numbered learning objectives govern navigation and lesson sequences. A topic list alone is insufficient. Label objectives inferred from source material as learning objectives rather than inventing author-stated research objectives.
-- Choosing an objective opens its first relevant lesson immediately.
+- Choosing an objective opens its current saved example and immediate practice question.
 - Show multiple lessons one after another, one lesson at a time, with Previous/Next and an indicator such as Lesson 1 of 2.
 - Clicking Next or Previous opens the destination at the TOP, even if previously visited.
 - Returning from a glossary explanation or diagram is different: restore the precise lesson/visual, scroll position, focus and reading context.
@@ -69,10 +69,7 @@ Golden rule: Explain the WHY in seconds.
 
 Use direct, simple, clear, concise and memorable language. Avoid textbook paragraphs, unnecessary introductions, vague definitions and repetitive wording.
 
-Show first:
-
-1. Plain meaning: what the term is.
-2. Why it matters in the actual lesson or task.
+Show one concrete example first, with its demonstrated answer, a short explanation and immediate practice. Plain meaning and scientific definitions support that example; keep longer definitions and mechanisms in optional reference details.
 
 Make additional details available separately:
 
@@ -129,7 +126,7 @@ Keep messages concise. Explain the result and the next essential action. Ask foc
 |---|---|
 | Colours need to be much deeper in each theme | Make substantial, visible palette improvements in Light, Dark and Colour, including backgrounds, surfaces and actions. Preserve contrast; do not change only one theme or only accent colours. |
 | Every necessary word should be underlined and linked | Provide visible inline glossary links for relevant scientific concepts, terminology, abbreviations and methodological phrases throughout readable educational content. A separate list of useful terms alone is insufficient. |
-| The app should be objective based | Organise the main experience by numbered learning objectives, grouped into expandable classes/modules. Use objective dropdowns on Overview and inside lessons, open the first lesson directly, and identify the current objective and lesson number. Apply objective-based filtering to practice and revision where relevant. |
+| The app should be objective based | Organise the main experience by numbered learning objectives, grouped into expandable classes/modules. Use objective dropdowns on Overview and inside lessons, open the saved current example directly, and identify the current objective and step number. Apply objective-based filtering to practice and revision where relevant. |
 | The app icon should appear when sharing its link | Supply a dedicated preview image containing the app icon/title and static sharing metadata tied to the actual production address. Prepare and test the implementation; be honest about untested live previews and platform limitations. |
 | I need help from naming through deployment | Give practical, beginner-friendly steps for naming, extracting/running the app, creating the intended GitHub repository, uploading the correct folder contents, deploying to Vercel and checking the actual production address. Do not assume an unfinished step is complete. |
 | I need the preference file to keep | Provide the latest consolidated preferences as a standalone downloadable Markdown file when requested, not only inside the project ZIP. Preserve earlier requirements unless explicitly superseded. |
@@ -204,7 +201,7 @@ Use a context-aware Back button for figures, tables and methodology views. Retur
 
 Apply this standard to every appropriate future application that teaches, explains, trains, revises or assesses knowledge, and to upgrades of existing educational applications. It is a foundational default, not a temporary request for one project. Do not force exercises into unrelated non-educational workflows.
 
-Use this sequence: **Learning objective → Simple explanation → Worked example → Demonstrated answer → Independent practice → Feedback → Mastery check.** Teach reasoning that the learner can immediately apply in a different situation. Reading, opening a page and revealing an answer do not prove mastery.
+Use this sequence: **Learning objective → One informational example and demonstrated answer → Immediate practice question → My answer → Brief feedback → Next example → End-of-objective transfer check.** Teach reasoning that the learner can immediately apply in a different situation. Reading, opening a page and revealing an answer do not prove mastery.
 
 ### Observable objectives and connected activities
 
@@ -232,13 +229,13 @@ Clearly identify hypothetical teaching scenarios and invented example numbers as
 
 Immediately after the demonstration and its answer, offer a separate “Your turn” question testing the same principle with changed numbers, context, biological material or evidence. The task must require a fresh application, not repeat the demonstration verbatim or ask the learner to copy its answer.
 
-Keep the practice question out of view until the learner explicitly chooses to start. Keep the answer and explanatory feedback out of view until submission or an explicit reveal action. An optional hint should guide reasoning without giving the complete solution. Use suitable controls: choices, numerical entry, free text, ordering or diagram tasks according to the skill and implemented capabilities. Do not imply unsupported interaction types exist.
+Show the current example and its one practice question together. Keep future steps hidden until the learner responds. Keep the practice answer and feedback hidden until a submitted attempt. Give a hint before the solution when the learner struggles. An optional hint should guide reasoning without giving the complete solution. Use suitable controls: choices, numerical entry, free text, ordering or diagram tasks according to the skill and implemented capabilities. Do not imply unsupported interaction types exist.
 
 For a numerical task, accept a meaningful tolerance and units where supported. For free text, use a transparent rubric and allow scientifically valid wording. Do not claim automated language grading when the learner is comparing their own response with a model.
 
 ### Explanatory feedback, further practice and transfer
 
-After an attempt or explicit reveal, show the correct answer, reasoning steps, why the answer follows, how the demonstration’s principle transfers, common mistakes and a brief takeaway. For an incorrect response, explain the likely misconception where the selected option supports that inference. Do not present a red cross as sufficient teaching.
+After a submitted attempt, show the correct answer, reasoning steps, why the answer follows, how the demonstration’s principle transfers, common mistakes and a brief takeaway. For an incorrect response, explain the likely misconception where the selected option supports that inference. Do not present a red cross as sufficient teaching.
 
 For open responses, distinguish correct reasoning, partially correct reasoning and remaining gaps through a rubric. Accept valid alternative explanations. Allow the learner to mark their response accurate, partial or needing revision, and label that as self-assessment. Do not infer accuracy from exact wording alone.
 
@@ -275,3 +272,20 @@ Update this existing preference file in place and preserve its identity and unre
 ### Chromosome 9 implementation record
 
 Version 2.0 adds a structured teaching activity for each glossary entry, lesson and source-visual interpretation, with related applications for comparisons and oral rehearsal. Keep hypothetical practice separate from manuscript findings. Local learning records must distinguish independent multiple-choice scores, explicit reveals and rubric-based self-assessments. The existing question bank, flashcards, objective navigation and flexible visual return remain available.
+
+## Example-first guided learning and dropdown selections
+
+This section refines the permanent learning standard above. It governs future appropriate apps and upgrades of educational apps.
+
+My main teaching experience must be: **one useful informational example → one related question → my answer → feedback → the next example**. Restructure unsuitable existing flows to follow it; do not merely add another optional learning card to long notes.
+
+- Break objectives into small steps. Show only the current example, demonstrated answer, concise principle and one comparable question. Use a changed scenario or numbers so the learner applies the principle.
+- Place the example before the definition in the glossary. Keep technical definitions, naming, scientific detail and sources as optional reference after the example/application. Do not open a term with several paragraphs to memorise.
+- Explain correct answers briefly. For a mistake, explain the misconception or calculation issue without pretending to know more than the response reveals, offer a hint and another opportunity, and keep longer reasoning expandable.
+- Make Continue available after a response and feedback. Do not automatically jump forward before the learner can respond. Free-text work uses an explicit rubric and self-assessment. Remember the current step and reviewed steps, allow revisiting, and give a short transfer check at the end of each objective. Process completion and self-assessment are not validated mastery.
+- Apply the pattern to relevant lessons, glossary, calculations, visual interpretation, comparisons, rehearsal, revision and question banks. Navigation and original reference material do not require exercises. Retain essential scientific evidence and limitations, reorganised into small teaching steps or accessible reference rather than deleted.
+- Keep selection controls as dropdowns wherever appropriate. I like this compact selection style. Use it for objectives, reviewed-step selection, terminology, comparisons, answer choices, filters, recall ratings, self-assessment and evidence selection. Replace unnecessary button rows, tabs or long simultaneous option lists when a dropdown serves the task clearly. Keep direct actions such as Submit, Try Again and Continue as clearly labelled buttons.
+- When upgrading another app, audit its selection groups and apply the same dropdown convention where suitable. Do not claim to have changed an unavailable app or force dropdowns onto unrelated direct actions.
+- Verify example-before-question order, answer gating, response-specific feedback, retry, Continue, end checks, saved-step restoration, safe backup import, reference access and glossary/visual return. State browser/mobile verification limits honestly.
+
+Chromosome 9 version 2.1 introduces saved guided objective paths, example-first term dialogs, one comparison at a time and dropdown selection for the remaining bank choices and ratings. It preserves original source documents, essential facts, scientific uncertainty and prior saved learning records.

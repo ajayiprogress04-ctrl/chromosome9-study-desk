@@ -57,3 +57,11 @@ Added a 1200 × 630 PNG sharing card with the existing app icon/title; PNG favic
 - After a wrong answer, inspect misconception feedback and try another scenario. Confirm hints do not reveal model feedback and the initial question/answer are gated.
 - Refresh, export/import a backup and verify drafts, attempts and self-assessments. Confirm reading alone does not create a practice result.
 - Return from a term or figure to the same lesson with its reading position and open sections intact. Test End review and existing question/card workflows.
+
+## Version 2.1 guided journey browser acceptance (not performed here)
+
+- On desktop and mobile, select an objective from the dropdown and verify that one example and its question are visible without an additional Start screen.
+- Submit a wrong and correct choice or numeric response, inspect brief feedback, then try a different scenario. Check focus and readable dropdown options across all three themes.
+- Save a free-response rubric assessment and Continue. Revisit a reviewed step, reload and verify the cursor; complete the two final checks.
+- Use workspace, term, comparison, evidence, bank-answer, recall-rating and self-assessment dropdowns with mouse and keyboard.
+- Open full reference or a figure and return to the same guided step and reading position. Verify that reference navigation remains available without forcing an exercise.

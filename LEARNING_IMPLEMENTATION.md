@@ -28,3 +28,12 @@ Automated logic and simulated-DOM checks are separate from browser visual/mobile
 No glossary entry is missing a worked example or practice opportunity under the structural coverage audit. The app does not provide AI free-text grading, drag ordering, diagram-label scoring or unlimited generated new questions. Each activity supplies a first application, a separate correction task and a transfer task. Original manuscript gaps (raw matrix, complete heat-map preprocessing and allele-level validation) remain unresolved and explicit. No new study result or patient history is invented.
 
 Automatic scoring covers choices and numeric results. Written explanations and transfer checks use a learner-completed rubric; a numeric result alone does not validate reasoning. The interface records counts and latest outcomes, not a full transcript of every previous answer. Real-browser desktop/mobile, native sharing and deployment checks remain pending.
+
+## Version 2.1: restructure rather than add more content
+
+- Six guided paths render one example and immediate question at a time, with response-gated Continue, reviewed-step selection, a saved cursor and two final transfer checks.
+- Glossary terms show the scenario before optional definitions. Duplicate visible explanations are reduced; full scientific reference remains accessible.
+- Comparisons, revision and rehearsal use focused example-first views. The question bank demonstrates a related scenario, then presents its existing question with dropdown submission.
+- Native dropdowns replace remaining unnecessary selection rows and long option lists. Direct actions remain buttons.
+- Simulated tests traverse every path, exercise final check/self-assessment handling, test blocked future-step selection, answer-gating, saved return position and actual dropdown handlers.
+- Actual browser rendering/mobile behavior and deployment remain unverified. No other app has been changed by this package.

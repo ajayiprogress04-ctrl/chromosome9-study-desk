@@ -1,25 +1,25 @@
 # Verification results
 
-Executed 18 October 2026 for version 2.0.0.
+Executed 18 October 2026 for version 2.1.0.
 
 | Check | Actual result |
 |---|---|
 | Build and JavaScript syntax | Passed for app.js, learning.js and core.js |
 | Existing core logic | 15 test groups passed |
-| Simulated DOM workflows | 30 groups passed, including 8 new learning interaction groups |
-| New learning content/state logic | 11 groups passed |
+| Simulated DOM workflows | 35 groups passed, including complete guided-path traversal and dropdown handlers |
+| New learning content/state logic | 13 groups passed |
 | Static/source/asset checks | 332 passed, zero findings |
 | Structured coverage | 145 activities, including every one of 105 glossary terms |
 | First application task types | 117 multiple-choice, 18 numeric, 10 open response |
 | Follow-up work | Each activity has a distinct rubric-based correction task and transfer task |
-| Prior preference preservation | All earlier content retained, with three documented superseding edits |
+| Preference update | Version 15 retains prior standards and explicitly supersedes definition-first and delayed-question flow |
 | Original figure assets | Preserved byte-for-byte |
 | Deployment | Not performed |
 | Real-browser desktop/mobile layout, native sharing/fullscreen/clipboard | Not performed |
 
 The 145 activities intentionally reuse relevant underlying concepts across learning surfaces. They are not a claim of 145 independently researched findings or unique scientific concepts. First application tasks are followed by a different correction and transfer task. The existing 56 flashcards and 30 bank questions retain their identifiers and behavior.
 
-The tests cover full glossary and learning-surface coverage, complete worked reasoning, objective/source links, missing/placeholder content rejection, correct numeric arithmetic and units, choice feedback, hidden initial practice/feedback, hints, submit/reveal, distinct retry/transfer stages, partial rubric self-assessment, learner-text escaping, draft persistence, optional learning records and older version-1 backup compatibility. Existing flexible visual return, source assets, themes, sharing configuration and question/card persistence continue to pass.
+The tests cover full glossary and learning-surface coverage, complete worked reasoning, objective/source links, missing/placeholder content rejection, correct numeric arithmetic and units, choice feedback, example-before-question order and hidden initial feedback, hints, submit/reveal, distinct retry/transfer stages, partial rubric self-assessment, learner-text escaping, draft persistence, optional learning records and older version-1 backup compatibility. Existing flexible visual return, source assets, themes, sharing configuration and question/card persistence continue to pass.
 
 Automatic grading checks choices or numeric results. Written reasoning and transfer responses are self-assessed with explicit rubrics. Only attempt counts and the latest response/outcome are stored, not a full answer transcript. Reveals are assisted study. No validated mastery or clinical-readiness score is claimed.
 
@@ -48,3 +48,12 @@ Version 1.5.0: all automated checks pass, including figure-specific teaching in 
 Version 1.6.0: automated suite passes, including explicit two-way visual/objective links, all lesson evidence sections, gallery objective groups, direct methodology view and Figure 2 in Objective 3. Browser visual and deployment verification not performed.
 
 Version 1.6.1: automated suite passes. Simulated navigation verifies lesson→figure→Back restores lesson and scroll; gallery→figure→table returns through both prior views; methodology return restores expanded sections. Real browser appearance and deployment remain unverified.
+
+## Version 2.1 guided restructuring verification
+
+- Simulated execution traversed all six paths: 24, 55, 6, 21, 15 and 7 steps, including two transfer checks per objective.
+- Checked one active teaching unit in the objective view, blocked unanswered Continue, saved cursor/reviewed steps, hidden future-step options, dropdown revisit and response/rubric handling through final completion.
+- Checked example-first glossary ordering and no unattempted answer reveal. A repeated correct answer after feedback is recorded as assisted rather than independently correct.
+- Checked actual handlers for workspace/term/comparison/evidence/answer selection, question-bank dropdown submission, one active comparison, source reference access and guided visual-return position.
+- Old backup compatibility and valid/invalid guided progress shapes pass. Existing source images, precise reported values, schedules, notes and navigation regressions remain covered.
+- No real-browser desktop/mobile, native share/fullscreen or deployment verification was performed. The required manual checks remain in TESTING_CHECKLIST.md.

@@ -1,5 +1,5 @@
 {
-  "version": "2.0.0",
+  "version": "2.1.0",
   "name": "Chromosome 9 Study Desk",
   "subtitle": "Understand the evidence. Explain the study.",
   "studyTitle": "Chromosome 9 Variant Annotation Profiles Across Public Acute Leukemia Sequencing Datasets",
@@ -4967,6 +4967,1062 @@
         "heatmap"
       ],
       "purpose": "Interpret the matrix, colour scale and clustering with preprocessing limitations."
+    }
+  ],
+  "guidedPaths": [
+    {
+      "id": "o1",
+      "steps": [
+        {
+          "id": "teach:lesson:rationale",
+          "unit": "lesson:rationale",
+          "topic": "rationale",
+          "kind": "teach",
+          "label": "Why chromosome 9?",
+          "visual": null
+        },
+        {
+          "id": "teach:term:pax5",
+          "unit": "term:pax5",
+          "topic": "rationale",
+          "kind": "teach",
+          "label": "PAX5",
+          "visual": null
+        },
+        {
+          "id": "teach:term:dna",
+          "unit": "term:dna",
+          "topic": "rationale",
+          "kind": "teach",
+          "label": "DNA",
+          "visual": null
+        },
+        {
+          "id": "teach:term:genome",
+          "unit": "term:genome",
+          "topic": "rationale",
+          "kind": "teach",
+          "label": "Genome",
+          "visual": null
+        },
+        {
+          "id": "teach:term:public-acute-leukemia",
+          "unit": "term:public-acute-leukemia",
+          "topic": "rationale",
+          "kind": "teach",
+          "label": "Public acute leukemia (title wording)",
+          "visual": null
+        },
+        {
+          "id": "teach:term:acute-leukemia",
+          "unit": "term:acute-leukemia",
+          "topic": "rationale",
+          "kind": "teach",
+          "label": "Acute leukemia",
+          "visual": null
+        },
+        {
+          "id": "teach:term:public-datasets",
+          "unit": "term:public-datasets",
+          "topic": "rationale",
+          "kind": "teach",
+          "label": "Public sequencing datasets",
+          "visual": null
+        },
+        {
+          "id": "teach:lesson:design",
+          "unit": "lesson:design",
+          "topic": "design",
+          "kind": "teach",
+          "label": "What kind of study is this?",
+          "visual": null
+        },
+        {
+          "id": "teach:term:replicate",
+          "unit": "term:replicate",
+          "topic": "design",
+          "kind": "teach",
+          "label": "Biological replication",
+          "visual": null
+        },
+        {
+          "id": "teach:term:descriptive",
+          "unit": "term:descriptive",
+          "topic": "design",
+          "kind": "teach",
+          "label": "Descriptive analysis",
+          "visual": null
+        },
+        {
+          "id": "teach:term:dataset",
+          "unit": "term:dataset",
+          "topic": "design",
+          "kind": "teach",
+          "label": "Dataset",
+          "visual": null
+        },
+        {
+          "id": "teach:term:prevalence",
+          "unit": "term:prevalence",
+          "topic": "design",
+          "kind": "teach",
+          "label": "Prevalence",
+          "visual": null
+        },
+        {
+          "id": "teach:visual:method",
+          "unit": "visual:method",
+          "topic": "design",
+          "kind": "teach",
+          "label": "Methodology workflow",
+          "visual": "method"
+        },
+        {
+          "id": "teach:lesson:provenance",
+          "unit": "lesson:provenance",
+          "topic": "provenance",
+          "kind": "teach",
+          "label": "Six runs, four biological sources",
+          "visual": null
+        },
+        {
+          "id": "teach:term:reh",
+          "unit": "term:reh",
+          "topic": "provenance",
+          "kind": "teach",
+          "label": "REH",
+          "visual": null
+        },
+        {
+          "id": "teach:term:library",
+          "unit": "term:library",
+          "topic": "provenance",
+          "kind": "teach",
+          "label": "Sequencing library",
+          "visual": null
+        },
+        {
+          "id": "teach:term:aml",
+          "unit": "term:aml",
+          "topic": "provenance",
+          "kind": "teach",
+          "label": "AML",
+          "visual": null
+        },
+        {
+          "id": "teach:term:all",
+          "unit": "term:all",
+          "topic": "provenance",
+          "kind": "teach",
+          "label": "ALL",
+          "visual": null
+        },
+        {
+          "id": "teach:term:sequencing",
+          "unit": "term:sequencing",
+          "topic": "provenance",
+          "kind": "teach",
+          "label": "Sequencing",
+          "visual": null
+        },
+        {
+          "id": "teach:term:ml2",
+          "unit": "term:ml2",
+          "topic": "provenance",
+          "kind": "teach",
+          "label": "ML-2",
+          "visual": null
+        },
+        {
+          "id": "teach:term:hl60",
+          "unit": "term:hl60",
+          "topic": "provenance",
+          "kind": "teach",
+          "label": "HL-60",
+          "visual": null
+        },
+        {
+          "id": "teach:visual:table1",
+          "unit": "visual:table1",
+          "topic": "provenance",
+          "kind": "teach",
+          "label": "Dataset-composition table",
+          "visual": "table1"
+        },
+        {
+          "id": "check:0",
+          "unit": "lesson:rationale",
+          "topic": "rationale",
+          "kind": "check",
+          "label": "Transfer check 1",
+          "visual": null
+        },
+        {
+          "id": "check:1",
+          "unit": "lesson:provenance",
+          "topic": "provenance",
+          "kind": "check",
+          "label": "Transfer check 2",
+          "visual": null
+        }
+      ]
+    },
+    {
+      "id": "o2",
+      "steps": [
+        {
+          "id": "teach:lesson:processing",
+          "unit": "lesson:processing",
+          "topic": "processing",
+          "kind": "teach",
+          "label": "From public reads to an alignment",
+          "visual": null
+        },
+        {
+          "id": "teach:term:read",
+          "unit": "term:read",
+          "topic": "processing",
+          "kind": "teach",
+          "label": "Read",
+          "visual": null
+        },
+        {
+          "id": "teach:term:q30",
+          "unit": "term:q30",
+          "topic": "processing",
+          "kind": "teach",
+          "label": "Q30",
+          "visual": null
+        },
+        {
+          "id": "teach:term:contig",
+          "unit": "term:contig",
+          "topic": "processing",
+          "kind": "teach",
+          "label": "Contig",
+          "visual": null
+        },
+        {
+          "id": "teach:term:sra",
+          "unit": "term:sra",
+          "topic": "processing",
+          "kind": "teach",
+          "label": "SRA",
+          "visual": null
+        },
+        {
+          "id": "teach:term:ena",
+          "unit": "term:ena",
+          "topic": "processing",
+          "kind": "teach",
+          "label": "ENA",
+          "visual": null
+        },
+        {
+          "id": "teach:term:geneious",
+          "unit": "term:geneious",
+          "topic": "processing",
+          "kind": "teach",
+          "label": "Geneious",
+          "visual": null
+        },
+        {
+          "id": "teach:term:bp",
+          "unit": "term:bp",
+          "topic": "processing",
+          "kind": "teach",
+          "label": "Base pair",
+          "visual": null
+        },
+        {
+          "id": "teach:term:adapters",
+          "unit": "term:adapters",
+          "topic": "processing",
+          "kind": "teach",
+          "label": "Sequencing adapter",
+          "visual": null
+        },
+        {
+          "id": "teach:term:fastqc",
+          "unit": "term:fastqc",
+          "topic": "processing",
+          "kind": "teach",
+          "label": "FastQC",
+          "visual": null
+        },
+        {
+          "id": "teach:term:trimmomatic",
+          "unit": "term:trimmomatic",
+          "topic": "processing",
+          "kind": "teach",
+          "label": "Trimmomatic",
+          "visual": null
+        },
+        {
+          "id": "teach:term:spades",
+          "unit": "term:spades",
+          "topic": "processing",
+          "kind": "teach",
+          "label": "SPAdes",
+          "visual": null
+        },
+        {
+          "id": "teach:term:quast",
+          "unit": "term:quast",
+          "topic": "processing",
+          "kind": "teach",
+          "label": "QUAST",
+          "visual": null
+        },
+        {
+          "id": "teach:term:gc",
+          "unit": "term:gc",
+          "topic": "processing",
+          "kind": "teach",
+          "label": "GC content",
+          "visual": null
+        },
+        {
+          "id": "teach:lesson:alignment",
+          "unit": "lesson:alignment",
+          "topic": "alignment",
+          "kind": "teach",
+          "label": "Identity is not coverage",
+          "visual": null
+        },
+        {
+          "id": "teach:term:reference",
+          "unit": "term:reference",
+          "topic": "alignment",
+          "kind": "teach",
+          "label": "Reference sequence",
+          "visual": null
+        },
+        {
+          "id": "teach:term:identity",
+          "unit": "term:identity",
+          "topic": "alignment",
+          "kind": "teach",
+          "label": "Pairwise identity",
+          "visual": null
+        },
+        {
+          "id": "teach:term:alignmentterm",
+          "unit": "term:alignmentterm",
+          "topic": "alignment",
+          "kind": "teach",
+          "label": "Sequence alignment",
+          "visual": null
+        },
+        {
+          "id": "teach:lesson:calling",
+          "unit": "lesson:calling",
+          "topic": "calling",
+          "kind": "teach",
+          "label": "Calling thresholds versus group tests",
+          "visual": null
+        },
+        {
+          "id": "teach:term:strandbias",
+          "unit": "term:strandbias",
+          "topic": "calling",
+          "kind": "teach",
+          "label": "Strand bias",
+          "visual": null
+        },
+        {
+          "id": "teach:term:pvalue",
+          "unit": "term:pvalue",
+          "topic": "calling",
+          "kind": "teach",
+          "label": "Calling P-value",
+          "visual": null
+        },
+        {
+          "id": "teach:term:statistical",
+          "unit": "term:statistical",
+          "topic": "calling",
+          "kind": "teach",
+          "label": "Statistical significance",
+          "visual": null
+        },
+        {
+          "id": "teach:lesson:annotation",
+          "unit": "lesson:annotation",
+          "topic": "annotation",
+          "kind": "teach",
+          "label": "Annotation records versus validated variants",
+          "visual": null
+        },
+        {
+          "id": "teach:term:allele",
+          "unit": "term:allele",
+          "topic": "annotation",
+          "kind": "teach",
+          "label": "Allele",
+          "visual": null
+        },
+        {
+          "id": "teach:term:somatic",
+          "unit": "term:somatic",
+          "topic": "annotation",
+          "kind": "teach",
+          "label": "Somatic variant",
+          "visual": null
+        },
+        {
+          "id": "teach:term:variant",
+          "unit": "term:variant",
+          "topic": "annotation",
+          "kind": "teach",
+          "label": "Sequence variant",
+          "visual": null
+        },
+        {
+          "id": "teach:term:mutation",
+          "unit": "term:mutation",
+          "topic": "annotation",
+          "kind": "teach",
+          "label": "Mutation",
+          "visual": null
+        },
+        {
+          "id": "teach:term:gene",
+          "unit": "term:gene",
+          "topic": "annotation",
+          "kind": "teach",
+          "label": "Gene",
+          "visual": null
+        },
+        {
+          "id": "teach:term:rna",
+          "unit": "term:rna",
+          "topic": "annotation",
+          "kind": "teach",
+          "label": "RNA",
+          "visual": null
+        },
+        {
+          "id": "teach:term:mrna",
+          "unit": "term:mrna",
+          "topic": "annotation",
+          "kind": "teach",
+          "label": "Messenger RNA",
+          "visual": null
+        },
+        {
+          "id": "teach:term:ncrna",
+          "unit": "term:ncrna",
+          "topic": "annotation",
+          "kind": "teach",
+          "label": "Noncoding RNA",
+          "visual": null
+        },
+        {
+          "id": "teach:term:pathogenic",
+          "unit": "term:pathogenic",
+          "topic": "annotation",
+          "kind": "teach",
+          "label": "Pathogenicity",
+          "visual": null
+        },
+        {
+          "id": "teach:term:fusion",
+          "unit": "term:fusion",
+          "topic": "annotation",
+          "kind": "teach",
+          "label": "Gene fusion",
+          "visual": null
+        },
+        {
+          "id": "teach:term:gene-nup214",
+          "unit": "term:gene-nup214",
+          "topic": "annotation",
+          "kind": "teach",
+          "label": "NUP214",
+          "visual": null
+        },
+        {
+          "id": "teach:term:gene-notch1",
+          "unit": "term:gene-notch1",
+          "topic": "annotation",
+          "kind": "teach",
+          "label": "NOTCH1",
+          "visual": null
+        },
+        {
+          "id": "teach:term:gene-cdkn2a",
+          "unit": "term:gene-cdkn2a",
+          "topic": "annotation",
+          "kind": "teach",
+          "label": "CDKN2A",
+          "visual": null
+        },
+        {
+          "id": "teach:term:gene-golga2",
+          "unit": "term:gene-golga2",
+          "topic": "annotation",
+          "kind": "teach",
+          "label": "GOLGA2",
+          "visual": null
+        },
+        {
+          "id": "teach:term:gene-washc1",
+          "unit": "term:gene-washc1",
+          "topic": "annotation",
+          "kind": "teach",
+          "label": "WASHC1",
+          "visual": null
+        },
+        {
+          "id": "teach:term:gene-cdc14b",
+          "unit": "term:gene-cdc14b",
+          "topic": "annotation",
+          "kind": "teach",
+          "label": "CDC14B",
+          "visual": null
+        },
+        {
+          "id": "teach:term:gene-dnm1",
+          "unit": "term:gene-dnm1",
+          "topic": "annotation",
+          "kind": "teach",
+          "label": "DNM1",
+          "visual": null
+        },
+        {
+          "id": "teach:term:gene-kank1",
+          "unit": "term:gene-kank1",
+          "topic": "annotation",
+          "kind": "teach",
+          "label": "KANK1",
+          "visual": null
+        },
+        {
+          "id": "teach:term:gene-phf2",
+          "unit": "term:gene-phf2",
+          "topic": "annotation",
+          "kind": "teach",
+          "label": "PHF2",
+          "visual": null
+        },
+        {
+          "id": "teach:term:gene-fam120a",
+          "unit": "term:gene-fam120a",
+          "topic": "annotation",
+          "kind": "teach",
+          "label": "FAM120A",
+          "visual": null
+        },
+        {
+          "id": "teach:term:gene-hnrnpk",
+          "unit": "term:gene-hnrnpk",
+          "topic": "annotation",
+          "kind": "teach",
+          "label": "HNRNPK",
+          "visual": null
+        },
+        {
+          "id": "teach:term:gene-unc13b",
+          "unit": "term:gene-unc13b",
+          "topic": "annotation",
+          "kind": "teach",
+          "label": "UNC13B",
+          "visual": null
+        },
+        {
+          "id": "teach:term:gene-adamtsl1",
+          "unit": "term:gene-adamtsl1",
+          "topic": "annotation",
+          "kind": "teach",
+          "label": "ADAMTSL1",
+          "visual": null
+        },
+        {
+          "id": "teach:term:gene-tek",
+          "unit": "term:gene-tek",
+          "topic": "annotation",
+          "kind": "teach",
+          "label": "TEK",
+          "visual": null
+        },
+        {
+          "id": "teach:term:gene-znf618",
+          "unit": "term:gene-znf618",
+          "topic": "annotation",
+          "kind": "teach",
+          "label": "ZNF618",
+          "visual": null
+        },
+        {
+          "id": "teach:term:gene-ddx31",
+          "unit": "term:gene-ddx31",
+          "topic": "annotation",
+          "kind": "teach",
+          "label": "DDX31",
+          "visual": null
+        },
+        {
+          "id": "teach:term:gene-haus6",
+          "unit": "term:gene-haus6",
+          "topic": "annotation",
+          "kind": "teach",
+          "label": "HAUS6",
+          "visual": null
+        },
+        {
+          "id": "teach:term:gene-pappa",
+          "unit": "term:gene-pappa",
+          "topic": "annotation",
+          "kind": "teach",
+          "label": "PAPPA",
+          "visual": null
+        },
+        {
+          "id": "teach:term:gene-ankrd18b",
+          "unit": "term:gene-ankrd18b",
+          "topic": "annotation",
+          "kind": "teach",
+          "label": "ANKRD18B",
+          "visual": null
+        },
+        {
+          "id": "teach:visual:method",
+          "unit": "visual:method",
+          "topic": "processing",
+          "kind": "teach",
+          "label": "Methodology workflow",
+          "visual": "method"
+        },
+        {
+          "id": "check:0",
+          "unit": "lesson:processing",
+          "topic": "processing",
+          "kind": "check",
+          "label": "Transfer check 1",
+          "visual": null
+        },
+        {
+          "id": "check:1",
+          "unit": "lesson:annotation",
+          "topic": "annotation",
+          "kind": "check",
+          "label": "Transfer check 2",
+          "visual": null
+        }
+      ]
+    },
+    {
+      "id": "o3",
+      "steps": [
+        {
+          "id": "teach:lesson:counts",
+          "unit": "lesson:counts",
+          "topic": "counts",
+          "kind": "teach",
+          "label": "What do the annotation counts show?",
+          "visual": null
+        },
+        {
+          "id": "teach:term:mean",
+          "unit": "term:mean",
+          "topic": "counts",
+          "kind": "teach",
+          "label": "Mean",
+          "visual": null
+        },
+        {
+          "id": "teach:figure:f1",
+          "unit": "figure:f1",
+          "topic": "counts",
+          "kind": "teach",
+          "label": "Figure 1 · Annotation-record distributions",
+          "visual": "f1"
+        },
+        {
+          "id": "teach:figure:f2",
+          "unit": "figure:f2",
+          "topic": "counts",
+          "kind": "teach",
+          "label": "Figure 2 · Selected gene assignments",
+          "visual": "f2"
+        },
+        {
+          "id": "check:0",
+          "unit": "lesson:counts",
+          "topic": "counts",
+          "kind": "check",
+          "label": "Transfer check 1",
+          "visual": null
+        },
+        {
+          "id": "check:1",
+          "unit": "figure:f1",
+          "topic": "counts",
+          "kind": "check",
+          "label": "Transfer check 2",
+          "visual": null
+        }
+      ]
+    },
+    {
+      "id": "o4",
+      "steps": [
+        {
+          "id": "teach:lesson:coding",
+          "unit": "lesson:coding",
+          "topic": "coding",
+          "kind": "teach",
+          "label": "Protein effects and amino-acid summaries",
+          "visual": null
+        },
+        {
+          "id": "teach:term:substitution",
+          "unit": "term:substitution",
+          "topic": "coding",
+          "kind": "teach",
+          "label": "Predicted substitution",
+          "visual": null
+        },
+        {
+          "id": "teach:term:truncation",
+          "unit": "term:truncation",
+          "topic": "coding",
+          "kind": "teach",
+          "label": "Predicted truncation",
+          "visual": null
+        },
+        {
+          "id": "teach:term:protein",
+          "unit": "term:protein",
+          "topic": "coding",
+          "kind": "teach",
+          "label": "Protein",
+          "visual": null
+        },
+        {
+          "id": "teach:term:aminoacid",
+          "unit": "term:aminoacid",
+          "topic": "coding",
+          "kind": "teach",
+          "label": "Amino acid",
+          "visual": null
+        },
+        {
+          "id": "teach:term:transition",
+          "unit": "term:transition",
+          "topic": "coding",
+          "kind": "teach",
+          "label": "Transition",
+          "visual": null
+        },
+        {
+          "id": "teach:term:transversion",
+          "unit": "term:transversion",
+          "topic": "coding",
+          "kind": "teach",
+          "label": "Transversion",
+          "visual": null
+        },
+        {
+          "id": "teach:term:insertion",
+          "unit": "term:insertion",
+          "topic": "coding",
+          "kind": "teach",
+          "label": "Insertion",
+          "visual": null
+        },
+        {
+          "id": "teach:term:deletion",
+          "unit": "term:deletion",
+          "topic": "coding",
+          "kind": "teach",
+          "label": "Deletion",
+          "visual": null
+        },
+        {
+          "id": "teach:term:tandemrepeat",
+          "unit": "term:tandemrepeat",
+          "topic": "coding",
+          "kind": "teach",
+          "label": "Tandem repeat",
+          "visual": null
+        },
+        {
+          "id": "teach:term:polymorphism",
+          "unit": "term:polymorphism",
+          "topic": "coding",
+          "kind": "teach",
+          "label": "Polymorphism class",
+          "visual": null
+        },
+        {
+          "id": "teach:figure:f3",
+          "unit": "figure:f3",
+          "topic": "coding",
+          "kind": "teach",
+          "label": "Figure 3 · Predicted protein effects",
+          "visual": "f3"
+        },
+        {
+          "id": "teach:figure:f4",
+          "unit": "figure:f4",
+          "topic": "coding",
+          "kind": "teach",
+          "label": "Figure 4 · Amino-acid-change categories",
+          "visual": "f4"
+        },
+        {
+          "id": "teach:lesson:positions",
+          "unit": "lesson:positions",
+          "topic": "positions",
+          "kind": "teach",
+          "label": "Why pooled positions are not hotspots",
+          "visual": null
+        },
+        {
+          "id": "teach:term:transcript",
+          "unit": "term:transcript",
+          "topic": "positions",
+          "kind": "teach",
+          "label": "Transcript context",
+          "visual": null
+        },
+        {
+          "id": "teach:term:codon",
+          "unit": "term:codon",
+          "topic": "positions",
+          "kind": "teach",
+          "label": "Codon label",
+          "visual": null
+        },
+        {
+          "id": "teach:term:cds",
+          "unit": "term:cds",
+          "topic": "positions",
+          "kind": "teach",
+          "label": "Coding sequence",
+          "visual": null
+        },
+        {
+          "id": "teach:term:normalization",
+          "unit": "term:normalization",
+          "topic": "positions",
+          "kind": "teach",
+          "label": "Allele normalization",
+          "visual": null
+        },
+        {
+          "id": "teach:visual:table2",
+          "unit": "visual:table2",
+          "topic": "positions",
+          "kind": "teach",
+          "label": "Gene and coding-label table",
+          "visual": "table2"
+        },
+        {
+          "id": "check:0",
+          "unit": "lesson:coding",
+          "topic": "coding",
+          "kind": "check",
+          "label": "Transfer check 1",
+          "visual": null
+        },
+        {
+          "id": "check:1",
+          "unit": "lesson:positions",
+          "topic": "positions",
+          "kind": "check",
+          "label": "Transfer check 2",
+          "visual": null
+        }
+      ]
+    },
+    {
+      "id": "o5",
+      "steps": [
+        {
+          "id": "teach:lesson:overlap",
+          "unit": "lesson:overlap",
+          "topic": "overlap",
+          "kind": "teach",
+          "label": "Shared and group-restricted sets",
+          "visual": null
+        },
+        {
+          "id": "teach:figure:f5",
+          "unit": "figure:f5",
+          "topic": "overlap",
+          "kind": "teach",
+          "label": "Figure 5 · Set overlap",
+          "visual": "f5"
+        },
+        {
+          "id": "teach:lesson:clustering",
+          "unit": "lesson:clustering",
+          "topic": "clustering",
+          "kind": "teach",
+          "label": "Why clustering does not separate the groups",
+          "visual": null
+        },
+        {
+          "id": "teach:term:dendrogram",
+          "unit": "term:dendrogram",
+          "topic": "clustering",
+          "kind": "teach",
+          "label": "Dendrogram",
+          "visual": null
+        },
+        {
+          "id": "teach:term:linkage",
+          "unit": "term:linkage",
+          "topic": "clustering",
+          "kind": "teach",
+          "label": "Average linkage",
+          "visual": null
+        },
+        {
+          "id": "teach:term:clustering",
+          "unit": "term:clustering",
+          "topic": "clustering",
+          "kind": "teach",
+          "label": "Hierarchical clustering",
+          "visual": null
+        },
+        {
+          "id": "teach:figure:f6",
+          "unit": "figure:f6",
+          "topic": "clustering",
+          "kind": "teach",
+          "label": "Figure 6 · Run-level dendrogram",
+          "visual": "f6"
+        },
+        {
+          "id": "teach:lesson:heatmap",
+          "unit": "lesson:heatmap",
+          "topic": "heatmap",
+          "kind": "teach",
+          "label": "Reading the clustered heat map",
+          "visual": null
+        },
+        {
+          "id": "teach:term:scaling",
+          "unit": "term:scaling",
+          "topic": "heatmap",
+          "kind": "teach",
+          "label": "Row-wise scaling",
+          "visual": null
+        },
+        {
+          "id": "teach:term:imputation",
+          "unit": "term:imputation",
+          "topic": "heatmap",
+          "kind": "teach",
+          "label": "Missing-value imputation",
+          "visual": null
+        },
+        {
+          "id": "teach:term:matrix",
+          "unit": "term:matrix",
+          "topic": "heatmap",
+          "kind": "teach",
+          "label": "Feature matrix",
+          "visual": null
+        },
+        {
+          "id": "teach:term:variance",
+          "unit": "term:variance",
+          "topic": "heatmap",
+          "kind": "teach",
+          "label": "Unit-variance scaling",
+          "visual": null
+        },
+        {
+          "id": "teach:figure:f7",
+          "unit": "figure:f7",
+          "topic": "heatmap",
+          "kind": "teach",
+          "label": "Figure 7 · Clustered heat map",
+          "visual": "f7"
+        },
+        {
+          "id": "check:0",
+          "unit": "lesson:overlap",
+          "topic": "overlap",
+          "kind": "check",
+          "label": "Transfer check 1",
+          "visual": null
+        },
+        {
+          "id": "check:1",
+          "unit": "lesson:heatmap",
+          "topic": "heatmap",
+          "kind": "check",
+          "label": "Transfer check 2",
+          "visual": null
+        }
+      ]
+    },
+    {
+      "id": "o6",
+      "steps": [
+        {
+          "id": "teach:lesson:limitations",
+          "unit": "lesson:limitations",
+          "topic": "limitations",
+          "kind": "teach",
+          "label": "What the evidence cannot establish",
+          "visual": null
+        },
+        {
+          "id": "teach:term:germline",
+          "unit": "term:germline",
+          "topic": "limitations",
+          "kind": "teach",
+          "label": "Germline variation",
+          "visual": null
+        },
+        {
+          "id": "teach:term:matchednormal",
+          "unit": "term:matchednormal",
+          "topic": "limitations",
+          "kind": "teach",
+          "label": "Matched normal comparison",
+          "visual": null
+        },
+        {
+          "id": "teach:term:validation",
+          "unit": "term:validation",
+          "topic": "limitations",
+          "kind": "teach",
+          "label": "Validation",
+          "visual": null
+        },
+        {
+          "id": "teach:lesson:conclusions",
+          "unit": "lesson:conclusions",
+          "topic": "conclusions",
+          "kind": "teach",
+          "label": "A defensible oral synthesis",
+          "visual": null
+        },
+        {
+          "id": "check:0",
+          "unit": "lesson:limitations",
+          "topic": "limitations",
+          "kind": "check",
+          "label": "Transfer check 1",
+          "visual": null
+        },
+        {
+          "id": "check:1",
+          "unit": "lesson:conclusions",
+          "topic": "conclusions",
+          "kind": "check",
+          "label": "Transfer check 2",
+          "visual": null
+        }
+      ]
     }
   ]
 }

@@ -44,4 +44,10 @@ Each activity has `id`, `title`, `topic`, `objective`, `outcome`, `explanation`,
 
 Content owners reference activities through `learning` IDs. All 105 terms, 15 lessons, 7 figures, 10 oral slides and 5 comparisons are covered, together with 2 tables and the methodology schematic. Existing cards and bank questions reference the appropriate lesson activity. These are application activities in addition to the existing 56 cards and 30 bank questions.
 
-The optional version-1 state field `learning` maps activity-and-stage IDs to `{response, outcome, at, attempts}`. Outcomes are `correct`, `incorrect`, `unassessed`, `self-correct`, `partial`, `needs-work` or `revealed`. Drafts, optional calculation reasoning and rubric checks use namespaced strings in `notes`. Old version-1 backups without this field remain valid. Attempt counts are cumulative; the displayed outcome is the latest outcome. Reveals are assisted study and never scored as independent correctness. Reopening a page alone does not create an attempt.
+The optional version-1 state field `learning` maps activity-and-stage IDs to `{response, outcome, at, attempts}`. Outcomes are `correct`, `assisted-correct`, `incorrect`, `unassessed`, `self-correct`, `partial`, `needs-work` or `revealed`. Drafts, optional calculation reasoning and rubric checks use namespaced strings in `notes`. Old version-1 backups without this field remain valid. Attempt counts are cumulative; the displayed outcome is the latest outcome. Reveals are assisted study and never scored as independent correctness. Reopening a page alone does not create an attempt.
+
+## Guided paths and selectors (2.1)
+
+`guidedPaths[]` uses objective IDs, with ordered steps `{id, unit, topic, kind, label, visual}`. `kind` is `teach` or `check`. The same source-backed activity may support multiple objectives; the current objective context is displayed explicitly. Each objective ends with two rubric-based transfer checks. The build validates path links and unique objective/step IDs.
+
+Optional `state.guided` stores each objective's current index and reviewed step IDs. Old backups without it remain valid. The current example and its question are visible together; only feedback is gated by submission. Navigation options, question choices and overall ratings use dropdowns. Independent rubric criteria stay checkboxes.

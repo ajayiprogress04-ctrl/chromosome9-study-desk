@@ -57,3 +57,11 @@ Added a 1200 × 630 PNG sharing card with the existing app icon/title; PNG favic
 - Added rubric-based accurate/partial/needs-revision self-assessment for open responses, without claiming automatic language grading.
 - Added compatible version-1 learning records, drafts and explicit assisted-reveal accounting. Existing bank/card IDs, notes, themes and navigation remain.
 - Added schema/coverage, scoring, state and interaction regression checks and updated guides.
+
+## 2.1.0
+
+- Restructured objective learning as one informational example, one question, a response, brief feedback and the next example, with saved cursors and two final checks per objective.
+- Reworked glossary dialogs to be example-first; long definitions and source detail are optional reference.
+- Replaced long selection lists and button rows with appropriate native dropdowns, including bank answers and overall assessments.
+- Kept full notes, source visuals and essential scientific cautions in reference views; retained flexible return and all saved-data formats.
+- Preference brief version 15 records the guided learning and dropdown standards for future appropriate apps.

@@ -1,6 +1,6 @@
 # Project status
 
-Version 2.0.0 · 18 October 2026
+Version 2.1.0 · 18 October 2026
 
 ## Complete
 
@@ -44,8 +44,14 @@ Added a 1200 × 630 PNG sharing card with the existing app icon/title; PNG favic
 
 - 145 structured activities cover every glossary entry and all lessons, figures, tables, methodology, comparisons and oral rehearsal.
 - Worked scenarios contain information, steps, model answers and principles. Separate practice supports choices, numeric input, optional calculation reasoning and free response.
-- Questions start hidden. Hints guide without revealing full solutions. Submission or explicit reveal opens explanatory feedback. Distinct correction and transfer tasks follow.
+- In the current guided flow, the current question immediately follows its example. Answers stay hidden before an attempt. Hints, feedback, correction tasks and end-of-objective transfer checks support application.
 - Rubrics support transparent accurate, partial or needs-revision self-assessment. No automatic free-text grading is provided.
 - New optional learning records preserve attempt counts and latest outcomes through compatible version-1 backups. Existing notes, cards, bank question IDs and visual return behavior remain.
 - Preference brief version 14 makes this standard reusable in future educational applications.
 - Browser visual/mobile verification and deployment remain unperformed.
+
+## Version 2.1 restructuring
+
+The main objective journey is now a saved step sequence rather than a long lesson with an optional added learning card. Glossary entries are example-first. Full notes, original images/tables, provenance, scientific cautions and downloads remain available as reference. Existing notes, bank/card identifiers, schedules and version-1 backups are preserved.
+
+Dropdown selection now covers workspace sections, grouped objectives, reviewed steps, terms, comparisons, evidence, gallery filters, bank answers, card ratings and self-assessment. Other apps have not been modified; the reusable preference applies when they are available for an upgrade.

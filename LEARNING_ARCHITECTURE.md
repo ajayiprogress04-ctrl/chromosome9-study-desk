@@ -41,8 +41,18 @@ No clinical diagnosis, mechanistic leukemia simulation, patient prevalence estim
 
 ## Objective, demonstration, practice and feedback
 
-`learning.js` provides one reusable progressive component. The outcome identifies the parent objective. The worked example explains a concrete scenario with its answer and reasoning. “Your turn” starts a different application question. Hints provide guidance, submission or explicit reveal opens explanatory feedback, and a separate correction or transfer task provides further practice.
+`learning.js` provides one reusable progressive component. The outcome identifies the parent objective. The worked example explains a concrete scenario with its answer and reasoning. The corresponding “Your turn” question appears immediately after the example. Hints provide guidance; submission opens explanatory feedback, and a separate correction or transfer task provides further practice.
 
 Numeric inputs support direct numbers and percentages under the question's stated unit convention. Arithmetic grading checks the result only; optional written calculations remain learner-reviewed. Multiple-choice grading returns feedback tied to the chosen misconception. Open-ended work has a model and checklist rubric. Accurate/partial/needs-revision labels are explicitly self-assessments, not AI language grades.
 
-The glossary, lessons, source visuals, comparisons and oral rehearsal use the same component. Flashcards connect to it after recall reveal; existing question-bank items offer their related worked activity. Existing read markers retain their meaning as reading activity. New attempt records do not imply validated mastery.
+The glossary, lessons, source visuals, comparisons and oral rehearsal use the same component. Revision cards use the example/application flow first, with recall wording retained as optional reference; bank questions have a concise matching demonstration before their own question. Existing read markers retain their meaning as reading activity. New attempt records do not imply validated mastery.
+
+## Guided objective cursor and reference separation (2.1)
+
+`research.json.guidedPaths` contains six paths (24, 55, 6, 21, 15 and 7 steps, including two final transfer checks per objective). Repeated lesson/term demonstrations are deduplicated within a path where they teach the same immediate application. Only one step is rendered. A submitted response plus feedback enables Continue; written responses additionally require rubric self-assessment. A reviewed step records process completion, not independently established mastery.
+
+`state.guided[objectiveId]` stores `{index, completed[]}` using the existing version-1 backup. Future step labels are absent from the revisit dropdown until reviewed. Selecting an objective resumes its cursor. Lesson routes open the relevant point in its path; full notes use separate `reference/<topic>` routes. Flexible visual Back restores the guided route, cursor, open sections and scroll.
+
+The glossary begins with an example and question. Definitions and mechanisms support it inside optional reference details. Main comparison/revision/rehearsal surfaces show one concept at a time. Gallery and source views remain reference indexes. Selection groups use native dropdowns; rubric points remain independent checkboxes.
+
+A correct repeated submission after earlier feedback is labelled `assisted-correct` and excluded from the independently scored-correct count. It remains a recorded practice outcome. Hints guide before submission; unattempted application answers cannot be revealed through the component's controls.
